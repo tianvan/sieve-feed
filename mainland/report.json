@@ -1,0 +1,1680 @@
+{
+  "schemaVersion": "1",
+  "location": "mainland",
+  "networkLabel": "personal-pc",
+  "runId": "c987e64aece94001980ee368352c5a04",
+  "measuredAt": "2026-10-15T04:33:53.7922096+00:00",
+  "generatedAt": "2026-10-15T04:43:24.7033414+00:00",
+  "expiresAt": "2026-10-15T16:34:04.2300784+00:00",
+  "coverage": {
+    "candidates": 719,
+    "basicTested": 134,
+    "qualified": 16,
+    "notRun": 585
+  },
+  "codeVersion": "b85ccf7d99f16dda27f22b820feebc9f15c03be6",
+  "configurationHash": "146a75a9c9eea5740d5306003ef38b7546a3142da42e8c2404b2567dabc0c29c",
+  "coreVersion": "v1.19.32",
+  "uriCount": 3,
+  "clashCount": 16,
+  "issues": [
+    {
+      "node": {
+        "value": "18caeeb31d992ddf949a88f40feda46deaf0ffc95716d1ec2763751005c30287"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "0f8efe7bf84aef1ce1cbb73298b5b3d643134d13920507d716a4da9d1dbf9837"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "1aff737dc50660af04dc8bb720274b333267e293cd672d9f696c1d1059e358cf"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "0a0cce235be4bb2e4a61a4f54ba16463d9481d37f7a3df946dc976fa5008874e"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "333b9fcb8d23d21e4b36530a78f7398f5e8b8daa367d1faa3d2a20673a7d8cdf"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "32f8f8026dda7053ceeff4aed8a703d11c070f6f6877ab6e76f11a8a78c321da"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "07dcf008aec3c150bf7a00fecceea4b13b0a08cae074b6972219e8ca8f8a6236"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "1cc26bb0b5fa0c3b8f55f2a39cb321d12eb60862cc2371624b2b5f35740f3002"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "1f36b6a3e2b666d98fcaffbea13d3b1c8c465f7cfb5c61bf18b5d9648d2d0995"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "2f3192524c3f9c74c402774e4105d0d465803fc6dcb87329bc048241f37d5762"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "23d57b28705f2ef832394f00030c07f4f38bb13ef0dd9c5b650a63bd97ac5912"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "2b27427425ef3254a5d7190a7bc66d8f600072da1de5f7c2ff6fa13c249cd2fe"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "2f4872816e4adf042f0301d4512a189e0eb3e4fd3104e4791b84bb4df91dfb6b"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    }
+  ],
+  "units": {
+    "speed": "MB/s (decimal)",
+    "latency": "proxied HTTPS request ms",
+    "ai": "public entry only; not authenticated generation"
+  },
+  "nodes": [
+    {
+      "id": "00a8be02d7185405585cbbfe3913ca0607e9a5d4b6451d1ea5a7beed7083e691",
+      "name": "\uD83C\uDDFA\uD83C\uDDF8\u7F8E\u56FD 240ms 1.4M \u7F51",
+      "country": "US",
+      "medianLatencyMs": 239.85845,
+      "medianBytesPerSecond": 1414492.0904799239,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:04.2300784+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:04.2300784+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 239.85845,
+            "p90Ms": 962.7243,
+            "jitterMs": 335.4468349687295
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:07.0749393+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:07.0750185+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:07.0750194+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:34:07.0765013+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 1414492.0904799239,
+            "minimumBytesPerSecond": 1277178.3237865793,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.5680789,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.9304736,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.9207265,
+                "Valid": true,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:53.6877921+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "18caeeb31d992ddf949a88f40feda46deaf0ffc95716d1ec2763751005c30287",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 456ms 1.7M \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 455.61199999999997,
+      "medianBytesPerSecond": 1671043.9413061466,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:08.7698292+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:08.7698292+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 455.61199999999997,
+            "p90Ms": 1172.1576,
+            "jitterMs": 388.0391304147062
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:12.017121+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:12.0171232+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:12.017124+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:37:12.0171273+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 1671043.9413061466,
+            "minimumBytesPerSecond": 1584403.6774010924,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.2944891,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 4.9521905,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.0199805,
+                "Valid": true,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:56.2977828+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "0f8efe7bf84aef1ce1cbb73298b5b3d643134d13920507d716a4da9d1dbf9837",
+      "name": "\uD83C\uDDE9\uD83C\uDDEA\u5FB7\u56FD 222ms 970K \u7F51",
+      "country": "DE",
+      "medianLatencyMs": 221.62775,
+      "medianBytesPerSecond": 969831.4226121774,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:03.3428354+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:03.3428354+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 221.62775,
+            "p90Ms": 972.2839,
+            "jitterMs": 362.59145302729144
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:06.0557883+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:06.05579+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:06.0557904+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:36:26.3626901+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 969831.4226121774,
+            "minimumBytesPerSecond": 830569.676773351,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.7945557,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 8.6495527,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8311287,
+                "Seconds": 10.0067306,
+                "Valid": true,
+                "TerminationReason": "window"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:56.8127844+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "1aff737dc50660af04dc8bb720274b333267e293cd672d9f696c1d1059e358cf",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 246ms 1.3M \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 245.5415,
+      "medianBytesPerSecond": 1285927.301533814,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:33.7376946+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:33.7376946+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 245.5415,
+            "p90Ms": 1047.3142,
+            "jitterMs": 371.8004227124323
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:36.655252+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:36.6552551+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:36.6552565+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:38:04.5780665+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 1285927.301533814,
+            "minimumBytesPerSecond": 1179538.758123734,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.6340916,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.5233921,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 7.1117697,
+                "Valid": true,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:57.8523077+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "0a0cce235be4bb2e4a61a4f54ba16463d9481d37f7a3df946dc976fa5008874e",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 250ms 1.3M \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 250.35769999999997,
+      "medianBytesPerSecond": 1337687.956412266,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:03.2917727+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:03.2917727+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 250.35769999999997,
+            "p90Ms": 1238.7224,
+            "jitterMs": 456.10344539957435
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:06.6932649+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:06.6932664+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:06.6932669+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:35:25.2436186+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 1337687.956412266,
+            "minimumBytesPerSecond": 1289498.0852618038,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.2022301,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.2709752,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.505328,
+                "Valid": true,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:53.1768825+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "333b9fcb8d23d21e4b36530a78f7398f5e8b8daa367d1faa3d2a20673a7d8cdf",
+      "name": "\uD83C\uDDE9\uD83C\uDDEA\u5FB7\u56FD 388ms \u672A\u6D4B \u7F51",
+      "country": "DE",
+      "medianLatencyMs": 388.1866,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:26.9411076+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:26.9411076+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 388.1866,
+            "p90Ms": 1000.9249,
+            "jitterMs": 356.2453523261586
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:30.1025272+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:30.102529+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:30.1025294+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 2,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:52.6435718+00:00",
+          "metrics": {},
+          "reasonCode": "measurement-incomplete"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:07.4038388+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "32f8f8026dda7053ceeff4aed8a703d11c070f6f6877ab6e76f11a8a78c321da",
+      "name": "\uD83C\uDDEB\uD83C\uDDF7\u6CD5\u56FD 206ms \u672A\u6D4B \u7F51",
+      "country": "FR",
+      "medianLatencyMs": 205.89905,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:25.0535485+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:25.0535485+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 205.89905,
+            "p90Ms": 1037.7211,
+            "jitterMs": 346.3208560075356
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:27.5215244+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:27.5215259+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:27.5215262+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 2,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:52.6595617+00:00",
+          "metrics": {},
+          "reasonCode": "measurement-incomplete"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:06.2133898+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "07dcf008aec3c150bf7a00fecceea4b13b0a08cae074b6972219e8ca8f8a6236",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 298ms 1.3M \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 297.8344,
+      "medianBytesPerSecond": 1342192.3984551763,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:01.2075652+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:01.2075652+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 297.8344,
+            "p90Ms": 1450.1715,
+            "jitterMs": 493.33425904868915
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:04.8179028+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:04.8179067+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:04.8179071+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:35:04.8179144+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 1342192.3984551763,
+            "minimumBytesPerSecond": 1236830.8185992485,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.7823407,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.2499296,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.1077379,
+                "Valid": true,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:55.2595694+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "1cc26bb0b5fa0c3b8f55f2a39cb321d12eb60862cc2371624b2b5f35740f3002",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE\u82AC\u5170 286ms 1.5M \u7F51",
+      "country": "FI",
+      "medianLatencyMs": 285.70995,
+      "medianBytesPerSecond": 1530336.0938561459,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:38:02.9808256+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:38:02.9808256+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 285.70995,
+            "p90Ms": 2120.9273,
+            "jitterMs": 676.2859395942123
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:06.7438706+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:06.7438734+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:06.7438741+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:39:27.9865973+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 1530336.0938561459,
+            "minimumBytesPerSecond": 1319185.5849193733,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.3589294,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.4815462,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.3441453,
+                "Valid": true,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:58.8930864+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "1f36b6a3e2b666d98fcaffbea13d3b1c8c465f7cfb5c61bf18b5d9648d2d0995",
+      "name": "\uD83C\uDDF1\uD83C\uDDFBLV 295ms 1.1M \u7F51",
+      "country": "LV",
+      "medianLatencyMs": 295.3526,
+      "medianBytesPerSecond": 1065894.3855020409,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:38:08.8589364+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:38:08.8589364+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 295.3526,
+            "p90Ms": 1441.8046,
+            "jitterMs": 540.8779804950548
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:12.7114703+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:12.7114718+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:12.7114721+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:40:04.0807466+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 1065894.3855020409,
+            "minimumBytesPerSecond": 845877.8558824802,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.6521799,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 7.870018,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 9.9170441,
+                "Valid": true,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:59.9456722+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "2f3192524c3f9c74c402774e4105d0d465803fc6dcb87329bc048241f37d5762",
+      "name": "\uD83C\uDDFA\uD83C\uDDF8\u7F8E\u56FD 236ms \u672A\u6D4B \u7F51",
+      "country": "US",
+      "medianLatencyMs": 235.63434999999998,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:41:49.0012381+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:41:49.0012381+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 235.63434999999998,
+            "p90Ms": 1183.2636,
+            "jitterMs": 433.8132042608879
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:52.2056157+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:52.205617+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:52.2056173+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 2,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:52.6594258+00:00",
+          "metrics": {},
+          "reasonCode": "measurement-incomplete"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:05.1711286+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "23d57b28705f2ef832394f00030c07f4f38bb13ef0dd9c5b650a63bd97ac5912",
+      "name": "\uD83C\uDDEA\uD83C\uDDEAEE 235ms 661K \u7F51",
+      "country": "EE",
+      "medianLatencyMs": 235.49855000000002,
+      "medianBytesPerSecond": 660586.0140820389,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:39:05.94361+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:39:05.94361+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 235.49855000000002,
+            "p90Ms": 1281.7008,
+            "jitterMs": 483.74173477363126
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:09.1963668+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:09.1963689+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:09.1963696+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:41:01.6440785+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 660586.0140820389,
+            "minimumBytesPerSecond": 363567.6732964743,
+            "samples": [
+              {
+                "Bytes": 6610880,
+                "Seconds": 10.0075991,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 7.9706322,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 3637824,
+                "Seconds": 10.0059061,
+                "Valid": true,
+                "TerminationReason": "window"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:01.4979021+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "2b27427425ef3254a5d7190a7bc66d8f600072da1de5f7c2ff6fa13c249cd2fe",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 251ms \u672A\u6D4B \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 251.01575,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:40:30.9767633+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:40:30.9767633+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 251.01575,
+            "p90Ms": 1265.1217,
+            "jitterMs": 409.08663549917173
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:33.9436735+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:33.9436746+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:33.9436749+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 2,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:52.6384989+00:00",
+          "metrics": {},
+          "reasonCode": "measurement-incomplete"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:04.118952+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "0d425addb2b4cc78a16ee9664cfbad6362238eb9008924d8538bc966e5aaa2da",
+      "name": "\uD83C\uDDF8\uD83C\uDDEC\u65B0\u52A0\u5761 286ms 640K \u7F51",
+      "country": "SG",
+      "medianLatencyMs": 285.6231,
+      "medianBytesPerSecond": 640084.2029122339,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:46.8771439+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:46.8771439+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 285.6231,
+            "p90Ms": 1602.0698,
+            "jitterMs": 602.1735410700209
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:51.1262412+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:51.1262424+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:51.1262428+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:35:51.1262448+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 640084.2029122339,
+            "minimumBytesPerSecond": 221122.92799914983,
+            "samples": [
+              {
+                "Bytes": 8162918,
+                "Seconds": 10.002214,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 2211822,
+                "Seconds": 10.0026805,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 6406702,
+                "Seconds": 10.009155,
+                "Valid": true,
+                "TerminationReason": "window"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:55.7868813+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "2f4872816e4adf042f0301d4512a189e0eb3e4fd3104e4791b84bb4df91dfb6b",
+      "name": "\uD83C\uDDE7\uD83C\uDDE6BA 276ms \u672A\u6D4B \u7F51",
+      "country": "BA",
+      "medianLatencyMs": 276.1096,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:41:55.089854+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:41:55.089854+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 276.1096,
+            "p90Ms": 1570.9889,
+            "jitterMs": 586.3251684021089
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:59.0436584+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:59.0436608+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:59.0436611+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 2,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:52.6374622+00:00",
+          "metrics": {},
+          "reasonCode": "measurement-incomplete"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:05.685725+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "25c24a13d7931533c0d41c56dc50ff66eaf234cbaea1460fc81616049ee514dc",
+      "name": "\uD83C\uDDE9\uD83C\uDDEA\u5FB7\u56FD 638ms 96K \u7F51",
+      "country": "DE",
+      "medianLatencyMs": 637.6216,
+      "medianBytesPerSecond": 95722.85413590982,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:39:30.54483+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:39:30.54483+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 637.6216,
+            "p90Ms": 2882.2795,
+            "jitterMs": 935.8889969749108
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:37.986525+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:37.9865267+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:37.9865273+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:41:47.1225308+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 95722.85413590982,
+            "minimumBytesPerSecond": 95680.37467589878,
+            "samples": [
+              {
+                "Bytes": 1003200,
+                "Seconds": 10.0060375,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 958455,
+                "Seconds": 10.0128126,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 957660,
+                "Seconds": 10.0089491,
+                "Valid": true,
+                "TerminationReason": "window"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:02.5516325+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    }
+  ]
+}
