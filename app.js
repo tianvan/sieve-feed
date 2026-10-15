@@ -1,4 +1,6 @@
 let report=null;
+const statuses=['通过','失败','未检测','无法判定','检测异常'];
+const probeLabels={basic:'基础连接',web:'网页',download:'下载','ai.gpt':'GPT','ai.claude':'Claude','ai.gemini':'Gemini'};
 const element=id=>document.getElementById(id);
 async function load(location){
   element('uri').href=location+'/v2ray.txt';element('clash').href=location+'/clash.yaml';
@@ -18,7 +20,7 @@ function render(){
   if(element('sort').value==='latency')nodes.sort((a,b)=>(a.medianLatencyMs??Infinity)-(b.medianLatencyMs??Infinity));
   element('nodes').replaceChildren();
   for(const node of nodes){const card=document.createElement('div');card.className='node';const name=document.createElement('strong');name.textContent=node.name;card.append(name);
-    const details=document.createElement('div');details.className='details';details.textContent=node.probes.map(p=>p.probeId+': '+p.status+' ('+(p.reasonCode||p.scope)+')').join(' · ');card.append(details);element('nodes').append(card);}
+    const details=document.createElement('div');details.className='details';details.textContent=node.probes.map(p=>(probeLabels[p.probeId]||p.probeId)+': '+(statuses[p.status]||p.status)).join(' · ');card.append(details);element('nodes').append(card);}
 }
 document.querySelectorAll('[data-location]').forEach(b=>b.addEventListener('click',()=>load(b.dataset.location)));
 element('sort').addEventListener('change',render);element('country').addEventListener('change',render);load('mainland');
