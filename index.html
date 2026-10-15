@@ -3,7 +3,7 @@
 <title>Sieve 节点订阅</title><link rel="stylesheet" href="styles.css"></head>
 <body><main><h1>Sieve</h1><p>速度为 MB/s，延迟为代理 HTTPS 请求时间。AI 标签仅表示公共入口检测。</p>
 <nav><button data-location="mainland">大陆实测</button><button data-location="cloud">云端实测</button></nav>
-<p id="status" role="status">读取结果…</p><p><a id="uri" href="#">小火箭订阅</a> · <a id="clash" href="#">Clash / Mihomo</a></p>
+<p id="status" role="status">读取结果…</p><p id="coverage" class="details"></p><p id="probe-coverage" class="details"></p><details><summary>来源与覆盖说明</summary><p>候选是成功解析后按连接参数去重的节点。基础检测只验证连接，发布前还要复检；未完成基础检测的节点不会发布。专项统计只针对本页已发布节点。“结果有效期”是检测结果的最长保留时间，不保证节点此刻仍在线。</p><div id="sources"></div></details><p><a id="uri" href="#">小火箭订阅</a> · <a id="clash" href="#">Clash / Mihomo</a></p>
 <p>专项订阅：<a id="web" href="#">网页</a> · <a id="ai" href="#">AI 入口</a> · <a id="download" href="#">下载</a></p>
 <label>排序 <select id="sort"><option value="default">综合</option><option value="speed">速度</option><option value="latency">延迟</option></select></label>
 <label>国家 <select id="country"><option value="">全部</option></select></label>
