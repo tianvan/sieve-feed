@@ -1,0 +1,535 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  servername: 186.190.211.188
+  skip-cert-verify: true
+  tls: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  name: "\U0001F1EC\U0001F1E7英国 120ms 4.3M 速"
+  type: vless
+  server: 186.190.211.188
+  port: 443
+- password: 9jkvAVV-9ufV6IGd
+  skip-cert-verify: true
+  servername: chalo-ru.nexorcdn.com
+  tls: true
+  username: ef37886e2aacd6fa622e3de3810299c2
+  name: "\U0001F1EA\U0001F1EAEE 155ms 2.5M 网"
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 36774
+- uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
+  flow: xtls-rprx-vision
+  tls: true
+  servername: video.yandex.ru
+  client-fingerprint: safari
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  name: "\U0001F1F8\U0001F1EC新加坡 203ms 5.5M 速"
+  type: vless
+  server: 178.94.25.73
+  port: 10444
+- password: UX82473651
+  servername: brave-tomcat.rooster465.autos
+  name: "\U0001F1F8\U0001F1EC新加坡 325ms 5.3M 网"
+  type: trojan
+  server: brave-tomcat.rooster465.autos
+  port: 443
+- password: ae7eb4dwyaz25pxwgq59
+  skip-cert-verify: true
+  name: "\U0001F1FA\U0001F1F8美国 29ms 未测 网"
+  type: trojan
+  server: 66.23.203.21
+  port: 59689
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  network: tcp
+  servername: 186.190.211.188
+  skip-cert-verify: true
+  tls: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  name: "\U0001F1EC\U0001F1E7英国 463ms 未测 网"
+  type: vless
+  server: 186.190.211.188
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1EE\U0001F1EAIE 106ms 未测 网"
+  type: http
+  server: 34.249.214.108
+  port: 443
+- password: null
+  skip-cert-verify: true
+  tls: true
+  username: null
+  name: "\U0001F1F3\U0001F1F1荷兰 112ms 未测 网"
+  type: http
+  server: 84.17.47.148
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1E9\U0001F1EA德国 124ms 未测 网"
+  type: http
+  server: 213.109.163.119
+  port: 443
+- uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  network: ws
+  servername: free.sahanwickramasinghe.me
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1F8\U0001F1EC新加坡 397ms 4.9M 速"
+  type: vless
+  server: free.sahanwickramasinghe.me
+  port: 8443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1EB\U0001F1F7法国 128ms 未测 网"
+  type: http
+  server: 51.210.167.149
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1E8\U0001F1EDCH 129ms 未测 网"
+  type: http
+  server: 149.88.27.33
+  port: 9443
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  network: ws
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  ws-opts:
+    headers:
+      Host: lucasjow.us.ci
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---DailyConfigs
+  name: 未知 147ms 未测 网
+  type: vless
+  server: 188.114.97.6
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1E9\U0001F1EA德国 130ms 未测 网"
+  type: http
+  server: 193.233.75.115
+  port: 443
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1E6\U0001F1F9AT 144ms 未测 网"
+  type: http
+  server: 146.70.244.18
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F1\U0001F1FBLV 165ms 未测 网"
+  type: http
+  server: 185.219.159.15
+  port: 443
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F7\U0001F1F4RO 175ms 未测 网"
+  type: http
+  server: 193.176.84.20
+  port: 9002
+- password: null
+  skip-cert-verify: true
+  tls: true
+  username: null
+  name: "\U0001F1F7\U0001F1F4RO 172ms 未测 网"
+  type: http
+  server: 193.176.84.40
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F7\U0001F1F4RO 179ms 未测 网"
+  type: http
+  server: 193.176.84.38
+  port: 9002
+- servername: pl.flen-vpn.xyz
+  tls: true
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  name: "\U0001F1F5\U0001F1F1波兰 153ms 1M 网"
+  type: vless
+  server: 2.26.225.89
+  port: 8443
+- skip-cert-verify: true
+  servername: www.bing.com
+  tls: true
+  name: "\U0001F1F7\U0001F1F4RO 182ms 未测 网"
+  type: http
+  server: 193.176.84.38
+  port: 9002
+- uuid: 1c11b130-085c-407a-9c54-c537eabf2681
+  tls: true
+  servername: pw.gams.dpdns.org
+  network: ws
+  ws-opts:
+    path: /vplaetshs
+    headers:
+      Host: pw.gams.dpdns.org
+  name: "\U0001F1E9\U0001F1EA德国 202ms 95K 网"
+  type: vless
+  server: v.toe.dpdns.org
+  port: 443
+- cipher: aes-256-gcm
+  password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=
+  name: "\U0001F1F9\U0001F1EDTH 832ms 1.4M 网"
+  type: ss
+  server: pphfree2.mvpnpvpn.de5.net
+  port: 52351
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1F7\U0001F1F4RO 174ms 未测 网"
+  type: http
+  server: 193.176.84.30
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1F7\U0001F1F4RO 191ms 未测 网"
+  type: http
+  server: 193.176.84.25
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1E6\U0001F1F1AL 209ms 未测 网"
+  type: http
+  server: 31.171.154.66
+  port: 443
+- uuid: d877dc6f-7323-4b47-a7dd-14228cbae854
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: fujrdt.d6f54hd1j.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fujrdt.d6f54hd1j.cc
+  udp: true
+  name: "\U0001F1F9\U0001F1FC台湾 232ms 未测 网"
+  type: vmess
+  server: fujrdt.d6f54hd1j.cc
+  port: 443
+- cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  name: "\U0001F1E8\U0001F1E6加拿大 2490ms 1.3M 网"
+  type: ss
+  server: 51.79.64.198
+  port: 8119
+- alpn:
+  - http/1.1
+  encryption: none
+  network: ws
+  servername: tuyiuoyuthgfdbf.localip.ir
+  skip-cert-verify: false
+  tls: true
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  ws-opts:
+    headers:
+      Host: tuyiuoyuthgfdbf.localip.ir
+    path: /hokm
+  name: "\U0001F1E9\U0001F1EA德国 140ms 未测 网"
+  type: vless
+  server: tuyiuoyuthgfdbf.localip.ir
+  port: 2087
+- alterId: 0
+  cipher: auto
+  network: ws
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    path: /arki
+  name: "\U0001F1ED\U0001F1F0香港 185ms 13K 网"
+  type: vmess
+  server: 47.244.120.197
+  port: 36703
+- password: ec74bb6a86c2
+  skip-cert-verify: true
+  servername: px.ads.linkedin.com
+  udp: true
+  name: "\U0001F1F9\U0001F1FC台湾 619ms 379K 网"
+  type: anytls
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+- network: ws
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  tls: true
+  uuid: ef8907eb-8bb5-4735-80f2-1d0068500d95
+  ws-opts:
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+    path: /@Marisa_kristifp=chrome
+  name: "\U0001F1EF\U0001F1F5日本 361ms 未测 网"
+  type: vless
+  server: 116.204.164.17
+  port: 7443
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  network: ws
+  servername: free.nadun.store
+  tls: true
+  udp: true
+  uuid: 20ff936a-8eb5-4d27-9cce-93f2016d467b
+  ws-opts:
+    headers:
+      Host: free.nadun.store
+    path: /
+  name: "\U0001F1F8\U0001F1EC新加坡 437ms 未测 网"
+  type: vless
+  server: 188.114.97.6
+  port: 443
+- alpn:
+  - h3
+  down: ''
+  fingerprint: ''
+  obfs: ''
+  obfs-password: ''
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  skip-cert-verify: false
+  sni: finkawwwbroy5.qcloud.surf
+  up: ''
+  name: "\U0001F1EB\U0001F1EE芬兰 140ms 未测 网"
+  type: hysteria2
+  server: finkawwwbroy5.qcloud.surf
+  port: 20326
+- cipher: chacha20-ietf-poly1305
+  password: U83u9OGpvSatIUW7LsWffr
+  name: "\U0001F1F7\U0001F1F4RO 1172ms 2K 网"
+  type: ss
+  server: 194.68.44.42
+  port: 64546
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  network: ws
+  servername: lucasjow.us.ci
+  tls: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  ws-opts:
+    headers:
+      Host: lucasjow.us.ci
+    path: /cart/docs/www/proxyip=108.160.132.132
+  name: "\U0001F1EF\U0001F1F5日本 350ms 未测 网"
+  type: vless
+  server: 31.57.190.49
+  port: 443
+proxy-groups:
+- name: 综合推荐
+  type: select
+  proxies:
+  - "\U0001F1EC\U0001F1E7英国 120ms 4.3M 速"
+  - "\U0001F1EA\U0001F1EAEE 155ms 2.5M 网"
+  - "\U0001F1F8\U0001F1EC新加坡 203ms 5.5M 速"
+  - "\U0001F1F8\U0001F1EC新加坡 325ms 5.3M 网"
+  - "\U0001F1FA\U0001F1F8美国 29ms 未测 网"
+  - "\U0001F1EC\U0001F1E7英国 463ms 未测 网"
+  - "\U0001F1EE\U0001F1EAIE 106ms 未测 网"
+  - "\U0001F1F3\U0001F1F1荷兰 112ms 未测 网"
+  - "\U0001F1E9\U0001F1EA德国 124ms 未测 网"
+  - "\U0001F1F8\U0001F1EC新加坡 397ms 4.9M 速"
+  - "\U0001F1EB\U0001F1F7法国 128ms 未测 网"
+  - "\U0001F1E8\U0001F1EDCH 129ms 未测 网"
+  - 未知 147ms 未测 网
+  - "\U0001F1E9\U0001F1EA德国 130ms 未测 网"
+  - "\U0001F1E6\U0001F1F9AT 144ms 未测 网"
+  - "\U0001F1F1\U0001F1FBLV 165ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 175ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 172ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 179ms 未测 网"
+  - "\U0001F1F5\U0001F1F1波兰 153ms 1M 网"
+  - "\U0001F1F7\U0001F1F4RO 182ms 未测 网"
+  - "\U0001F1E9\U0001F1EA德国 202ms 95K 网"
+  - "\U0001F1F9\U0001F1EDTH 832ms 1.4M 网"
+  - "\U0001F1F7\U0001F1F4RO 174ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 191ms 未测 网"
+  - "\U0001F1E6\U0001F1F1AL 209ms 未测 网"
+  - "\U0001F1F9\U0001F1FC台湾 232ms 未测 网"
+  - "\U0001F1E8\U0001F1E6加拿大 2490ms 1.3M 网"
+  - "\U0001F1E9\U0001F1EA德国 140ms 未测 网"
+  - "\U0001F1ED\U0001F1F0香港 185ms 13K 网"
+  - "\U0001F1F9\U0001F1FC台湾 619ms 379K 网"
+  - "\U0001F1EF\U0001F1F5日本 361ms 未测 网"
+  - "\U0001F1F8\U0001F1EC新加坡 437ms 未测 网"
+  - "\U0001F1EB\U0001F1EE芬兰 140ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 1172ms 2K 网"
+  - "\U0001F1EF\U0001F1F5日本 350ms 未测 网"
+- name: 网页
+  type: select
+  proxies:
+  - "\U0001F1FA\U0001F1F8美国 29ms 未测 网"
+  - "\U0001F1EC\U0001F1E7英国 120ms 4.3M 速"
+  - "\U0001F1EC\U0001F1E7英国 463ms 未测 网"
+  - "\U0001F1EE\U0001F1EAIE 106ms 未测 网"
+  - "\U0001F1F3\U0001F1F1荷兰 112ms 未测 网"
+  - "\U0001F1E9\U0001F1EA德国 124ms 未测 网"
+  - "\U0001F1EB\U0001F1F7法国 128ms 未测 网"
+  - "\U0001F1E8\U0001F1EDCH 129ms 未测 网"
+  - 未知 147ms 未测 网
+  - "\U0001F1E9\U0001F1EA德国 130ms 未测 网"
+  - "\U0001F1E6\U0001F1F9AT 144ms 未测 网"
+  - "\U0001F1F1\U0001F1FBLV 165ms 未测 网"
+  - "\U0001F1EA\U0001F1EAEE 155ms 2.5M 网"
+  - "\U0001F1F7\U0001F1F4RO 175ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 172ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 179ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 182ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 174ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 191ms 未测 网"
+  - "\U0001F1E6\U0001F1F1AL 209ms 未测 网"
+  - "\U0001F1F9\U0001F1FC台湾 232ms 未测 网"
+  - "\U0001F1E9\U0001F1EA德国 202ms 95K 网"
+  - "\U0001F1F8\U0001F1EC新加坡 325ms 5.3M 网"
+  - "\U0001F1E9\U0001F1EA德国 140ms 未测 网"
+  - "\U0001F1F8\U0001F1EC新加坡 203ms 5.5M 速"
+  - "\U0001F1F5\U0001F1F1波兰 153ms 1M 网"
+  - "\U0001F1ED\U0001F1F0香港 185ms 13K 网"
+  - "\U0001F1F8\U0001F1EC新加坡 397ms 4.9M 速"
+  - "\U0001F1EF\U0001F1F5日本 361ms 未测 网"
+  - "\U0001F1F8\U0001F1EC新加坡 437ms 未测 网"
+  - "\U0001F1EB\U0001F1EE芬兰 140ms 未测 网"
+  - "\U0001F1F9\U0001F1EDTH 832ms 1.4M 网"
+  - "\U0001F1E8\U0001F1E6加拿大 2490ms 1.3M 网"
+  - "\U0001F1F7\U0001F1F4RO 1172ms 2K 网"
+  - "\U0001F1F9\U0001F1FC台湾 619ms 379K 网"
+  - "\U0001F1EF\U0001F1F5日本 350ms 未测 网"
+- name: 下载
+  type: select
+  proxies:
+  - "\U0001F1F8\U0001F1EC新加坡 203ms 5.5M 速"
+  - "\U0001F1F8\U0001F1EC新加坡 325ms 5.3M 网"
+  - "\U0001F1F8\U0001F1EC新加坡 397ms 4.9M 速"
+  - "\U0001F1EC\U0001F1E7英国 120ms 4.3M 速"
+  - "\U0001F1EA\U0001F1EAEE 155ms 2.5M 网"
+  - "\U0001F1F9\U0001F1EDTH 832ms 1.4M 网"
+  - "\U0001F1E8\U0001F1E6加拿大 2490ms 1.3M 网"
+  - "\U0001F1F5\U0001F1F1波兰 153ms 1M 网"
+  - "\U0001F1F9\U0001F1FC台湾 619ms 379K 网"
+  - "\U0001F1E9\U0001F1EA德国 202ms 95K 网"
+  - "\U0001F1ED\U0001F1F0香港 185ms 13K 网"
+  - "\U0001F1F7\U0001F1F4RO 1172ms 2K 网"
+- name: 地域-GB
+  type: select
+  proxies:
+  - "\U0001F1EC\U0001F1E7英国 120ms 4.3M 速"
+  - "\U0001F1EC\U0001F1E7英国 463ms 未测 网"
+- name: 地域-EE
+  type: select
+  proxies:
+  - "\U0001F1EA\U0001F1EAEE 155ms 2.5M 网"
+- name: 地域-SG
+  type: select
+  proxies:
+  - "\U0001F1F8\U0001F1EC新加坡 203ms 5.5M 速"
+  - "\U0001F1F8\U0001F1EC新加坡 325ms 5.3M 网"
+  - "\U0001F1F8\U0001F1EC新加坡 397ms 4.9M 速"
+  - "\U0001F1F8\U0001F1EC新加坡 437ms 未测 网"
+- name: 地域-US
+  type: select
+  proxies:
+  - "\U0001F1FA\U0001F1F8美国 29ms 未测 网"
+- name: 地域-IE
+  type: select
+  proxies:
+  - "\U0001F1EE\U0001F1EAIE 106ms 未测 网"
+- name: 地域-NL
+  type: select
+  proxies:
+  - "\U0001F1F3\U0001F1F1荷兰 112ms 未测 网"
+- name: 地域-DE
+  type: select
+  proxies:
+  - "\U0001F1E9\U0001F1EA德国 124ms 未测 网"
+  - "\U0001F1E9\U0001F1EA德国 130ms 未测 网"
+  - "\U0001F1E9\U0001F1EA德国 202ms 95K 网"
+  - "\U0001F1E9\U0001F1EA德国 140ms 未测 网"
+- name: 地域-FR
+  type: select
+  proxies:
+  - "\U0001F1EB\U0001F1F7法国 128ms 未测 网"
+- name: 地域-CH
+  type: select
+  proxies:
+  - "\U0001F1E8\U0001F1EDCH 129ms 未测 网"
+- name: 地域-未知
+  type: select
+  proxies:
+  - 未知 147ms 未测 网
+- name: 地域-AT
+  type: select
+  proxies:
+  - "\U0001F1E6\U0001F1F9AT 144ms 未测 网"
+- name: 地域-LV
+  type: select
+  proxies:
+  - "\U0001F1F1\U0001F1FBLV 165ms 未测 网"
+- name: 地域-RO
+  type: select
+  proxies:
+  - "\U0001F1F7\U0001F1F4RO 175ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 172ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 179ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 182ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 174ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 191ms 未测 网"
+  - "\U0001F1F7\U0001F1F4RO 1172ms 2K 网"
+- name: 地域-PL
+  type: select
+  proxies:
+  - "\U0001F1F5\U0001F1F1波兰 153ms 1M 网"
+- name: 地域-TH
+  type: select
+  proxies:
+  - "\U0001F1F9\U0001F1EDTH 832ms 1.4M 网"
+- name: 地域-AL
+  type: select
+  proxies:
+  - "\U0001F1E6\U0001F1F1AL 209ms 未测 网"
+- name: 地域-TW
+  type: select
+  proxies:
+  - "\U0001F1F9\U0001F1FC台湾 232ms 未测 网"
+  - "\U0001F1F9\U0001F1FC台湾 619ms 379K 网"
+- name: 地域-CA
+  type: select
+  proxies:
+  - "\U0001F1E8\U0001F1E6加拿大 2490ms 1.3M 网"
+- name: 地域-HK
+  type: select
+  proxies:
+  - "\U0001F1ED\U0001F1F0香港 185ms 13K 网"
+- name: 地域-JP
+  type: select
+  proxies:
+  - "\U0001F1EF\U0001F1F5日本 361ms 未测 网"
+  - "\U0001F1EF\U0001F1F5日本 350ms 未测 网"
+- name: 地域-FI
+  type: select
+  proxies:
+  - "\U0001F1EB\U0001F1EE芬兰 140ms 未测 网"
+rules:
+- MATCH,综合推荐

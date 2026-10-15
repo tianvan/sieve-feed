@@ -1,0 +1,3832 @@
+{
+  "schemaVersion": "1",
+  "location": "cloud",
+  "networkLabel": "github-cloud",
+  "runId": "c83edeed829b4ae181e10dfe17104b0b",
+  "measuredAt": "2026-10-15T04:33:42.4856625+00:00",
+  "generatedAt": "2026-10-15T04:43:30.1265261+00:00",
+  "expiresAt": "2026-10-15T16:33:44.2102055+00:00",
+  "coverage": {
+    "candidates": 719,
+    "basicTested": 167,
+    "qualified": 36,
+    "notRun": 552
+  },
+  "codeVersion": "b85ccf7d99f16dda27f22b820feebc9f15c03be6",
+  "configurationHash": "56a407bb34eb7fe5093b7a3310ba1b6b5fa1b3a9ca9b1587a244bf9d929a2760",
+  "coreVersion": "v1.19.32",
+  "uriCount": 19,
+  "clashCount": 36,
+  "issues": [
+    {
+      "node": {
+        "value": "23d57b28705f2ef832394f00030c07f4f38bb13ef0dd9c5b650a63bd97ac5912"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "390c65e06d2c329b37f98e23d8b28b006624b145229ab4307ea847a96c6be862"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "3771a1c0e56585b8d40326060d1b019a2da6151a525d150506421600de865ac5"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "333b9fcb8d23d21e4b36530a78f7398f5e8b8daa367d1faa3d2a20673a7d8cdf"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "32f8f8026dda7053ceeff4aed8a703d11c070f6f6877ab6e76f11a8a78c321da"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "35e46256545f4dfa6f8db5b32aa6069e5149984ee884a9ca07ab96ebbb1863b6"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "0f8efe7bf84aef1ce1cbb73298b5b3d643134d13920507d716a4da9d1dbf9837"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "35aac2a44348d0382aa557333a3241c7fedccf43d34e4c683e88c6add66b0fcd"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "1f36b6a3e2b666d98fcaffbea13d3b1c8c465f7cfb5c61bf18b5d9648d2d0995"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "0a0cce235be4bb2e4a61a4f54ba16463d9481d37f7a3df946dc976fa5008874e"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "07dcf008aec3c150bf7a00fecceea4b13b0a08cae074b6972219e8ca8f8a6236"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "2b27427425ef3254a5d7190a7bc66d8f600072da1de5f7c2ff6fa13c249cd2fe"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "3b3f877260fefdfcc8420fca732eb364f8ee22e2343463c5083c52bf93580adf"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "1aff737dc50660af04dc8bb720274b333267e293cd672d9f696c1d1059e358cf"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "18caeeb31d992ddf949a88f40feda46deaf0ffc95716d1ec2763751005c30287"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "3807764e51e72900ce946188e25bf2cc1b8cee01d91991156f2796c7ef9d2874"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "1cc26bb0b5fa0c3b8f55f2a39cb321d12eb60862cc2371624b2b5f35740f3002"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    }
+  ],
+  "units": {
+    "speed": "MB/s (decimal)",
+    "latency": "proxied HTTPS request ms",
+    "ai": "public entry only; not authenticated generation"
+  },
+  "nodes": [
+    {
+      "id": "0ade3e0c3abfe4c93bdda3d08884b042e31215603b8f6a173c504d41dcc3b0b3",
+      "name": "\uD83C\uDDEC\uD83C\uDDE7\u82F1\u56FD 120ms 4.3M \u901F",
+      "country": "GB",
+      "medianLatencyMs": 119.76339999999999,
+      "medianBytesPerSecond": 4281798.037409699,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:46.1125136+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:46.1125136+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 119.76339999999999,
+            "p90Ms": 502.8673,
+            "jitterMs": 171.85814064738588
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:47.5353282+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:47.5353308+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:47.5353314+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:34:54.4526989+00:00",
+          "metrics": {
+            "validSampleCount": 2,
+            "medianBytesPerSecond": 4281798.037409699,
+            "minimumBytesPerSecond": 4165245.7875500256,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.9072169,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 2.0139527,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.7240066,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:44.8623325+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "23d57b28705f2ef832394f00030c07f4f38bb13ef0dd9c5b650a63bd97ac5912",
+      "name": "\uD83C\uDDEA\uD83C\uDDEAEE 155ms 2.5M \u7F51",
+      "country": "EE",
+      "medianLatencyMs": 155.2155,
+      "medianBytesPerSecond": 2533492.1933371252,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:38:01.025963+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:38:01.025963+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 155.2155,
+            "p90Ms": 804.5382,
+            "jitterMs": 300.5169942461588
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:03.1677589+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:03.1677615+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:03.167762+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:39:19.2447421+00:00",
+          "metrics": {
+            "validSampleCount": 2,
+            "medianBytesPerSecond": 2533492.1933371252,
+            "minimumBytesPerSecond": 371978.1612606611,
+            "samples": [
+              {
+                "Bytes": 3719717,
+                "Seconds": 9.9998263,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.7867086,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.4031001,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:57.7858047+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "0d425addb2b4cc78a16ee9664cfbad6362238eb9008924d8538bc966e5aaa2da",
+      "name": "\uD83C\uDDF8\uD83C\uDDEC\u65B0\u52A0\u5761 203ms 5.5M \u901F",
+      "country": "SG",
+      "medianLatencyMs": 203.21445,
+      "medianBytesPerSecond": 5501317.060692798,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:50.465575+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:50.465575+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 203.21445,
+            "p90Ms": 1273.2308,
+            "jitterMs": 499.9383866875522
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:53.7920425+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:53.7920457+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:53.7920463+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:35:03.7754928+00:00",
+          "metrics": {
+            "validSampleCount": 2,
+            "medianBytesPerSecond": 5501317.060692798,
+            "minimumBytesPerSecond": 2768325.53623922,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 3.0302101,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.0187386,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.9197257,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:45.0653216+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "0a6c7177cdfa3ad60dd9d19c516f1e9839c5f7c9826b789609dc74a9be23a566",
+      "name": "\uD83C\uDDF8\uD83C\uDDEC\u65B0\u52A0\u5761 325ms 5.3M \u7F51",
+      "country": "SG",
+      "medianLatencyMs": 325.0672,
+      "medianBytesPerSecond": 5259629.8217998,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:43.770575+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:43.770575+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 325.0672,
+            "p90Ms": 1229.3361,
+            "jitterMs": 433.2956864138455
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:47.4139484+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:47.4139521+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:47.4139526+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:34:47.4139617+00:00",
+          "metrics": {
+            "validSampleCount": 2,
+            "medianBytesPerSecond": 5259629.8217998,
+            "minimumBytesPerSecond": 2496322.6695884736,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 3.3603861,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.0455782,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.8031831,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:44.4554314+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "00a8be02d7185405585cbbfe3913ca0607e9a5d4b6451d1ea5a7beed7083e691",
+      "name": "\uD83C\uDDFA\uD83C\uDDF8\u7F8E\u56FD 29ms \u672A\u6D4B \u7F51",
+      "country": "US",
+      "medianLatencyMs": 29.3071,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:33:44.420414+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:33:44.420414+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 29.3071,
+            "p90Ms": 130.5219,
+            "jitterMs": 44.92050578116363
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:33:44.7882384+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:33:44.7883359+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:33:44.7883382+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:33:44.7897365+00:00",
+          "metrics": {
+            "validSampleCount": 0,
+            "medianBytesPerSecond": 0,
+            "minimumBytesPerSecond": 0,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3193616,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.1138945,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.1089879,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:43.032976+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.6666666666666666
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "3535153e9119706632203dd30a31bb43ddd2291fdc8bdd1ba1fdb7b3ab47ba65",
+      "name": "\uD83C\uDDEC\uD83C\uDDE7\u82F1\u56FD 463ms \u672A\u6D4B \u7F51",
+      "country": "GB",
+      "medianLatencyMs": 463.24825,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:41:08.3238832+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:41:08.3238832+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 463.24825,
+            "p90Ms": 509.4034,
+            "jitterMs": 173.29150826117308
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:10.5059631+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:10.5059654+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:10.5059659+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:16.9811934+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 5155367.634405959,
+            "minimumBytesPerSecond": 5155367.634405959,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.62716,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.8232715,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.6623578,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:09.1965883+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "390c65e06d2c329b37f98e23d8b28b006624b145229ab4307ea847a96c6be862",
+      "name": "\uD83C\uDDEE\uD83C\uDDEAIE 106ms \u672A\u6D4B \u7F51",
+      "country": "IE",
+      "medianLatencyMs": 105.8394,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:12.0333776+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:12.0333776+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 105.8394,
+            "p90Ms": 550.0169,
+            "jitterMs": 209.1205530952953
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:13.5424268+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:13.5424288+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:13.5424293+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 2,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:42.5662806+00:00",
+          "metrics": {},
+          "reasonCode": "measurement-incomplete"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:11.8151151+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "3771a1c0e56585b8d40326060d1b019a2da6151a525d150506421600de865ac5",
+      "name": "\uD83C\uDDF3\uD83C\uDDF1\u8377\u5170 112ms \u672A\u6D4B \u7F51",
+      "country": "NL",
+      "medianLatencyMs": 111.89725,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:05.1693496+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:05.1693496+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 111.89725,
+            "p90Ms": 585.7296,
+            "jitterMs": 219.86859684614214
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:06.7668128+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:06.7668179+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:06.7668192+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 2,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:42.5021752+00:00",
+          "metrics": {},
+          "reasonCode": "measurement-incomplete"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:10.7511623+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "333b9fcb8d23d21e4b36530a78f7398f5e8b8daa367d1faa3d2a20673a7d8cdf",
+      "name": "\uD83C\uDDE9\uD83C\uDDEA\u5FB7\u56FD 124ms \u672A\u6D4B \u7F51",
+      "country": "DE",
+      "medianLatencyMs": 124.27199999999999,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:40:48.0189783+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:40:48.0189783+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 124.27199999999999,
+            "p90Ms": 628.9933,
+            "jitterMs": 233.44071436286677
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:49.7426815+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:49.7426848+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:49.7426855+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:00.8354383+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 4792082.508789847,
+            "minimumBytesPerSecond": 4792082.508789847,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.7505141,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.2386427,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.1166707,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:08.1269194+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "220a39f0d287fb65c2c021a336d652c56d69f91095e59696125bc019d5e5cf47",
+      "name": "\uD83C\uDDF8\uD83C\uDDEC\u65B0\u52A0\u5761 397ms 4.9M \u901F",
+      "country": "SG",
+      "medianLatencyMs": 396.7265,
+      "medianBytesPerSecond": 4925968.436390849,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:51.9088821+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:51.9088821+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 396.7265,
+            "p90Ms": 1395.5427,
+            "jitterMs": 433.91782213642875
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:55.8379106+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:55.8379142+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:55.8379146+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:39:07.75126+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 4925968.436390849,
+            "minimumBytesPerSecond": 2650089.7894525477,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 3.1654052,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.6928576,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.7029358,
+                "Valid": true,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:54.061878+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "32f8f8026dda7053ceeff4aed8a703d11c070f6f6877ab6e76f11a8a78c321da",
+      "name": "\uD83C\uDDEB\uD83C\uDDF7\u6CD5\u56FD 128ms \u672A\u6D4B \u7F51",
+      "country": "FR",
+      "medianLatencyMs": 128.15395,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:40:41.7477786+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:40:41.7477786+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 128.15395,
+            "p90Ms": 637.1122,
+            "jitterMs": 230.51044350414114
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:43.4532746+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:43.453277+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:43.4532773+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:41:57.6221641+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 4967700.737740105,
+            "minimumBytesPerSecond": 4967700.737740105,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.6886299,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3048543,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.2606259,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:07.6885795+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "35e46256545f4dfa6f8db5b32aa6069e5149984ee884a9ca07ab96ebbb1863b6",
+      "name": "\uD83C\uDDE8\uD83C\uDDEDCH 129ms \u672A\u6D4B \u7F51",
+      "country": "CH",
+      "medianLatencyMs": 129.39870000000002,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:41:46.8390775+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:41:46.8390775+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 129.39870000000002,
+            "p90Ms": 661.9072,
+            "jitterMs": 250.63055619352528
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:48.6692622+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:48.6692644+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:48.6692649+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:39.3857015+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 5389041.585892579,
+            "minimumBytesPerSecond": 5389041.585892579,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.5566048,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.1943292,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.1346281,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:10.2997651+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "2888c293e7e8656f58daa03c79342ff1a5dab8759e6d1bf355f966717dd7ce48",
+      "name": "\u672A\u77E5 147ms \u672A\u6D4B \u7F51",
+      "country": null,
+      "medianLatencyMs": 146.975,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:38:32.5627086+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:38:32.5627086+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 146.975,
+            "p90Ms": 663.4303,
+            "jitterMs": 214.57395864458755
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:33.8017604+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:33.8017626+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:33.801763+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:40:08.7895325+00:00",
+          "metrics": {
+            "validSampleCount": 0,
+            "medianBytesPerSecond": 0,
+            "minimumBytesPerSecond": 0,
+            "samples": [
+              {
+                "Bytes": 0,
+                "Seconds": 0,
+                "Valid": false,
+                "TerminationReason": "request-failed"
+              },
+              {
+                "Bytes": 0,
+                "Seconds": 0,
+                "Valid": false,
+                "TerminationReason": "request-failed"
+              },
+              {
+                "Bytes": 0,
+                "Seconds": 0,
+                "Valid": false,
+                "TerminationReason": "request-failed"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:03.0528815+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "0f8efe7bf84aef1ce1cbb73298b5b3d643134d13920507d716a4da9d1dbf9837",
+      "name": "\uD83C\uDDE9\uD83C\uDDEA\u5FB7\u56FD 130ms \u672A\u6D4B \u7F51",
+      "country": "DE",
+      "medianLatencyMs": 129.95265,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:04.3323897+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:04.3323897+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 129.95265,
+            "p90Ms": 676.1234,
+            "jitterMs": 249.43211671593411
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:06.1526836+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:06.1526864+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:06.1526868+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:35:27.835997+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 5116407.834514135,
+            "minimumBytesPerSecond": 5116407.834514135,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.6395503,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.2699207,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.2769208,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:45.67429+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "35aac2a44348d0382aa557333a3241c7fedccf43d34e4c683e88c6add66b0fcd",
+      "name": "\uD83C\uDDE6\uD83C\uDDF9AT 144ms \u672A\u6D4B \u7F51",
+      "country": "AT",
+      "medianLatencyMs": 144.22925,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:41:30.2131909+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:41:30.2131909+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 144.22925,
+            "p90Ms": 701.2674,
+            "jitterMs": 262.6398480384037
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:32.183992+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:32.1839959+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:41:32.1839963+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:21.2825821+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 5084352.125142124,
+            "minimumBytesPerSecond": 5084352.125142124,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.6498873,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.2121132,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.1521591,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:09.6378094+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "1f36b6a3e2b666d98fcaffbea13d3b1c8c465f7cfb5c61bf18b5d9648d2d0995",
+      "name": "\uD83C\uDDF1\uD83C\uDDFBLV 165ms \u672A\u6D4B \u7F51",
+      "country": "LV",
+      "medianLatencyMs": 164.7326,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:28.7275192+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:28.7275192+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 164.7326,
+            "p90Ms": 803.8926,
+            "jitterMs": 291.58813775167965
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:30.9362068+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:30.9362096+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:30.936212+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:38:31.8721818+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 4326146.337951508,
+            "minimumBytesPerSecond": 4326146.337951508,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.9390486,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3362405,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3300146,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:52.1677775+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "0a0cce235be4bb2e4a61a4f54ba16463d9481d37f7a3df946dc976fa5008874e",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 175ms \u672A\u6D4B \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 174.8714,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:39.4899448+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:39.4899448+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 174.8714,
+            "p90Ms": 843.017,
+            "jitterMs": 305.5420227801866
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:41.7689344+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:41.768937+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:41.7689375+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:34:41.7689409+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 4286656.367786038,
+            "minimumBytesPerSecond": 4286656.367786038,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.9569117,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3270926,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3294424,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:44.2522097+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "07dcf008aec3c150bf7a00fecceea4b13b0a08cae074b6972219e8ca8f8a6236",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 172ms \u672A\u6D4B \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 171.81525,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:25.978708+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:34:25.978708+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 171.81525,
+            "p90Ms": 846.0248,
+            "jitterMs": 312.16859079750884
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:28.2784073+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:28.27841+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:34:28.2784106+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:34:34.9171571+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 3996859.919355807,
+            "minimumBytesPerSecond": 3996859.919355807,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 2.0987996,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3715563,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3652809,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:44.0493596+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "2b27427425ef3254a5d7190a7bc66d8f600072da1de5f7c2ff6fa13c249cd2fe",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 179ms \u672A\u6D4B \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 178.7179,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:39:20.2651609+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:39:20.2651609+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 178.7179,
+            "p90Ms": 854.903,
+            "jitterMs": 303.27927383977664
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:22.5188448+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:22.518847+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:22.5188475+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:40:48.6792585+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 4076562.4803336393,
+            "minimumBytesPerSecond": 4076562.4803336393,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 2.0577651,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3828797,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3890263,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:04.8827394+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "19fc30efe6a688750aac0c2baaed40df6b575224b7eb86effe07786d7aab6d5c",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1\u6CE2\u5170 153ms 1M \u7F51",
+      "country": "PL",
+      "medianLatencyMs": 153.00025,
+      "medianBytesPerSecond": 1033064.5868812079,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:25.2952296+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:25.2952296+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 153.00025,
+            "p90Ms": 1313.0173,
+            "jitterMs": 435.5601711515659
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:27.7639446+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:27.7639471+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:27.7639477+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:37:46.5624433+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 1033064.5868812079,
+            "minimumBytesPerSecond": 979759.1501885158,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 7.6475212,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 8.1201196,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 8.5619083,
+                "Valid": true,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:48.4554397+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "3b3f877260fefdfcc8420fca732eb364f8ee22e2343463c5083c52bf93580adf",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 182ms \u672A\u6D4B \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 181.6865,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:39.2564483+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:39.2564483+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 181.6865,
+            "p90Ms": 870.7901,
+            "jitterMs": 307.0034030456978
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:41.5838456+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:41.5838478+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:41.5838484+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 2,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:42.5955407+00:00",
+          "metrics": {},
+          "reasonCode": "measurement-incomplete"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:12.3876717+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "25c24a13d7931533c0d41c56dc50ff66eaf234cbaea1460fc81616049ee514dc",
+      "name": "\uD83C\uDDE9\uD83C\uDDEA\u5FB7\u56FD 202ms 95K \u7F51",
+      "country": "DE",
+      "medianLatencyMs": 201.71884999999997,
+      "medianBytesPerSecond": 94903.12162782604,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:38:29.0194721+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:38:29.0194721+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 201.71884999999997,
+            "p90Ms": 1206.4996,
+            "jitterMs": 390.42898800677114
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:31.7639531+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:31.7639553+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:38:31.7639557+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:39:36.5543172+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 94903.12162782604,
+            "minimumBytesPerSecond": 90488.41912613041,
+            "samples": [
+              {
+                "Bytes": 904896,
+                "Seconds": 10.0001305,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 949079,
+                "Seconds": 10.0005035,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 958455,
+                "Seconds": 9.9989199,
+                "Valid": true,
+                "TerminationReason": "window"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:00.3169511+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "0f9629210dd1f04d98297d5e3bad35726edd490e263131a383159acd1260fb7c",
+      "name": "\uD83C\uDDF9\uD83C\uDDEDTH 832ms 1.4M \u7F51",
+      "country": "TH",
+      "medianLatencyMs": 832.3459,
+      "medianBytesPerSecond": 1428846.8794597131,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:05.5620385+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:05.5620385+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 832.3459,
+            "p90Ms": 4235.2287,
+            "jitterMs": 1380.3576284597739
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:14.1697103+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:14.1697131+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:14.1697137+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:35:31.0330587+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 1428846.8794597131,
+            "minimumBytesPerSecond": 583169.564038293,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.8708936,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 5831424,
+                "Seconds": 9.9995342,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 3.646936,
+                "Valid": true,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:45.8772691+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "1aff737dc50660af04dc8bb720274b333267e293cd672d9f696c1d1059e358cf",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 174ms \u672A\u6D4B \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 174.33715,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:30.6041487+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:30.6041487+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 174.33715,
+            "p90Ms": 876.6263,
+            "jitterMs": 316.3714920908523
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:32.9202068+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:32.9202091+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:32.9202095+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:38:12.7044937+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 3372589.7159229293,
+            "minimumBytesPerSecond": 3372589.7159229293,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 2.4872898,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.9760868,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.7638179,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:48.6576198+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "18caeeb31d992ddf949a88f40feda46deaf0ffc95716d1ec2763751005c30287",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 191ms \u672A\u6D4B \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 190.76295,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:11.4109961+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:11.4109961+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 190.76295,
+            "p90Ms": 895.1241,
+            "jitterMs": 318.08700474031036
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:13.7838838+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:13.7838876+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:13.783888+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:37:42.7820802+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 4329465.809582652,
+            "minimumBytesPerSecond": 4329465.809582652,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.9375619,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3337178,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.336717,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:47.8063611+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "3807764e51e72900ce946188e25bf2cc1b8cee01d91991156f2796c7ef9d2874",
+      "name": "\uD83C\uDDE6\uD83C\uDDF1AL 209ms \u672A\u6D4B \u7F51",
+      "country": "AL",
+      "medianLatencyMs": 209.0797,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:07.733849+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:07.733849+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 209.0797,
+            "p90Ms": 961.8012,
+            "jitterMs": 340.4225067329392
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:10.2948585+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:10.2948606+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:42:10.2948611+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 2,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:42:42.5250933+00:00",
+          "metrics": {},
+          "reasonCode": "measurement-incomplete"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:11.1807863+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "2f17147a0a978efaf5b66d7232bc93f44aabdcf721a2365935e76c15ba0867b5",
+      "name": "\uD83C\uDDF9\uD83C\uDDFC\u53F0\u6E7E 232ms \u672A\u6D4B \u7F51",
+      "country": "TW",
+      "medianLatencyMs": 232.36395,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:40:09.9946376+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:40:09.9946376+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 232.36395,
+            "p90Ms": 1197.1829,
+            "jitterMs": 435.84742410692843
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:13.0418912+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:13.0418935+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:40:13.0418941+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:41:03.5715167+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 3865201.0685022674,
+            "minimumBytesPerSecond": 3865201.0685022674,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 2.1702902,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.2805696,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3465543,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:06.5129054+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "15ad25031fe593e3b4d4a92401e4eb60336ae248017c04d5ceefe289e3032446",
+      "name": "\uD83C\uDDE8\uD83C\uDDE6\u52A0\u62FF\u5927 2490ms 1.3M \u7F51",
+      "country": "CA",
+      "medianLatencyMs": 2489.9902,
+      "medianBytesPerSecond": 1346950.7656175653,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:49.3121144+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:49.3121144+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 2489.9902,
+            "p90Ms": 6346.3423,
+            "jitterMs": 1731.3848440317865
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:07.0909629+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:07.0909651+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:07.0909655+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:37:17.923837+00:00",
+          "metrics": {
+            "validSampleCount": 2,
+            "medianBytesPerSecond": 1346950.7656175653,
+            "minimumBytesPerSecond": 961140.3312011306,
+            "samples": [
+              {
+                "Bytes": 0,
+                "Seconds": 0,
+                "Valid": false,
+                "TerminationReason": "request-failed"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 8.7277661,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 4.8411795,
+                "Valid": true,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:46.6880623+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.6666666666666666
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "1ea40d16e114e10decfcfdcaf7a3b99150b7120bb7ef86f2516b21a58ff6e03b",
+      "name": "\uD83C\uDDE9\uD83C\uDDEA\u5FB7\u56FD 140ms \u672A\u6D4B \u7F51",
+      "country": "DE",
+      "medianLatencyMs": 140.4447,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:20.9729045+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:20.9729045+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 140.4447,
+            "p90Ms": 1235.1499,
+            "jitterMs": 420.0023505270076
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:23.433574+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:23.4335774+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:23.4335779+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:38:28.3733567+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 4676590.749305796,
+            "minimumBytesPerSecond": 4676590.749305796,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.7937443,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.2944453,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.277005,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:51.5381223+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "00736877b1c5348f85bdcb4116be05f064848ba3462ea907886cc3a2c4b6351c",
+      "name": "\uD83C\uDDED\uD83C\uDDF0\u9999\u6E2F 185ms 13K \u7F51",
+      "country": "HK",
+      "medianLatencyMs": 185.3235,
+      "medianBytesPerSecond": 13423.746886313858,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:33:44.2102055+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:33:44.2102055+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 185.3235,
+            "p90Ms": 1317.5045,
+            "jitterMs": 432.28569160270484
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:33:46.9943528+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:33:46.9943641+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:33:46.9943648+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:33:49.5238927+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 13423.746886313858,
+            "minimumBytesPerSecond": 12583.56762086863,
+            "samples": [
+              {
+                "Bytes": 199002,
+                "Seconds": 10.0007654,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 125837,
+                "Seconds": 10.0001052,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 134251,
+                "Seconds": 10.001008,
+                "Valid": true,
+                "TerminationReason": "window"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:42.8298559+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "1fe57e8a369e7cef0d29ccd87d9f3923dd756339c720f76bdbb3a8dff816dd7b",
+      "name": "\uD83C\uDDF9\uD83C\uDDFC\u53F0\u6E7E 619ms 379K \u7F51",
+      "country": "TW",
+      "medianLatencyMs": 618.6952,
+      "medianBytesPerSecond": 379223.9323310504,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:32.5750766+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.8571428571428571
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:37:32.5750766+00:00",
+          "metrics": {
+            "sampleCount": 7,
+            "successCount": 6,
+            "medianMs": 618.6952,
+            "p90Ms": 5000.4504,
+            "jitterMs": 1701.523393899486
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:43.5212824+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:43.5212847+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:37:43.5212852+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:38:39.4087694+00:00",
+          "metrics": {
+            "validSampleCount": 2,
+            "medianBytesPerSecond": 379223.9323310504,
+            "minimumBytesPerSecond": 299704.06758670084,
+            "samples": [
+              {
+                "Bytes": 0,
+                "Seconds": 0,
+                "Valid": false,
+                "TerminationReason": "request-failed"
+              },
+              {
+                "Bytes": 4587466,
+                "Seconds": 10.0000611,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 2997077,
+                "Seconds": 10.0001212,
+                "Valid": true,
+                "TerminationReason": "window"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:53.8592993+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "2d1e0f160c8ec2166d4df523dc6cc3d92e21798109c47841cae738d0eabab5e7",
+      "name": "\uD83C\uDDEF\uD83C\uDDF5\u65E5\u672C 361ms \u672A\u6D4B \u7F51",
+      "country": "JP",
+      "medianLatencyMs": 360.99005,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:39:44.5718083+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:39:44.5718083+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 360.99005,
+            "p90Ms": 1604.9981,
+            "jitterMs": 509.57466394324064
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:47.9790283+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:47.9790303+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:39:47.9790308+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:40:55.607087+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 3375233.815975295,
+            "minimumBytesPerSecond": 3375233.815975295,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 2.4853413,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.9839206,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.9785953,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:43:05.8866475+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "00a98c3edbd2bce267a49ed02409fc12b88ff0c427b7f65cb340de3d3d8e1c19",
+      "name": "\uD83C\uDDF8\uD83C\uDDEC\u65B0\u52A0\u5761 437ms \u672A\u6D4B \u7F51",
+      "country": "SG",
+      "medianLatencyMs": 436.60105,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:33:44.627798+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:33:44.627798+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 436.60105,
+            "p90Ms": 1870.4057,
+            "jitterMs": 623.6258660769579
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:33:49.1914357+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:33:49.1914382+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:33:49.1914408+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:34:30.4820459+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 5466838.254380241,
+            "minimumBytesPerSecond": 5466838.254380241,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.5344533,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3169249,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.1646263,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:43.2371625+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "1cc26bb0b5fa0c3b8f55f2a39cb321d12eb60862cc2371624b2b5f35740f3002",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE\u82AC\u5170 140ms \u672A\u6D4B \u7F51",
+      "country": "FI",
+      "medianLatencyMs": 139.55965,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:56.7291447+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:56.7291447+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 139.55965,
+            "p90Ms": 2130.7973,
+            "jitterMs": 732.7259694569257
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:59.7191319+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:59.7191348+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:59.7191355+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:38:25.7609707+00:00",
+          "metrics": {
+            "validSampleCount": 1,
+            "medianBytesPerSecond": 6200943.616455231,
+            "minimumBytesPerSecond": 6200943.616455231,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 1.3527954,
+                "Valid": true,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.2155295,
+                "Valid": false,
+                "TerminationReason": "complete"
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 0.3706973,
+                "Valid": false,
+                "TerminationReason": "complete"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:50.2056279+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "1423b7f16adb713c99cc3d09834fcaab4a0682d27d6995a8cb954b01146b4bfa",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4RO 1172ms 2K \u7F51",
+      "country": "RO",
+      "medianLatencyMs": 1171.53205,
+      "medianBytesPerSecond": 1916.7413980129315,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:44.2075662+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:35:44.2075662+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 1171.53205,
+            "p90Ms": 6399.2219,
+            "jitterMs": 2089.597931670913
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:58.9081001+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:58.9081024+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:35:58.9081028+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:36:33.956332+00:00",
+          "metrics": {
+            "validSampleCount": 3,
+            "medianBytesPerSecond": 1916.7413980129315,
+            "minimumBytesPerSecond": 1640.5227805927177,
+            "samples": [
+              {
+                "Bytes": 25197,
+                "Seconds": 10.0005274,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 16406,
+                "Seconds": 10.0004707,
+                "Valid": true,
+                "TerminationReason": "window"
+              },
+              {
+                "Bytes": 19166,
+                "Seconds": 9.9992623,
+                "Valid": true,
+                "TerminationReason": "window"
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:46.4856819+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.6666666666666666
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "1b4979584dbe9cd01725e12af6e6c0a5f3ea195b09d6213e9730dc44a8774c45",
+      "name": "\uD83C\uDDEF\uD83C\uDDF5\u65E5\u672C 350ms \u672A\u6D4B \u7F51",
+      "country": "JP",
+      "medianLatencyMs": 349.993,
+      "medianBytesPerSecond": null,
+      "isAllRoundExcellent": false,
+      "aiPassedIds": [],
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:30.9689456+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.8571428571428571
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:36:30.9689456+00:00",
+          "metrics": {
+            "sampleCount": 7,
+            "successCount": 6,
+            "medianMs": 349.993,
+            "p90Ms": 5070.7235,
+            "jitterMs": 1654.8984749576048
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "ai.gpt",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:39.1566279+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.claude",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:39.1566312+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "ai.gemini",
+          "status": 2,
+          "scope": 1,
+          "checkedAt": "2026-10-15T04:36:39.1566318+00:00",
+          "metrics": {},
+          "reasonCode": "missing-verified-entry-contract"
+        },
+        {
+          "probeId": "download",
+          "status": 3,
+          "scope": 3,
+          "checkedAt": "2026-10-15T04:38:18.1069397+00:00",
+          "metrics": {
+            "validSampleCount": 0,
+            "medianBytesPerSecond": 0,
+            "minimumBytesPerSecond": 0,
+            "samples": [
+              {
+                "Bytes": 0,
+                "Seconds": 0,
+                "Valid": false,
+                "TerminationReason": "request-failed"
+              },
+              {
+                "Bytes": 0,
+                "Seconds": 0,
+                "Valid": false,
+                "TerminationReason": "request-failed"
+              },
+              {
+                "Bytes": 0,
+                "Seconds": 0,
+                "Valid": false,
+                "TerminationReason": "request-failed"
+              }
+            ]
+          },
+          "reasonCode": "insufficient-valid-samples"
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-15T04:42:49.6594055+00:00",
+          "metrics": {
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    }
+  ]
+}
