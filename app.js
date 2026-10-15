@@ -2,6 +2,7 @@ let report=null;
 const statuses=['通过','失败','未检测','无法判定','检测异常'];
 const probeLabels={basic:'基础连接',web:'网页',download:'下载','ai.gpt':'GPT','ai.claude':'Claude','ai.gemini':'Gemini'};
 const reasons={'missing-verified-entry-contract':'未配置检测目标','measurement-incomplete':'检测时间用尽或尚未执行','byte-budget':'测速流量预算用尽','entry-request-failed':'入口请求失败','explicit-region-denial':'服务明确拒绝该地区','browser-challenge':'需要浏览器验证','login-required':'需要登录，无法确认可用','entry-redirect':'入口发生跳转','entry-access-denied':'入口拒绝访问，原因不明确','html-without-verified-entry-contract':'仅取得网页，缺少可用性证据','no-reliable-positive-evidence':'已请求，缺少可靠通过证据','insufficient-valid-samples':'有效测速样本不足'};
+reasons['entry-response-too-large']='入口网页过大，未取得可靠证据';
 function latestProbes(node){return [...new Map([...node.probes].sort((a,b)=>Date.parse(a.checkedAt)-Date.parse(b.checkedAt)).map(p=>[p.probeId,p])).values()];}
 function probeText(p){
   let reason=reasons[p.reasonCode]||p.reasonCode;
