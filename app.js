@@ -1,9 +1,8 @@
 let report=null;
 const statuses=['通过','失败','未检测','无法判定','检测异常'];
-const probeLabels={basic:'基础连接',web:'网页',download:'下载','ai.gpt':'GPT','ai.claude':'Claude','ai.gemini':'Gemini'};
-const reasons={'missing-verified-entry-contract':'未配置检测目标','measurement-incomplete':'检测时间用尽或尚未执行','byte-budget':'测速流量预算用尽','entry-request-failed':'入口请求失败','explicit-region-denial':'服务明确拒绝该地区','browser-challenge':'需要浏览器验证','login-required':'需要登录，无法确认可用','entry-redirect':'入口发生跳转','entry-access-denied':'入口拒绝访问，原因不明确','html-without-verified-entry-contract':'仅取得网页，缺少可用性证据','no-reliable-positive-evidence':'已请求，缺少可靠通过证据','insufficient-valid-samples':'有效测速样本不足'};
-reasons['entry-response-too-large']='入口网页过大，未取得可靠证据';
-function latestProbes(node){return [...new Map([...node.probes].sort((a,b)=>Date.parse(a.checkedAt)-Date.parse(b.checkedAt)).map(p=>[p.probeId,p])).values()];}
+const probeLabels={basic:'基础连接',web:'网页',download:'下载'};
+const reasons={'measurement-incomplete':'检测时间用尽或尚未执行','byte-budget':'测速流量预算用尽','insufficient-valid-samples':'有效测速样本不足'};
+function latestProbes(node){return [...new Map([...node.probes].filter(p=>!p.probeId.startsWith('ai.')).sort((a,b)=>Date.parse(a.checkedAt)-Date.parse(b.checkedAt)).map(p=>[p.probeId,p])).values()];}
 function probeText(p){
   let reason=reasons[p.reasonCode]||p.reasonCode;
   if(p.probeId==='download'&&p.status===3){const samples=p.metrics?.samples||[];const short=samples.filter(s=>!s.Valid&&['complete','sample-too-short'].includes(s.TerminationReason)).length;
@@ -16,15 +15,15 @@ function probeText(p){
 const element=id=>document.getElementById(id);
 async function load(location){
   element('uri').href=location+'/v2ray.txt';element('clash').href=location+'/clash.yaml';
-  for(const view of ['web','ai','download'])element(view).href=location+'/v2ray-'+view+'.txt';
+  for(const view of ['web','download'])element(view).href=location+'/v2ray-'+view+'.txt';
   try{
     const response=await fetch(location+'/report.json',{cache:'no-store'});if(!response.ok)throw Error('未发布');
     report=await response.json();
     element('status').textContent=(location==='mainland'?'大陆':'云端')+' · 检测开始 '+new Date(report.measuredAt).toLocaleString()+' · '+(Date.now()>Date.parse(report.expiresAt)?'结果已过期':'结果有效至 '+new Date(report.expiresAt).toLocaleString())+' · 小火箭 '+report.uriCount+' / Clash '+report.clashCount+' 个节点';
-    element('coverage').textContent='上游去重候选 '+report.coverage.candidates+' 个 · 基础已测 '+report.coverage.basicTested+' 个（'+(report.coverage.candidates?100*report.coverage.basicTested/report.coverage.candidates:0).toFixed(1)+'%）· 未完成基础检测 '+report.coverage.notRun+' 个 · 复检后合格 '+report.coverage.qualified+' 个';
+    element('coverage').textContent='去重候选（含历史收录）'+report.coverage.candidates+' 个 · 基础已测 '+report.coverage.basicTested+' 个（'+(report.coverage.candidates?100*report.coverage.basicTested/report.coverage.candidates:0).toFixed(1)+'%）· 未完成基础检测 '+report.coverage.notRun+' 个 · 复检后合格 '+report.coverage.qualified+' 个';
     const coverage=report.probeCoverage||Object.values(report.nodes.reduce((acc,n)=>{for(const p of latestProbes(n)){const c=acc[p.probeId]??={probeId:p.probeId,passed:0,failed:0,notRun:0,indeterminate:0,error:0};c[['passed','failed','notRun','indeterminate','error'][p.status]]++;}return acc;},{}));
-    element('probe-coverage').textContent='已发布节点专项覆盖：'+coverage.filter(c=>c.probeId!=='basic').map(c=>(probeLabels[c.probeId]||c.probeId)+' 通过 '+c.passed+' / 失败 '+c.failed+' / 未测 '+c.notRun+' / 无法判定 '+c.indeterminate+(c.error?' / 异常 '+c.error:'')).join(' · ');
-    element('sources').replaceChildren();for(const source of report.sourceCoverage||[]){const row=document.createElement('p');row.className='details';row.textContent=source.id+' · '+({fetched:'下载成功',cached:'使用缓存',failed:'下载失败',timeout:'下载超时'}[source.status]||source.status)+' · 可解析 '+source.parsedNodes+' 个 · 解析问题 '+source.issues+' 项';element('sources').append(row);}
+    element('probe-coverage').textContent='已发布节点专项覆盖：'+coverage.filter(c=>c.probeId!=='basic'&&!c.probeId.startsWith('ai.')).map(c=>(probeLabels[c.probeId]||c.probeId)+' 通过 '+c.passed+' / 失败 '+c.failed+' / 未测 '+c.notRun+' / 无法判定 '+c.indeterminate+(c.error?' / 异常 '+c.error:'')).join(' · ');
+    element('sources').replaceChildren();for(const source of report.sourceCoverage||[]){const row=document.createElement('p');row.className='details';row.textContent=(source.id==='previous-published'?'上一轮最终收录':source.id)+' · '+({fetched:'下载成功',cached:'使用缓存',retained:'并入本轮复测',failed:'下载失败',timeout:'下载超时'}[source.status]||source.status)+' · 候选 '+source.parsedNodes+' 个 · 解析问题 '+source.issues+' 项';element('sources').append(row);}
     if(!report.sourceCoverage)element('sources').textContent='此旧版报告未记录逐来源统计。';
     element('country').replaceChildren(new Option('全部',''));
     [...new Set(report.nodes.map(n=>n.country||'未知'))].sort().forEach(c=>element('country').add(new Option(c,c)));render();
