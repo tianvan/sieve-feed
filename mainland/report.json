@@ -20,7 +20,7 @@
   "clashCount": 7,
   "shadowrocketCount": 7,
   "shadowrocketFormat": "clash-proxies-json-v1",
-  "shadowrocketEncoding": "ascii-json",
+  "shadowrocketEncoding": "ascii-yaml",
   "issues": [
     {
       "node": {
