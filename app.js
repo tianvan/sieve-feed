@@ -13,13 +13,16 @@ function probeText(p){
   return (probeLabels[p.probeId]||p.probeId)+': '+(statuses[p.status]??p.status)+(reason?'（'+reason+'）':'');
 }
 const element=id=>document.getElementById(id);
+function uriAvailable(node){return node.uriAvailable??!(report.issues||[]).some(i=>i.format==='uri'&&(i.node?.value||i.node)===node.id);}
 async function load(location){
   element('uri').href=location+'/v2ray.txt';element('clash').href=location+'/clash.yaml';
   for(const view of ['web','download'])element(view).href=location+'/v2ray-'+view+'.txt';
   try{
     const response=await fetch(location+'/report.json',{cache:'no-store'});if(!response.ok)throw Error('未发布');
     report=await response.json();
-    element('status').textContent=(location==='mainland'?'大陆':'云端')+' · 检测开始 '+new Date(report.measuredAt).toLocaleString()+' · '+(Date.now()>Date.parse(report.expiresAt)?'结果已过期':'结果有效至 '+new Date(report.expiresAt).toLocaleString())+' · 小火箭 '+report.uriCount+' / Clash '+report.clashCount+' 个节点';
+    element('status').textContent=(location==='mainland'?'大陆':'云端')+' · 检测开始 '+new Date(report.measuredAt).toLocaleString()+' · '+(Date.now()>Date.parse(report.expiresAt)?'结果已过期':'结果有效至 '+new Date(report.expiresAt).toLocaleString())+' · 小火箭链接 '+report.uriCount+' / Clash '+report.clashCount+' 个节点';
+    const clashOnly=report.nodes.filter(n=>!uriAvailable(n)).length;
+    element('format-coverage').textContent='下方列出全部 Clash 节点；'+(clashOnly?clashOnly+' 个仅 Clash，未包含在 URI 订阅中。':'全部已生成 URI 链接。')+'小火箭链接数是文件中的节点数，客户端实际导入数量还取决于协议与格式兼容。';
     element('coverage').textContent='去重候选（含历史收录）'+report.coverage.candidates+' 个 · 基础已测 '+report.coverage.basicTested+' 个（'+(report.coverage.candidates?100*report.coverage.basicTested/report.coverage.candidates:0).toFixed(1)+'%）· 未完成基础检测 '+report.coverage.notRun+' 个 · 复检后合格 '+report.coverage.qualified+' 个';
     if(report.pipeline)element('coverage').textContent+=' · 基础通过 '+report.pipeline.basicPassed+' / 测速达标 '+report.pipeline.downloadPassed+' / 最终收录 '+report.pipeline.finalPassed+' / 未完成 '+report.pipeline.downloadIncomplete;
     const coverage=report.probeCoverage||Object.values(report.nodes.reduce((acc,n)=>{for(const p of latestProbes(n)){const c=acc[p.probeId]??={probeId:p.probeId,passed:0,failed:0,notRun:0,indeterminate:0,error:0};c[['passed','failed','notRun','indeterminate','error'][p.status]]++;}return acc;},{}));
@@ -28,7 +31,7 @@ async function load(location){
     if(!report.sourceCoverage)element('sources').textContent='此旧版报告未记录逐来源统计。';
     element('country').replaceChildren(new Option('全部',''));
     [...new Set(report.nodes.map(n=>n.country||'未知'))].sort().forEach(c=>element('country').add(new Option(c,c)));render();
-  }catch{report=null;element('status').textContent='该地点尚无订阅结果';for(const id of ['coverage','probe-coverage','sources','nodes'])element(id).replaceChildren();}
+  }catch{report=null;element('status').textContent='该地点尚无订阅结果';for(const id of ['coverage','probe-coverage','format-coverage','sources','nodes'])element(id).replaceChildren();}
 }
 function render(){
   if(!report)return;
@@ -37,7 +40,7 @@ function render(){
   if(element('sort').value==='latency')nodes.sort((a,b)=>(a.medianLatencyMs??Infinity)-(b.medianLatencyMs??Infinity));
   element('nodes').replaceChildren();
   for(const node of nodes){const card=document.createElement('div');card.className='node';const name=document.createElement('strong');name.textContent=node.name;card.append(name);
-    const details=document.createElement('div');details.className='details';details.textContent=latestProbes(node).map(probeText).join(' · ');card.append(details);element('nodes').append(card);}
+    const details=document.createElement('div');details.className='details';details.textContent=[uriAvailable(node)?'URI / Clash':'仅 Clash（未包含在 URI 订阅）',...latestProbes(node).map(probeText)].join(' · ');card.append(details);element('nodes').append(card);}
 }
 document.querySelectorAll('[data-location]').forEach(b=>b.addEventListener('click',()=>load(b.dataset.location)));
 element('sort').addEventListener('change',render);element('country').addEventListener('change',render);load('mainland');
