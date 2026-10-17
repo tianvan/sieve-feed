@@ -22159,5 +22159,7 @@
         }
       ]
     }
-  ]
+  ],
+  "shadowrocketCount": 252,
+  "shadowrocketFormat": "clash-proxies-json-v1"
 }
