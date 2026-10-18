@@ -4,43 +4,16 @@ mode: rule
 proxies:
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1FA\U0001F1F8美国 197ms 618KB/s 稳定"
+  name: "\U0001F1F3\U0001F1F1荷兰 245ms 957KB/s 稳定"
   type: http
-  server: 44.229.69.166
-  port: 8443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F3\U0001F1F1荷兰 211ms 731KB/s 稳定"
-  type: http
-  server: 185.93.106.214
-  port: 443
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 196ms 387KB/s 稳定"
-  type: http
-  server: 138.199.35.216
+  server: 84.17.47.126
   port: 9002
 - tls: true
   servername: fan.587475.xyz
-  name: "\U0001F1EF\U0001F1F5日本 107ms 389KB/s 稳定"
+  name: "\U0001F1EF\U0001F1F5日本 149ms 335KB/s 可用"
   type: http
   server: fan.587475.xyz
   port: 443
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  servername: api.mediakaskad.cc
-  tls: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-  name: "\U0001F1E6\U0001F1F9奥地利 351ms 756KB/s 可用"
-  type: vless
-  server: api.mediakaskad.cc
-  port: 443
 - alpn:
   - h2
   - http/1.1
@@ -54,140 +27,87 @@ proxies:
     host: randomquaint.net
     mode: auto
     path: /api/v1/upload
-  name: "\U0001F1F7\U0001F1FA俄罗斯 638ms 1.4MB/s 可用"
-  type: vless
-  server: 78.159.246.179
-  port: 2053
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  network: xhttp
-  servername: randomquaint.net
-  tls: true
-  udp: true
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  xhttp-opts:
-    host: randomquaint.net
-    mode: auto
-    path: /api/v1/upload
-  name: "\U0001F1F7\U0001F1FA俄罗斯 440ms 406KB/s 可用"
+  name: "\U0001F1F7\U0001F1FA俄罗斯 487ms 860KB/s 可用"
   type: vless
   server: randomquaint.net
   port: 2053
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 254ms 305KB/s 稳定"
-  type: http
-  server: 193.176.84.27
-  port: 9002
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1E9\U0001F1EA德国 283ms 320KB/s 稳定"
+  name: "\U0001F1E9\U0001F1EA德国 343ms 322KB/s 可用"
   type: http
   server: 77.221.136.60
   port: 8443
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1EB\U0001F1EE芬兰 664ms 418KB/s 可用"
+  name: "\U0001F1E9\U0001F1EA德国 186ms 905KB/s 可用"
   type: http
-  server: 138.16.163.249
-  port: 8443
-- uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-  servername: api.videolaguna.cc
+  server: 158.173.154.4
+  port: 9002
+- skip-cert-verify: true
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
+  name: "\U0001F1F3\U0001F1F1荷兰 261ms 946KB/s 可用"
+  type: http
+  server: 84.17.47.123
+  port: 9002
+- password: None
   skip-cert-verify: true
-  udp: true
-  name: "\U0001F1EB\U0001F1F7法国 373ms 325KB/s 可用"
-  type: vless
-  server: api.videolaguna.cc
+  tls: true
+  name: "\U0001F1E7\U0001F1EA比利时 226ms 835KB/s 可用"
+  type: http
+  server: 146.70.123.98
   port: 443
 proxy-groups:
 - name: 综合推荐
   type: select
   proxies:
-  - "\U0001F1FA\U0001F1F8美国 197ms 618KB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 211ms 731KB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 196ms 387KB/s 稳定"
-  - "\U0001F1EF\U0001F1F5日本 107ms 389KB/s 稳定"
-  - "\U0001F1E6\U0001F1F9奥地利 351ms 756KB/s 可用"
-  - "\U0001F1F7\U0001F1FA俄罗斯 638ms 1.4MB/s 可用"
-  - "\U0001F1F7\U0001F1FA俄罗斯 440ms 406KB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 254ms 305KB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 283ms 320KB/s 稳定"
-  - "\U0001F1EB\U0001F1EE芬兰 664ms 418KB/s 可用"
-  - "\U0001F1EB\U0001F1F7法国 373ms 325KB/s 可用"
+  - "\U0001F1F3\U0001F1F1荷兰 245ms 957KB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 149ms 335KB/s 可用"
+  - "\U0001F1F7\U0001F1FA俄罗斯 487ms 860KB/s 可用"
+  - "\U0001F1E9\U0001F1EA德国 343ms 322KB/s 可用"
+  - "\U0001F1E9\U0001F1EA德国 186ms 905KB/s 可用"
+  - "\U0001F1F3\U0001F1F1荷兰 261ms 946KB/s 可用"
+  - "\U0001F1E7\U0001F1EA比利时 226ms 835KB/s 可用"
 - name: 网页
   type: select
   proxies:
-  - "\U0001F1FA\U0001F1F8美国 197ms 618KB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 196ms 387KB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 211ms 731KB/s 稳定"
-  - "\U0001F1EF\U0001F1F5日本 107ms 389KB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 254ms 305KB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 283ms 320KB/s 稳定"
-  - "\U0001F1F7\U0001F1FA俄罗斯 440ms 406KB/s 可用"
-  - "\U0001F1E6\U0001F1F9奥地利 351ms 756KB/s 可用"
-  - "\U0001F1F7\U0001F1FA俄罗斯 638ms 1.4MB/s 可用"
-  - "\U0001F1EB\U0001F1F7法国 373ms 325KB/s 可用"
-  - "\U0001F1EB\U0001F1EE芬兰 664ms 418KB/s 可用"
+  - "\U0001F1F3\U0001F1F1荷兰 245ms 957KB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 149ms 335KB/s 可用"
+  - "\U0001F1E9\U0001F1EA德国 343ms 322KB/s 可用"
+  - "\U0001F1F7\U0001F1FA俄罗斯 487ms 860KB/s 可用"
+  - "\U0001F1E7\U0001F1EA比利时 226ms 835KB/s 可用"
+  - "\U0001F1E9\U0001F1EA德国 186ms 905KB/s 可用"
+  - "\U0001F1F3\U0001F1F1荷兰 261ms 946KB/s 可用"
 - name: 下载
   type: select
   proxies:
-  - "\U0001F1F7\U0001F1FA俄罗斯 638ms 1.4MB/s 可用"
-  - "\U0001F1E6\U0001F1F9奥地利 351ms 756KB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 211ms 731KB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 197ms 618KB/s 稳定"
-  - "\U0001F1EB\U0001F1EE芬兰 664ms 418KB/s 可用"
-  - "\U0001F1F7\U0001F1FA俄罗斯 440ms 406KB/s 可用"
-  - "\U0001F1EF\U0001F1F5日本 107ms 389KB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 196ms 387KB/s 稳定"
-  - "\U0001F1EB\U0001F1F7法国 373ms 325KB/s 可用"
-  - "\U0001F1E9\U0001F1EA德国 283ms 320KB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 254ms 305KB/s 稳定"
-- name: 地域-US
-  type: select
-  proxies:
-  - "\U0001F1FA\U0001F1F8美国 197ms 618KB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 196ms 387KB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 245ms 957KB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 261ms 946KB/s 可用"
+  - "\U0001F1E9\U0001F1EA德国 186ms 905KB/s 可用"
+  - "\U0001F1F7\U0001F1FA俄罗斯 487ms 860KB/s 可用"
+  - "\U0001F1E7\U0001F1EA比利时 226ms 835KB/s 可用"
+  - "\U0001F1EF\U0001F1F5日本 149ms 335KB/s 可用"
+  - "\U0001F1E9\U0001F1EA德国 343ms 322KB/s 可用"
 - name: 地域-NL
   type: select
   proxies:
-  - "\U0001F1F3\U0001F1F1荷兰 211ms 731KB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 245ms 957KB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 261ms 946KB/s 可用"
 - name: 地域-JP
   type: select
   proxies:
-  - "\U0001F1EF\U0001F1F5日本 107ms 389KB/s 稳定"
-- name: 地域-AT
-  type: select
-  proxies:
-  - "\U0001F1E6\U0001F1F9奥地利 351ms 756KB/s 可用"
+  - "\U0001F1EF\U0001F1F5日本 149ms 335KB/s 可用"
 - name: 地域-RU
   type: select
   proxies:
-  - "\U0001F1F7\U0001F1FA俄罗斯 638ms 1.4MB/s 可用"
-  - "\U0001F1F7\U0001F1FA俄罗斯 440ms 406KB/s 可用"
-- name: 地域-RO
-  type: select
-  proxies:
-  - "\U0001F1F7\U0001F1F4罗马尼亚 254ms 305KB/s 稳定"
+  - "\U0001F1F7\U0001F1FA俄罗斯 487ms 860KB/s 可用"
 - name: 地域-DE
   type: select
   proxies:
-  - "\U0001F1E9\U0001F1EA德国 283ms 320KB/s 稳定"
-- name: 地域-FI
+  - "\U0001F1E9\U0001F1EA德国 343ms 322KB/s 可用"
+  - "\U0001F1E9\U0001F1EA德国 186ms 905KB/s 可用"
+- name: 地域-BE
   type: select
   proxies:
-  - "\U0001F1EB\U0001F1EE芬兰 664ms 418KB/s 可用"
-- name: 地域-FR
-  type: select
-  proxies:
-  - "\U0001F1EB\U0001F1F7法国 373ms 325KB/s 可用"
+  - "\U0001F1E7\U0001F1EA比利时 226ms 835KB/s 可用"
 rules:
 - MATCH,综合推荐
