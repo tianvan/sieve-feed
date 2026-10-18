@@ -1,11 +1,11 @@
 {
-  "clash.yaml": "11d9bd0c4274bd81066daa0f7426611b71eaf7eaf92f9f906943c52e8d47d6b7",
-  "shadowrocket.yaml": "2ff2d239f6a957be8209d30936d4ad82457e78dda8c1be44902ea6a8be103678",
-  "v2ray.txt": "bffebaf296e567e85fe90127e69f2536120f832835eb703dfc019ca767a74deb",
-  "v2ray-raw.txt": "03b3a779ed80d7e259df63453086ffeb3bea7b41e060ffc71661d99a58acbef9",
-  "report.json": "7c7dc8029dac4e1fb70aedba0a669a1548a2c7093f9b45da2247a80cb3949479",
-  "v2ray-web.txt": "7a3b28ba7372231cd9712a0d1c009fa189d690022236d0ffaaca10cd6abc59fc",
-  "shadowrocket-web.yaml": "2ea451a84c359d74abe43fb9bc9c790e6f504add58ad7a3c264b2a1a066140af",
-  "v2ray-download.txt": "9bbe68452dc3c144875a7a945bc14ce7b637ab9f57689259d8812ab2164f6632",
-  "shadowrocket-download.yaml": "b30f917702a18f3a3daa23cc6240b7aabdcbcacbbf72c1a9a1918a1b9ad03004"
+  "clash.yaml": "c4b98c6f3100408e5e4bee5235935f1436f40db9fdca007b689ab1d88d1f39d7",
+  "shadowrocket.yaml": "8b0c8f0765b3885c823c1caf53e2622f63068c875647990cb686fbe76f5878ed",
+  "v2ray.txt": "9d61e55374485158cc28700419eda7843318fc84c7a4cf4a22508bad5527a5fa",
+  "v2ray-raw.txt": "74f27e58a9f3dfa6ba33c2456e41e0ec7c382c9604cc7fda72d333d64606cb75",
+  "report.json": "717133e63bc8f824fa66f1495aff61041ac204401a82ed5df6c2e9e257ae497d",
+  "v2ray-web.txt": "c02b18c3b438179cf8603d6581d8f41fe3a5b43cc0cafa6c051313b06a3965b9",
+  "shadowrocket-web.yaml": "3371e43d4fb459f35f94dcadd1b4ba7e6ed0561ab1f069b039e20d30d5b31e0d",
+  "v2ray-download.txt": "2427ab17ca00582357168c13f607aa208669d5e17a908996f28ed8f02ced8969",
+  "shadowrocket-download.yaml": "c6b76ffbff08803406a92645eb3e7fc212d68a3538aea6df68d97a3eb5844208"
 }
