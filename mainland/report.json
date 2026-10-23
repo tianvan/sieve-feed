@@ -3,48 +3,63 @@
   "schemaVersion": "1",
   "location": "mainland",
   "networkLabel": "personal-pc",
-  "runId": "149d832b97c04309ba1b2d34edd90125",
-  "measuredAt": "2026-10-23T04:50:33.7270088+00:00",
-  "generatedAt": "2026-10-23T05:18:05.8340634+00:00",
-  "expiresAt": "2026-10-23T16:51:21.9027133+00:00",
+  "runId": "59c49509815b48a4a33608be8dd4e271",
+  "measuredAt": "2026-10-23T19:58:54.9198533+00:00",
+  "generatedAt": "2026-10-23T20:26:47.7201226+00:00",
+  "expiresAt": "2026-10-24T07:59:34.4888044+00:00",
   "coverage": {
-    "candidates": 8165,
-    "basicTested": 2304,
-    "qualified": 23,
-    "notRun": 5861
+    "candidates": 8002,
+    "basicTested": 2271,
+    "qualified": 29,
+    "notRun": 5731
   },
   "codeVersion": "d5b98681a09573a87d044a9541267493639b127b",
   "configurationHash": "1169cd039d0e4d4409d71f422738ef5fd17300ef5467d22dbc17560fddf68bbb",
   "coreVersion": "v1.19.32",
-  "uriCount": 23,
-  "clashCount": 23,
-  "shadowrocketCount": 23,
+  "uriCount": 27,
+  "clashCount": 29,
+  "shadowrocketCount": 29,
   "shadowrocketFormat": "clash-proxies-json-v1",
   "shadowrocketEncoding": "ascii-yaml",
-  "issues": [],
+  "issues": [
+    {
+      "node": {
+        "value": "def82c47d8c4963a84b9243a509fb4c1bf1ae7f6681a77f6a80983d7098a787d"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    },
+    {
+      "node": {
+        "value": "d6822f9286c2b9358d37993ef8a52cf03e5a1ffdb878082ad134950fec23e344"
+      },
+      "format": "uri",
+      "reason": "unsupported-lossless-serialization"
+    }
+  ],
   "sourceCoverage": [
     {
       "id": "zhuhai",
       "status": "fetched",
-      "parsedNodes": 29,
+      "parsedNodes": 33,
       "issues": 0
     },
     {
       "id": "nomorewalls",
       "status": "fetched",
-      "parsedNodes": 439,
-      "issues": 16
+      "parsedNodes": 378,
+      "issues": 1
     },
     {
       "id": "ermaozi",
       "status": "fetched",
-      "parsedNodes": 527,
-      "issues": 7
+      "parsedNodes": 419,
+      "issues": 6
     },
     {
       "id": "v2ray-aggregator",
       "status": "fetched",
-      "parsedNodes": 4133,
+      "parsedNodes": 3984,
       "issues": 56
     },
     {
@@ -56,20 +71,20 @@
     {
       "id": "mfuu",
       "status": "fetched",
-      "parsedNodes": 0,
-      "issues": 1
+      "parsedNodes": 20,
+      "issues": 0
     },
     {
       "id": "ssrsub",
       "status": "fetched",
-      "parsedNodes": 234,
+      "parsedNodes": 233,
       "issues": 46
     },
     {
       "id": "ruk1ng",
       "status": "fetched",
-      "parsedNodes": 414,
-      "issues": 58
+      "parsedNodes": 406,
+      "issues": 61
     },
     {
       "id": "free18",
@@ -80,52 +95,52 @@
     {
       "id": "openproxylist",
       "status": "fetched",
-      "parsedNodes": 67,
-      "issues": 83
+      "parsedNodes": 44,
+      "issues": 105
     },
     {
       "id": "automerge",
       "status": "fetched",
-      "parsedNodes": 131,
-      "issues": 1
+      "parsedNodes": 126,
+      "issues": 0
     },
     {
       "id": "epodonios",
       "status": "fetched",
-      "parsedNodes": 1276,
-      "issues": 5616
+      "parsedNodes": 1253,
+      "issues": 5492
     },
     {
       "id": "aliilapro",
       "status": "fetched",
-      "parsedNodes": 1646,
-      "issues": 1884
+      "parsedNodes": 1664,
+      "issues": 1934
     }
   ],
   "pipeline": {
-    "basicTested": 2304,
-    "basicPassed": 92,
-    "downloadStarted": 87,
-    "downloadPassed": 43,
-    "downloadFailed": 44,
-    "downloadIncomplete": 5,
-    "finalRechecked": 43,
-    "finalPassed": 23,
-    "carried": 13,
-    "priorityDownloadSeconds": 354.29717100000005,
-    "discoveryDownloadSeconds": 997.5168784000001,
+    "basicTested": 2271,
+    "basicPassed": 94,
+    "downloadStarted": 91,
+    "downloadPassed": 60,
+    "downloadFailed": 30,
+    "downloadIncomplete": 4,
+    "finalRechecked": 60,
+    "finalPassed": 29,
+    "carried": 18,
+    "priorityDownloadSeconds": 273.09648860000004,
+    "discoveryDownloadSeconds": 1182.1747546,
     "publishedReference": "network",
     "publishedNotRetested": 0,
     "publishedNotRetestedFraction": 0,
-    "discoveryNewQualified": 13,
-    "fastFailWouldReject": 2202,
+    "discoveryNewQualified": 15,
+    "fastFailWouldReject": 2162,
     "fastFailFalseReject": 0
   },
   "probeCoverage": [
     {
       "probeId": "basic",
-      "total": 23,
-      "passed": 23,
+      "total": 29,
+      "passed": 29,
       "failed": 0,
       "notRun": 0,
       "indeterminate": 0,
@@ -133,8 +148,8 @@
     },
     {
       "probeId": "web",
-      "total": 23,
-      "passed": 23,
+      "total": 29,
+      "passed": 29,
       "failed": 0,
       "notRun": 0,
       "indeterminate": 0,
@@ -142,8 +157,8 @@
     },
     {
       "probeId": "download",
-      "total": 23,
-      "passed": 23,
+      "total": 29,
+      "passed": 29,
       "failed": 0,
       "notRun": 0,
       "indeterminate": 0,
@@ -156,890 +171,20 @@
   },
   "nodes": [
     {
-      "id": "cea04a46474a212ebbf8f4ca5ccee276896ee13b35e7c35b3aab9fbfd0f690e2",
-      "name": "\uD83C\uDDED\uD83C\uDDF0\u9999\u6E2F 164ms 1.5MB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "HK",
-      "medianLatencyMs": 163.8127,
-      "medianBytesPerSecond": 1507321.8588092965,
-      "finalRecheckAt": "2026-10-23T05:17:34.7216178+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:23.6322569+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:23.6322569+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 163.8127,
-            "p90Ms": 699.0908,
-            "jitterMs": 246.6617980971246
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T04:52:45.4244501+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 1507321.8588092965,
-            "minimumBytesPerSecond": 1380118.2771719266,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 8388608,
-                "Seconds": 6.0781805,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 6.0781805,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 5.1321367,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 5.1321367,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:34.7216178+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "be7a2d8d5fddf2146eb4b69b646c0c45665cb1fa8582b42ad0f7b0b267e3391d",
-      "name": "\uD83C\uDDED\uD83C\uDDF0\u9999\u6E2F 165ms 1.5MB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "HK",
-      "medianLatencyMs": 165.02355,
-      "medianBytesPerSecond": 1488686.5592094772,
-      "finalRecheckAt": "2026-10-23T05:17:35.3077275+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:01:22.6909662+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:01:22.6909662+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 165.02355,
-            "p90Ms": 732.1533,
-            "jitterMs": 255.65691842370452
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T05:03:02.220624+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 1488686.5592094772,
-            "minimumBytesPerSecond": 1309779.6805159273,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 8388608,
-                "Seconds": 6.4045947,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 6.4045947,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 5.0303676,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 5.0303676,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:35.3077275+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "5b4b8131214620b4e3970f819992c2a9074cca449e069cc5fa4fa0d273366de5",
-      "name": "\uD83C\uDDE9\uD83C\uDDEA\u5FB7\u56FD 215ms 1.5MB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "DE",
-      "medianLatencyMs": 215.40435000000002,
-      "medianBytesPerSecond": 1476378.56295445,
-      "finalRecheckAt": "2026-10-23T05:17:35.8826761+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:08:19.0485164+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:08:19.0485164+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 215.40435000000002,
-            "p90Ms": 893.7499,
-            "jitterMs": 316.7879043545351
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T05:08:57.5251085+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 1476378.56295445,
-            "minimumBytesPerSecond": 1236454.9056028174,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 8388608,
-                "Seconds": 6.7844027,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 6.7844027,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 4.8876054,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 4.8876054,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:35.8826761+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "9f1e1fb799fa4cc76fc527f306afba2246a50a6275c8798e3d5ce029787195c8",
-      "name": "\uD83C\uDDEB\uD83C\uDDF7\u6CD5\u56FD 182ms 1MB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "FR",
-      "medianLatencyMs": 181.83685000000003,
-      "medianBytesPerSecond": 1032241.4108411705,
-      "finalRecheckAt": "2026-10-23T05:17:34.7326785+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:23.5671202+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:23.5671202+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 181.83685000000003,
-            "p90Ms": 791.6255,
-            "jitterMs": 285.48579570756624
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T04:53:02.2983576+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 1032241.4108411705,
-            "minimumBytesPerSecond": 833415.2770156439,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 8388608,
-                "Seconds": 6.8140924,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 6.8140924,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8346661,
-                "Seconds": 10.0150084,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0150084,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:34.7326785+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 0.6666666666666666
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "3c8b7ec2873dfa7ca2a71d6850923b1bf7ba5d89580a6a9deeb76967b2c19bae",
-      "name": "\uD83C\uDDF3\uD83C\uDDF1\u8377\u5170 175ms 821KB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "NL",
-      "medianLatencyMs": 175.1653,
-      "medianBytesPerSecond": 821317.2444055969,
-      "finalRecheckAt": "2026-10-23T05:17:35.2925977+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:24.6473441+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:24.6473441+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 175.1653,
-            "p90Ms": 769.7409,
-            "jitterMs": 284.7930522719753
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T04:55:28.2714214+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 821317.2444055969,
-            "minimumBytesPerSecond": 743990.8164136892,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 7442058,
-                "Seconds": 10.0028896,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0028896,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 9.3347433,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 9.3347433,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:35.2925977+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "6facd219d7bfcc4c146c5fd4c82e89a15de3d894fbcaed56a94abaadf033ff0d",
-      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 227ms 1.3MB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "RO",
-      "medianLatencyMs": 227.04815000000002,
-      "medianBytesPerSecond": 1263606.8582623624,
-      "finalRecheckAt": "2026-10-23T05:17:34.7216177+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:04:53.4649892+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:04:53.4649892+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 227.04815000000002,
-            "p90Ms": 1116.9712,
-            "jitterMs": 388.66344959231617
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T05:06:01.9309465+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 1263606.8582623624,
-            "minimumBytesPerSecond": 1189236.2301125536,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 8388608,
-                "Seconds": 7.0537777,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 7.0537777,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 6.2696182,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 6.2696182,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:34.7216177+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "3ca2d1ba9452d634f9196df89a41e23ded7f986920ff5d500bb783e6b092d3de",
-      "name": "\uD83C\uDDF3\uD83C\uDDF1\u8377\u5170 220ms 1.4MB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "NL",
-      "medianLatencyMs": 219.93464999999998,
-      "medianBytesPerSecond": 1389407.9356154785,
-      "finalRecheckAt": "2026-10-23T05:17:35.867909+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:21.9954498+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:21.9954498+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 219.93464999999998,
-            "p90Ms": 1189.5779,
-            "jitterMs": 394.05425414322497
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T04:51:54.0864078+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 1389407.9356154785,
-            "minimumBytesPerSecond": 1269465.9661441562,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 8388608,
-                "Seconds": 6.6079818,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 6.6079818,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 5.5577623,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 5.5577623,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:35.867909+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "92f6fe24295e82ca5f592044b09161e4af0e67c5bbf57fc5caed76e07bfffa12",
-      "name": "\uD83C\uDDF3\uD83C\uDDF1\u8377\u5170 201ms 946KB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "NL",
-      "medianLatencyMs": 200.5521,
-      "medianBytesPerSecond": 945591.7331448821,
-      "finalRecheckAt": "2026-10-23T05:17:35.3238271+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:21.9027133+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:21.9027133+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 200.5521,
-            "p90Ms": 1039.5585,
-            "jitterMs": 403.56665006722665
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T04:51:41.3137035+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 945591.7331448821,
-            "minimumBytesPerSecond": 498175.31899497745,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 4984467,
-                "Seconds": 10.0054475,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0054475,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 6.0219375,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 6.0219375,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:35.3238271+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "8f50582f8d4924ac498c3413e7534086983436c224cac4c3621b3117b6104d1d",
-      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 304ms 1.5MB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "RO",
-      "medianLatencyMs": 304.1314,
-      "medianBytesPerSecond": 1458754.6110598582,
-      "finalRecheckAt": "2026-10-23T05:17:35.8971257+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:16:38.1029234+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:16:38.1029234+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 304.1314,
-            "p90Ms": 1482.7944,
-            "jitterMs": 504.0324636895373
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T05:17:08.0387993+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 1458754.6110598582,
-            "minimumBytesPerSecond": 1215963.4632072183,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 8388608,
-                "Seconds": 6.8987336,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 6.8987336,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 4.9299926,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 4.9299926,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:35.8971257+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 0.6666666666666666
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "def11a7305576b47de187fd5344fb6692891f3389d16159f572e40c544b7cf60",
-      "name": "\uD83C\uDDEE\uD83C\uDDF3\u5370\u5EA6 521ms 1.3MB/s \u53EF\u7528",
-      "uriAvailable": true,
-      "country": "IN",
-      "medianLatencyMs": 520.61105,
-      "medianBytesPerSecond": 1302242.4684086116,
-      "finalRecheckAt": "2026-10-23T05:17:36.472014+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:24.1388972+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:24.1388972+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 520.61105,
-            "p90Ms": 1870.9475,
-            "jitterMs": 659.3897421918365
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T04:57:00.5087171+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 1302242.4684086116,
-            "minimumBytesPerSecond": 1007783.6029753988,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 8388608,
-                "Seconds": 8.3238187,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 8.3238187,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 5.2537114,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 5.2537114,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:36.472014+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "d9d0907af74cfe362e4ce0f302b051daa60e416903a7f0023a2e13d8ce347dac",
-      "name": "\uD83C\uDDF8\uD83C\uDDEC\u65B0\u52A0\u5761 243ms 1.3MB/s \u53EF\u7528",
-      "uriAvailable": true,
+      "id": "def82c47d8c4963a84b9243a509fb4c1bf1ae7f6681a77f6a80983d7098a787d",
+      "name": "\uD83C\uDDF8\uD83C\uDDEC\u65B0\u52A0\u5761 95ms 1.6MB/s \u7A33\u5B9A",
+      "uriAvailable": false,
       "country": "SG",
-      "medianLatencyMs": 242.92149999999998,
-      "medianBytesPerSecond": 1326072.4808078238,
-      "finalRecheckAt": "2026-10-23T05:17:36.4408958+00:00",
+      "medianLatencyMs": 95.1745,
+      "medianBytesPerSecond": 1648964.3016665624,
+      "finalRecheckAt": "2026-10-23T20:25:55.817598+00:00",
       "isAllRoundExcellent": false,
       "probes": [
         {
           "probeId": "basic",
           "status": 0,
           "scope": 0,
-          "checkedAt": "2026-10-23T05:03:24.0540567+00:00",
+          "checkedAt": "2026-10-23T20:12:53.2944404+00:00",
           "metrics": {
             "fastFailCandidate": false,
             "targetsRequired": 2,
@@ -1052,13 +197,13 @@
           "probeId": "web",
           "status": 0,
           "scope": 0,
-          "checkedAt": "2026-10-23T05:03:24.0540567+00:00",
+          "checkedAt": "2026-10-23T20:12:53.2944404+00:00",
           "metrics": {
             "sampleCount": 6,
             "successCount": 6,
-            "medianMs": 242.92149999999998,
-            "p90Ms": 2071.8922,
-            "jitterMs": 691.5428101295474
+            "medianMs": 95.1745,
+            "p90Ms": 299.8106,
+            "jitterMs": 92.13875632201716
           },
           "reasonCode": null
         },
@@ -1066,30 +211,30 @@
           "probeId": "download",
           "status": 0,
           "scope": 3,
-          "checkedAt": "2026-10-23T05:04:26.6320357+00:00",
+          "checkedAt": "2026-10-23T20:13:04.9834258+00:00",
           "metrics": {
             "sampleCount": 2,
             "validSampleCount": 2,
             "passingSampleCount": 2,
-            "medianBytesPerSecond": 1326072.4808078238,
-            "minimumBytesPerSecond": 999882.0563203419,
+            "medianBytesPerSecond": 1648964.3016665624,
+            "minimumBytesPerSecond": 1594636.8122410567,
             "speedIsLowerBound": false,
             "samples": [
               {
                 "Bytes": 8388608,
-                "Seconds": 8.3895975,
+                "Seconds": 5.2605132,
                 "Valid": true,
                 "TerminationReason": "complete",
-                "TransferSeconds": 8.3895975,
+                "TransferSeconds": 5.2605132,
                 "ServiceId": "cloudflare",
                 "IsLowerBound": false
               },
               {
                 "Bytes": 8388608,
-                "Seconds": 5.0770419,
+                "Seconds": 4.9249389,
                 "Valid": true,
                 "TerminationReason": "complete",
-                "TransferSeconds": 5.0770419,
+                "TransferSeconds": 4.9249389,
                 "ServiceId": "cloudflare",
                 "IsLowerBound": false
               }
@@ -1101,895 +246,7 @@
           "probeId": "basic",
           "status": 0,
           "scope": 0,
-          "checkedAt": "2026-10-23T05:17:36.4408958+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "880ae9a972c85591157ba0f49d8f8cbf641d4c66cb8694f9c3c530d2b0027d28",
-      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 222ms 666KB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "RO",
-      "medianLatencyMs": 221.6577,
-      "medianBytesPerSecond": 666197.5998456031,
-      "finalRecheckAt": "2026-10-23T05:17:36.4718092+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:13:59.6692442+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:13:59.6692442+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 221.6577,
-            "p90Ms": 1155.3859,
-            "jitterMs": 395.13120786528197
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T05:14:22.7959973+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 666197.5998456031,
-            "minimumBytesPerSecond": 463721.60892341484,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 4639233,
-                "Seconds": 10.0043494,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0043494,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 9.656801,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 9.656801,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:36.4718092+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "edb819e2c00b9e148cd0d54eafd760c3f4f59400036930ef6c9d52e41d0d7689",
-      "name": "\uD83C\uDDED\uD83C\uDDF0\u9999\u6E2F 162ms 300KB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "HK",
-      "medianLatencyMs": 162.10160000000002,
-      "medianBytesPerSecond": 299707.02820452163,
-      "finalRecheckAt": "2026-10-23T05:17:37.4809088+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:04:32.863785+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:04:32.863785+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 162.10160000000002,
-            "p90Ms": 1107.3256,
-            "jitterMs": 366.4964522392789
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T05:05:33.510749+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 299707.02820452163,
-            "minimumBytesPerSecond": 284813.7699916957,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 2849579,
-                "Seconds": 10.0050605,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0050605,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 3149459,
-                "Seconds": 10.0109858,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0109858,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:37.4809088+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "f57d9b51166185e6e4ca53176b353a092347ac5a89847caf9c0f9332bda050bd",
-      "name": "\uD83C\uDDEE\uD83C\uDDE9\u5370\u5C3C 383ms 679KB/s \u53EF\u7528",
-      "uriAvailable": true,
-      "country": "ID",
-      "medianLatencyMs": 382.97285,
-      "medianBytesPerSecond": 679254.4895672728,
-      "finalRecheckAt": "2026-10-23T05:17:39.183372+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:35.3212351+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:35.3212351+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 382.97285,
-            "p90Ms": 1870.1631,
-            "jitterMs": 668.0818863516419
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T04:59:25.5815813+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 679254.4895672728,
-            "minimumBytesPerSecond": 470535.54976052983,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 4705912,
-                "Seconds": 10.0011827,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0011827,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 9.4469133,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 9.4469133,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:39.183372+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "79752e478f9ff8070ebf6ba6cc081d81f2c126de4c0758386c1277cc9c221c40",
-      "name": "\uD83C\uDDEB\uD83C\uDDF7\u6CD5\u56FD 269ms 408KB/s \u7A33\u5B9A",
-      "uriAvailable": true,
-      "country": "FR",
-      "medianLatencyMs": 268.52345,
-      "medianBytesPerSecond": 407868.92949086457,
-      "finalRecheckAt": "2026-10-23T05:17:38.2388552+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:08:23.0217877+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:08:23.0217877+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 268.52345,
-            "p90Ms": 1413.4978,
-            "jitterMs": 477.35803209225696
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T05:09:27.0202097+00:00",
-          "metrics": {
-            "sampleCount": 3,
-            "validSampleCount": 3,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 407868.92949086457,
-            "minimumBytesPerSecond": 94930.80441327463,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 950272,
-                "Seconds": 10.0101543,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0101543,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 4079607,
-                "Seconds": 10.00225,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.00225,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 9.4433969,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 9.4433969,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:38.2388552+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "84cb62801d5cb1a9cb82b39ef03dc56c522cce85876f92b6f186473e393fbaef",
-      "name": "\uD83C\uDDE9\uD83C\uDDEA\u5FB7\u56FD 294ms 419KB/s \u53EF\u7528",
-      "uriAvailable": true,
-      "country": "DE",
-      "medianLatencyMs": 294.0174,
-      "medianBytesPerSecond": 418683.4370592319,
-      "finalRecheckAt": "2026-10-23T05:17:39.7777234+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:42.862567+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:42.862567+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 294.0174,
-            "p90Ms": 1583.9029,
-            "jitterMs": 581.6985392695276
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T05:00:06.3572692+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 418683.4370592319,
-            "minimumBytesPerSecond": 396248.22430547036,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 4411621,
-                "Seconds": 10.000985,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.000985,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 3968659,
-                "Seconds": 10.0155881,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0155881,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:39.7777234+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "0a70e3c70c41de7a9fb80d419f62ba1ceba2a61f06fd93b22b71e3e38e872cfe",
-      "name": "\uD83C\uDDF3\uD83C\uDDF1\u8377\u5170 363ms 790KB/s \u53EF\u7528",
-      "uriAvailable": true,
-      "country": "NL",
-      "medianLatencyMs": 363.4006,
-      "medianBytesPerSecond": 790420.1240611603,
-      "finalRecheckAt": "2026-10-23T05:17:41.4104177+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:24.8193309+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:24.8193309+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 363.4006,
-            "p90Ms": 2842.3606,
-            "jitterMs": 942.8672991361976
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T04:57:29.2937443+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 790420.1240611603,
-            "minimumBytesPerSecond": 540982.4548557348,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 5411072,
-                "Seconds": 10.0023059,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0023059,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 8.0670723,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 8.0670723,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:41.4104177+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "8e20d0099cd2b5a7bd385bfb21b6d1df7d7da5d0a81b785b7469ebedea2f137f",
-      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 220ms 1.1MB/s \u53EF\u7528",
-      "uriAvailable": true,
-      "country": "RO",
-      "medianLatencyMs": 219.59584999999998,
-      "medianBytesPerSecond": 1053259.5893615661,
-      "finalRecheckAt": "2026-10-23T05:17:43.8969309+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:16:06.0299032+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:16:06.0299032+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 219.59584999999998,
-            "p90Ms": 5036.8041,
-            "jitterMs": 1761.096263038219
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T05:16:34.9607407+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 1053259.5893615661,
-            "minimumBytesPerSecond": 839516.5883830155,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 8388608,
-                "Seconds": 9.9921885,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 9.9921885,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 6.6208294,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 6.6208294,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:43.8969309+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "8401b2d9c43175dbaf1716717b9954f228671f495f34f0cd69431f8322d15f0b",
-      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 582ms 1.2MB/s \u53EF\u7528",
-      "uriAvailable": true,
-      "country": "RO",
-      "medianLatencyMs": 582.2392,
-      "medianBytesPerSecond": 1219923.8366934336,
-      "finalRecheckAt": "2026-10-23T05:17:48.3123392+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:12:31.4365794+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 0.75
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:12:31.4365794+00:00",
-          "metrics": {
-            "sampleCount": 8,
-            "successCount": 6,
-            "medianMs": 582.2392,
-            "p90Ms": 5004.8766,
-            "jitterMs": 2249.409422768406
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T05:13:16.7560745+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 1219923.8366934336,
-            "minimumBytesPerSecond": 1184742.933300997,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 8388608,
-                "Seconds": 6.683592,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 6.683592,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 7.0805301,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 7.0805301,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:48.3123392+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "651345ec537e9eeccbd266f07223cc89bbd7e7a7d120cf66dc7b7658516f1a94",
-      "name": "\uD83C\uDDF3\uD83C\uDDF1\u8377\u5170 143ms 774KB/s \u53EF\u7528",
-      "uriAvailable": true,
-      "country": "NL",
-      "medianLatencyMs": 143.17145,
-      "medianBytesPerSecond": 773824.3285795082,
-      "finalRecheckAt": "2026-10-23T05:17:44.1906066+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:56:23.1674253+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:56:23.1674253+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 143.17145,
-            "p90Ms": 4244.4021,
-            "jitterMs": 1500.0475132902277
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T04:57:53.2133953+00:00",
-          "metrics": {
-            "sampleCount": 3,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 773824.3285795082,
-            "minimumBytesPerSecond": 529924.5685374937,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 0,
-                "Seconds": 5.0040642,
-                "Valid": false,
-                "TerminationReason": "request-failed",
-                "TransferSeconds": null,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 5305838,
-                "Seconds": 10.0124401,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0124401,
-                "ServiceId": "ovh-singapore",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8388608,
-                "Seconds": 8.2425169,
-                "Valid": true,
-                "TerminationReason": "complete",
-                "TransferSeconds": 8.2425169,
-                "ServiceId": "ovh-singapore",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:44.1906066+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 0.6666666666666666
-          },
-          "reasonCode": null
-        }
-      ]
-    },
-    {
-      "id": "6ee742163bd1851622dc160e0f26439905c351a1db4b4d5090e5d18b907e97e0",
-      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 212ms 476KB/s \u53EF\u7528",
-      "uriAvailable": true,
-      "country": "RO",
-      "medianLatencyMs": 211.56779999999998,
-      "medianBytesPerSecond": 476089.86568612035,
-      "finalRecheckAt": "2026-10-23T05:17:46.5039123+00:00",
-      "isAllRoundExcellent": false,
-      "probes": [
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:42.6306302+00:00",
-          "metrics": {
-            "fastFailCandidate": false,
-            "targetsRequired": 2,
-            "targetsPassed": 2,
-            "attemptSuccessRate": 1
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "web",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T04:51:42.6306302+00:00",
-          "metrics": {
-            "sampleCount": 6,
-            "successCount": 6,
-            "medianMs": 211.56779999999998,
-            "p90Ms": 4747.5186,
-            "jitterMs": 1660.8650124056578
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "download",
-          "status": 0,
-          "scope": 3,
-          "checkedAt": "2026-10-23T05:00:26.3988058+00:00",
-          "metrics": {
-            "sampleCount": 2,
-            "validSampleCount": 2,
-            "passingSampleCount": 2,
-            "medianBytesPerSecond": 476089.86568612035,
-            "minimumBytesPerSecond": 350394.14196176623,
-            "speedIsLowerBound": false,
-            "samples": [
-              {
-                "Bytes": 6020426,
-                "Seconds": 10.0042708,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0042708,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 3504933,
-                "Seconds": 10.0028299,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0028299,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              }
-            ]
-          },
-          "reasonCode": null
-        },
-        {
-          "probeId": "basic",
-          "status": 0,
-          "scope": 0,
-          "checkedAt": "2026-10-23T05:17:46.5039123+00:00",
+          "checkedAt": "2026-10-23T20:25:55.817598+00:00",
           "metrics": {
             "fastFailCandidate": false,
             "targetsRequired": 2,
@@ -2002,19 +259,19 @@
     },
     {
       "id": "aff083a6b27f78f0a2cff731050e0e7d0c1c99801c8ccf01c29b8989b167f24d",
-      "name": "\u51FA\u53E3\u672A\u77E5 134ms 397KB/s \u53EF\u7528",
+      "name": "\uD83C\uDDED\uD83C\uDDF0\u9999\u6E2F 81ms 1.4MB/s \u7A33\u5B9A",
       "uriAvailable": true,
-      "country": null,
-      "medianLatencyMs": 133.61775,
-      "medianBytesPerSecond": 397062.7278951536,
-      "finalRecheckAt": "2026-10-23T05:17:47.1853726+00:00",
+      "country": "HK",
+      "medianLatencyMs": 80.84615,
+      "medianBytesPerSecond": 1423481.7904441871,
+      "finalRecheckAt": "2026-10-23T20:25:56.3731888+00:00",
       "isAllRoundExcellent": false,
       "probes": [
         {
           "probeId": "basic",
           "status": 0,
           "scope": 0,
-          "checkedAt": "2026-10-23T05:00:25.0868071+00:00",
+          "checkedAt": "2026-10-23T19:59:46.279028+00:00",
           "metrics": {
             "fastFailCandidate": false,
             "targetsRequired": 2,
@@ -2027,13 +284,13 @@
           "probeId": "web",
           "status": 0,
           "scope": 0,
-          "checkedAt": "2026-10-23T05:00:25.0868071+00:00",
+          "checkedAt": "2026-10-23T19:59:46.279028+00:00",
           "metrics": {
             "sampleCount": 6,
             "successCount": 6,
-            "medianMs": 133.61775,
-            "p90Ms": 4089.5003,
-            "jitterMs": 1464.4359827774933
+            "medianMs": 80.84615,
+            "p90Ms": 342.6122,
+            "jitterMs": 123.03498236131868
           },
           "reasonCode": null
         },
@@ -2041,30 +298,30 @@
           "probeId": "download",
           "status": 0,
           "scope": 3,
-          "checkedAt": "2026-10-23T05:01:10.8852938+00:00",
+          "checkedAt": "2026-10-23T20:08:16.8899466+00:00",
           "metrics": {
             "sampleCount": 2,
             "validSampleCount": 2,
             "passingSampleCount": 2,
-            "medianBytesPerSecond": 397062.7278951536,
-            "minimumBytesPerSecond": 342592.43879629835,
+            "medianBytesPerSecond": 1423481.7904441871,
+            "minimumBytesPerSecond": 1106560.2407345984,
             "speedIsLowerBound": false,
             "samples": [
               {
-                "Bytes": 3427987,
-                "Seconds": 10.0060206,
+                "Bytes": 8388608,
+                "Seconds": 7.5807965,
                 "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0060206,
+                "TerminationReason": "complete",
+                "TransferSeconds": 7.5807965,
                 "ServiceId": "cloudflare",
                 "IsLowerBound": false
               },
               {
-                "Bytes": 4529309,
-                "Seconds": 10.0309586,
+                "Bytes": 8388608,
+                "Seconds": 4.8199218,
                 "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0309586,
+                "TerminationReason": "complete",
+                "TransferSeconds": 4.8199218,
                 "ServiceId": "cloudflare",
                 "IsLowerBound": false
               }
@@ -2076,7 +333,7 @@
           "probeId": "basic",
           "status": 0,
           "scope": 0,
-          "checkedAt": "2026-10-23T05:17:47.1853726+00:00",
+          "checkedAt": "2026-10-23T20:25:56.3731888+00:00",
           "metrics": {
             "fastFailCandidate": false,
             "targetsRequired": 2,
@@ -2088,20 +345,1412 @@
       ]
     },
     {
-      "id": "77e92360be84d72f6176b46b43a5a7d39bf0cedb9ce80bdad0dde62cd7e4ebfe",
-      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 244ms 411KB/s \u53EF\u7528",
+      "id": "def11a7305576b47de187fd5344fb6692891f3389d16159f572e40c544b7cf60",
+      "name": "\uD83C\uDDEE\uD83C\uDDF3\u5370\u5EA6 154ms 1.5MB/s \u7A33\u5B9A",
       "uriAvailable": true,
-      "country": "RO",
-      "medianLatencyMs": 244.4435,
-      "medianBytesPerSecond": 410893.2720146949,
-      "finalRecheckAt": "2026-10-23T05:17:51.0234462+00:00",
+      "country": "IN",
+      "medianLatencyMs": 154.0957,
+      "medianBytesPerSecond": 1462227.9197309406,
+      "finalRecheckAt": "2026-10-23T20:25:56.9427558+00:00",
       "isAllRoundExcellent": false,
       "probes": [
         {
           "probeId": "basic",
           "status": 0,
           "scope": 0,
-          "checkedAt": "2026-10-23T05:07:59.5393115+00:00",
+          "checkedAt": "2026-10-23T19:59:35.6717184+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:35.6717184+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 154.0957,
+            "p90Ms": 774.8734,
+            "jitterMs": 290.00602499754496
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:01:27.3639108+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 1462227.9197309406,
+            "minimumBytesPerSecond": 1294048.9094363314,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.4824505,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 6.4824505,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.1451008,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 5.1451008,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:25:56.9427558+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "8e20d0099cd2b5a7bd385bfb21b6d1df7d7da5d0a81b785b7469ebedea2f137f",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 179ms 1.5MB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "RO",
+      "medianLatencyMs": 178.8327,
+      "medianBytesPerSecond": 1484536.80073356,
+      "finalRecheckAt": "2026-10-23T20:25:56.9880459+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:36.8004801+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:36.8004801+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 178.8327,
+            "p90Ms": 870.7834,
+            "jitterMs": 319.5048757579904
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:03:28.5182708+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 1484536.80073356,
+            "minimumBytesPerSecond": 1334527.2360719412,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.2858275,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 6.2858275,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.132071,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 5.132071,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:25:56.9880459+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.6666666666666666
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "0a70e3c70c41de7a9fb80d419f62ba1ceba2a61f06fd93b22b71e3e38e872cfe",
+      "name": "\uD83C\uDDF3\uD83C\uDDF1\u8377\u5170 215ms 1.5MB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "NL",
+      "medianLatencyMs": 214.76655,
+      "medianBytesPerSecond": 1474683.7809051408,
+      "finalRecheckAt": "2026-10-23T20:25:56.4045337+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:36.7864661+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:36.7864661+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 214.76655,
+            "p90Ms": 1016.9383,
+            "jitterMs": 346.1301668194095
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:03:55.3895309+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 1474683.7809051408,
+            "minimumBytesPerSecond": 1352159.069694299,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.2038618,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 6.2038618,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.2520432,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 5.2520432,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:25:56.4045337+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "3ca2d1ba9452d634f9196df89a41e23ded7f986920ff5d500bb783e6b092d3de",
+      "name": "\uD83C\uDDF3\uD83C\uDDF1\u8377\u5170 194ms 1.3MB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "NL",
+      "medianLatencyMs": 193.8243,
+      "medianBytesPerSecond": 1273233.7509866853,
+      "finalRecheckAt": "2026-10-23T20:25:57.5610482+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:35.081077+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:35.081077+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 193.8243,
+            "p90Ms": 962.1342,
+            "jitterMs": 334.4022189981134
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T19:59:51.5163032+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 1273233.7509866853,
+            "minimumBytesPerSecond": 1107297.8310204349,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 7.5757468,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 7.5757468,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.8287832,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 5.8287832,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:25:57.5610482+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "651345ec537e9eeccbd266f07223cc89bbd7e7a7d120cf66dc7b7658516f1a94",
+      "name": "\uD83C\uDDF3\uD83C\uDDF1\u8377\u5170 157ms 781KB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "NL",
+      "medianLatencyMs": 156.92455,
+      "medianBytesPerSecond": 781113.6690845664,
+      "finalRecheckAt": "2026-10-23T20:25:57.5449217+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:37.4841259+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:37.4841259+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 156.92455,
+            "p90Ms": 779.825,
+            "jitterMs": 276.3573034558462
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:05:05.8175082+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 781113.6690845664,
+            "minimumBytesPerSecond": 660452.5713114858,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 6606465,
+                "Seconds": 10.0029363,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0029363,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 9.3023317,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 9.3023317,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:25:57.5449217+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.6666666666666666
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "d6822f9286c2b9358d37993ef8a52cf03e5a1ffdb878082ad134950fec23e344",
+      "name": "\uD83C\uDDEF\uD83C\uDDF5\u65E5\u672C 67ms 578KB/s \u7A33\u5B9A",
+      "uriAvailable": false,
+      "country": "JP",
+      "medianLatencyMs": 67.1141,
+      "medianBytesPerSecond": 578473.7550239088,
+      "finalRecheckAt": "2026-10-23T20:25:58.0859318+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:12:24.4960375+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:12:24.4960375+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 67.1141,
+            "p90Ms": 290.7086,
+            "jitterMs": 103.31539955156734
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:12:45.9002391+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 578473.7550239088,
+            "minimumBytesPerSecond": 317796.0111855817,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 3182227,
+                "Seconds": 10.0134265,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0134265,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 9.9965358,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 9.9965358,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:25:58.0859318+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "92f6fe24295e82ca5f592044b09161e4af0e67c5bbf57fc5caed76e07bfffa12",
+      "name": "\uD83C\uDDF3\uD83C\uDDF1\u8377\u5170 213ms 1.1MB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "NL",
+      "medianLatencyMs": 212.73295000000002,
+      "medianBytesPerSecond": 1100393.2068596245,
+      "finalRecheckAt": "2026-10-23T20:25:59.4500921+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:35.0979264+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:35.0979264+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 212.73295000000002,
+            "p90Ms": 1098.681,
+            "jitterMs": 363.4419161507593
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:00:38.2262275+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 1100393.2068596245,
+            "minimumBytesPerSecond": 1002633.5150664109,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 8.3665745,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 8.3665745,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 7.0012834,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 7.0012834,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:25:59.4500921+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "6facd219d7bfcc4c146c5fd4c82e89a15de3d894fbcaed56a94abaadf033ff0d",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 243ms 1.1MB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "RO",
+      "medianLatencyMs": 243.37175000000002,
+      "medianBytesPerSecond": 1115198.4750647638,
+      "finalRecheckAt": "2026-10-23T20:26:01.9192256+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:35.0656956+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:35.0656956+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 243.37175000000002,
+            "p90Ms": 1172.4049,
+            "jitterMs": 430.3281179448593
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:02:56.3297645+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 1115198.4750647638,
+            "minimumBytesPerSecond": 959113.9947387928,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 8.7462054,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 8.7462054,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.5985373,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 6.5985373,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:01.9192256+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "e57f94e2d3a23eb4407c18dfcb4915d942db05f671a2f1602136cb756603e405",
+      "name": "\uD83C\uDDEF\uD83C\uDDF5\u65E5\u672C 65ms 400KB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "JP",
+      "medianLatencyMs": 65.15180000000001,
+      "medianBytesPerSecond": 400444.87116004,
+      "finalRecheckAt": "2026-10-23T20:26:00.4278228+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:13:17.298014+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:13:17.298014+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 65.15180000000001,
+            "p90Ms": 734.4813,
+            "jitterMs": 249.62457768639737
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:13:39.1826011+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 400444.87116004,
+            "minimumBytesPerSecond": 394552.0968652454,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 4063196,
+                "Seconds": 9.9995559,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 9.9995559,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 3948517,
+                "Seconds": 10.0075935,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0075935,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:00.4278228+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "aeb069d1762301369e7273c1f9390ea8a04ef885b2f7f00db3b982882b45358d",
+      "name": "\uD83C\uDDFA\uD83C\uDDF8\u7F8E\u56FD 172ms 695KB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "US",
+      "medianLatencyMs": 172.41514999999998,
+      "medianBytesPerSecond": 695298.8453867178,
+      "finalRecheckAt": "2026-10-23T20:26:02.2602967+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:19:50.8583332+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:19:50.8583332+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 172.41514999999998,
+            "p90Ms": 877.0884,
+            "jitterMs": 324.0194500955768
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:20:13.8188477+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 695298.8453867178,
+            "minimumBytesPerSecond": 609161.1220728185,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 6097331,
+                "Seconds": 10.0093896,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0093896,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 7818818,
+                "Seconds": 10.0056976,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0056976,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:02.2602967+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "9422be0cb986740d0a8f37164e96974e63c37037a83a372800494150b18a5dba",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA\u4FC4\u7F57\u65AF 175ms 1.4MB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "RU",
+      "medianLatencyMs": 174.942,
+      "medianBytesPerSecond": 1363985.4195610206,
+      "finalRecheckAt": "2026-10-23T20:26:08.1819839+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:04:17.2536911+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:04:17.2536911+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 174.942,
+            "p90Ms": 4807.6056,
+            "jitterMs": 1695.2812737748072
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:06:33.4850745+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 1363985.4195610206,
+            "minimumBytesPerSecond": 1182554.552794034,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 7.093633,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 7.093633,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.4280572,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 5.4280572,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:08.1819839+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "9f1e1fb799fa4cc76fc527f306afba2246a50a6275c8798e3d5ce029787195c8",
+      "name": "\uD83C\uDDEB\uD83C\uDDF7\u6CD5\u56FD 240ms 876KB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "FR",
+      "medianLatencyMs": 239.94945,
+      "medianBytesPerSecond": 876048.9511510438,
+      "finalRecheckAt": "2026-10-23T20:26:07.5933111+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:34.4888044+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:34.4888044+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 239.94945,
+            "p90Ms": 1244.1125,
+            "jitterMs": 440.5279240027032
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:00:55.0143193+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 876048.9511510438,
+            "minimumBytesPerSecond": 380066.6042643343,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.1140063,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 6.1140063,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 3804828,
+                "Seconds": 10.0109506,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0109506,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:07.5933111+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.6666666666666666
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "3c8b7ec2873dfa7ca2a71d6850923b1bf7ba5d89580a6a9deeb76967b2c19bae",
+      "name": "\uD83C\uDDF3\uD83C\uDDF1\u8377\u5170 211ms 700KB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "NL",
+      "medianLatencyMs": 210.63945,
+      "medianBytesPerSecond": 700168.3929543782,
+      "finalRecheckAt": "2026-10-23T20:26:06.4485283+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:35.0816341+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:35.0816341+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 210.63945,
+            "p90Ms": 1038.2345,
+            "jitterMs": 375.79164122148603
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:01:59.5888208+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 700168.3929543782,
+            "minimumBytesPerSecond": 682805.6196569167,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 6835841,
+                "Seconds": 10.0114012,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0114012,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 7179887,
+                "Seconds": 10.0063765,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0063765,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:06.4485283+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "79752e478f9ff8070ebf6ba6cc081d81f2c126de4c0758386c1277cc9c221c40",
+      "name": "\uD83C\uDDEB\uD83C\uDDF7\u6CD5\u56FD 220ms 761KB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "FR",
+      "medianLatencyMs": 220.46620000000001,
+      "medianBytesPerSecond": 760616.8975495051,
+      "finalRecheckAt": "2026-10-23T20:26:07.0221617+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:36.2631636+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:36.2631636+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 220.46620000000001,
+            "p90Ms": 1116.6855,
+            "jitterMs": 422.52605065570674
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:04:25.7422368+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 760616.8975495051,
+            "minimumBytesPerSecond": 647029.410110421,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 6488046,
+                "Seconds": 10.027436,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.027436,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 9.5957057,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 9.5957057,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:07.0221617+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "a105fa990487d35367359632919155560df73d28634a2715a4bc2b46068b2bf7",
+      "name": "\uD83C\uDDEA\uD83C\uDDF8\u897F\u73ED\u7259 236ms 1MB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "ES",
+      "medianLatencyMs": 235.6464,
+      "medianBytesPerSecond": 1032510.6453952303,
+      "finalRecheckAt": "2026-10-23T20:26:08.741658+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:13:50.4258361+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:13:50.4258361+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 235.6464,
+            "p90Ms": 2204.5974,
+            "jitterMs": 792.2543238605953
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:14:29.9327664+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 1032510.6453952303,
+            "minimumBytesPerSecond": 907015.7502984538,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 9.2485803,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 9.2485803,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 7.2440137,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 7.2440137,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:08.741658+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.6666666666666666
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "99edabf85f15cd572eb3e464e60e448b72734206729b884c87ff83fa433c9220",
+      "name": "\uD83C\uDDFA\uD83C\uDDF8\u7F8E\u56FD 185ms 1.2MB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "US",
+      "medianLatencyMs": 184.78395,
+      "medianBytesPerSecond": 1215347.5444375053,
+      "finalRecheckAt": "2026-10-23T20:26:08.772213+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:08:15.9916452+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:08:15.9916452+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 184.78395,
+            "p90Ms": 5081.7616,
+            "jitterMs": 1794.8750658600854
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:09:22.10694+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 1215347.5444375053,
+            "minimumBytesPerSecond": 835918.1257851667,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 8363329,
+                "Seconds": 10.0049619,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0049619,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 5.2600509,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 5.2600509,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:08.772213+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "af85217fbc9f76b4a0ca3bac8883c695d70bb501681cdb7f95a4dcff523d47f5",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 218ms 1.3MB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "RO",
+      "medianLatencyMs": 218.1012,
+      "medianBytesPerSecond": 1302083.8284405097,
+      "finalRecheckAt": "2026-10-23T20:26:10.6894532+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:20:04.4666903+00:00",
           "metrics": {
             "fastFailCandidate": false,
             "targetsRequired": 2,
@@ -2114,13 +1763,13 @@
           "probeId": "web",
           "status": 0,
           "scope": 0,
-          "checkedAt": "2026-10-23T05:07:59.5393115+00:00",
+          "checkedAt": "2026-10-23T20:20:04.4666903+00:00",
           "metrics": {
             "sampleCount": 7,
             "successCount": 6,
-            "medianMs": 244.4435,
-            "p90Ms": 5004.5074,
-            "jitterMs": 2260.6295321431303
+            "medianMs": 218.1012,
+            "p90Ms": 5004.2002,
+            "jitterMs": 2050.888154508518
           },
           "reasonCode": null
         },
@@ -2128,39 +1777,30 @@
           "probeId": "download",
           "status": 0,
           "scope": 3,
-          "checkedAt": "2026-10-23T05:08:45.2315885+00:00",
+          "checkedAt": "2026-10-23T20:20:48.0323549+00:00",
           "metrics": {
-            "sampleCount": 3,
-            "validSampleCount": 3,
+            "sampleCount": 2,
+            "validSampleCount": 2,
             "passingSampleCount": 2,
-            "medianBytesPerSecond": 410893.2720146949,
-            "minimumBytesPerSecond": 144352.33585313137,
+            "medianBytesPerSecond": 1302083.8284405097,
+            "minimumBytesPerSecond": 1203624.5700453275,
             "speedIsLowerBound": false,
             "samples": [
               {
-                "Bytes": 1445541,
-                "Seconds": 10.0139772,
+                "Bytes": 8388608,
+                "Seconds": 6.9694556,
                 "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0139772,
+                "TerminationReason": "complete",
+                "TransferSeconds": 6.9694556,
                 "ServiceId": "cloudflare",
                 "IsLowerBound": false
               },
               {
-                "Bytes": 4113527,
-                "Seconds": 10.0111812,
+                "Bytes": 8388608,
+                "Seconds": 5.9895394,
                 "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0111812,
-                "ServiceId": "cloudflare",
-                "IsLowerBound": false
-              },
-              {
-                "Bytes": 8244784,
-                "Seconds": 10.0002029,
-                "Valid": true,
-                "TerminationReason": "window",
-                "TransferSeconds": 10.0002029,
+                "TerminationReason": "complete",
+                "TransferSeconds": 5.9895394,
                 "ServiceId": "cloudflare",
                 "IsLowerBound": false
               }
@@ -2172,7 +1812,904 @@
           "probeId": "basic",
           "status": 0,
           "scope": 0,
-          "checkedAt": "2026-10-23T05:17:51.0234462+00:00",
+          "checkedAt": "2026-10-23T20:26:10.6894532+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "6ee742163bd1851622dc160e0f26439905c351a1db4b4d5090e5d18b907e97e0",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 219ms 935KB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "RO",
+      "medianLatencyMs": 219.41719999999998,
+      "medianBytesPerSecond": 934559.264072573,
+      "finalRecheckAt": "2026-10-23T20:26:10.008836+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:38.1491675+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:38.1491675+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 219.41719999999998,
+            "p90Ms": 2255.1394,
+            "jitterMs": 758.0805316358842
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:07:46.558398+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 934559.264072573,
+            "minimumBytesPerSecond": 644973.2389935225,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 6454057,
+                "Seconds": 10.0067051,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0067051,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.8526245,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 6.8526245,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:10.008836+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "f57d9b51166185e6e4ca53176b353a092347ac5a89847caf9c0f9332bda050bd",
+      "name": "\uD83C\uDDEE\uD83C\uDDE9\u5370\u5C3C 333ms 738KB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "ID",
+      "medianLatencyMs": 332.9583,
+      "medianBytesPerSecond": 737793.2184995658,
+      "finalRecheckAt": "2026-10-23T20:26:17.5534442+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:36.2316819+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:36.2316819+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 332.9583,
+            "p90Ms": 1691.5355,
+            "jitterMs": 625.293509637332
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:07:03.3065934+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 737793.2184995658,
+            "minimumBytesPerSecond": 612630.3852311176,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 6127544,
+                "Seconds": 10.0020243,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0020243,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 9.7207824,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 9.7207824,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:17.5534442+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "9d3169a2d472a35675c04c6b0d7c09e7e88c22c4fbcdb8b2f87600d9cb5fada0",
+      "name": "\uD83C\uDDF8\uD83C\uDDEC\u65B0\u52A0\u5761 166ms 1.3MB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "SG",
+      "medianLatencyMs": 165.8041,
+      "medianBytesPerSecond": 1301976.244837128,
+      "finalRecheckAt": "2026-10-23T20:26:18.7655133+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:08:46.6655725+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.8571428571428571
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:08:46.6655725+00:00",
+          "metrics": {
+            "sampleCount": 7,
+            "successCount": 6,
+            "medianMs": 165.8041,
+            "p90Ms": 5144.7393,
+            "jitterMs": 2165.903003192942
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:09:36.4010202+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 1301976.244837128,
+            "minimumBytesPerSecond": 899521.9518168694,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 8388608,
+                "Seconds": 9.325629,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 9.325629,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 4.9216485,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 4.9216485,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:18.7655133+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "8f72ab72eb545c54155d3d66afb62047b1ec5b03795b67d3a81ca15a394a66c8",
+      "name": "\uD83C\uDDFA\uD83C\uDDF8\u7F8E\u56FD 174ms 638KB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "US",
+      "medianLatencyMs": 174.4486,
+      "medianBytesPerSecond": 638323.2467044452,
+      "finalRecheckAt": "2026-10-23T20:26:18.5507448+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:39.7963422+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:39.7963422+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 174.4486,
+            "p90Ms": 1428.354,
+            "jitterMs": 485.93575602495946
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:01:15.0823923+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 638323.2467044452,
+            "minimumBytesPerSecond": 563298.2365764172,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 5636654,
+                "Seconds": 10.0065181,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0065181,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 7145927,
+                "Seconds": 10.0174451,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0174451,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:18.5507448+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "84cb62801d5cb1a9cb82b39ef03dc56c522cce85876f92b6f186473e393fbaef",
+      "name": "\uD83C\uDDE9\uD83C\uDDEA\u5FB7\u56FD 299ms 507KB/s \u7A33\u5B9A",
+      "uriAvailable": true,
+      "country": "DE",
+      "medianLatencyMs": 299.04695000000004,
+      "medianBytesPerSecond": 507001.72788429976,
+      "finalRecheckAt": "2026-10-23T20:26:16.1161373+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:36.247366+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T19:59:36.247366+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 299.04695000000004,
+            "p90Ms": 1344.4984,
+            "jitterMs": 464.42384107788655
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:05:46.5847347+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 507001.72788429976,
+            "minimumBytesPerSecond": 460224.23039285606,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 4603868,
+                "Seconds": 10.0035324,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0035324,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 5545111,
+                "Seconds": 10.013216,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.013216,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:16.1161373+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "b04f1ac07c3af6836cf48b83e718dfdfd6163f4d475796c09d52d86368769460",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 279ms 851KB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "RO",
+      "medianLatencyMs": 278.8621,
+      "medianBytesPerSecond": 850544.8979370205,
+      "finalRecheckAt": "2026-10-23T20:26:19.555656+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:20:34.6391003+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.8571428571428571
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:20:34.6391003+00:00",
+          "metrics": {
+            "sampleCount": 7,
+            "successCount": 6,
+            "medianMs": 278.8621,
+            "p90Ms": 5002.6143,
+            "jitterMs": 1608.1173371902357
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:22:02.7580962+00:00",
+          "metrics": {
+            "sampleCount": 3,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 850544.8979370205,
+            "minimumBytesPerSecond": 786519.3249590083,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 7868006,
+                "Seconds": 10.0035762,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0035762,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 0,
+                "Seconds": 5.001874,
+                "Valid": false,
+                "TerminationReason": "request-failed",
+                "TransferSeconds": null,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 9.1721833,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 9.1721833,
+                "ServiceId": "ovh-singapore",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:19.555656+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.6666666666666666
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "af8cc8e71f48fa9e29911334bd494ba42cda4541c603a2da66289fbd452c6e1c",
+      "name": "\uD83C\uDDFA\uD83C\uDDF8\u7F8E\u56FD 188ms 997KB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "US",
+      "medianLatencyMs": 187.9383,
+      "medianBytesPerSecond": 996974.032313285,
+      "finalRecheckAt": "2026-10-23T20:26:21.0437364+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:20:06.6085464+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.8571428571428571
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:20:06.6085464+00:00",
+          "metrics": {
+            "sampleCount": 7,
+            "successCount": 6,
+            "medianMs": 187.9383,
+            "p90Ms": 5016.0864,
+            "jitterMs": 2385.633527854261
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:21:13.3637705+00:00",
+          "metrics": {
+            "sampleCount": 3,
+            "validSampleCount": 3,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 996974.032313285,
+            "minimumBytesPerSecond": 100262.54755500003,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 1003200,
+                "Seconds": 10.0057302,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0057302,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 6.8708434,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 6.8708434,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 8.4140687,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 8.4140687,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:21.0437364+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.6666666666666666
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "9361a64a18df9d957f2433b02664d8475a06725e70eb20bcde1e629765e5d3b1",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 564ms 696KB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "RO",
+      "medianLatencyMs": 564.3393,
+      "medianBytesPerSecond": 696062.940960886,
+      "finalRecheckAt": "2026-10-23T20:26:20.2341303+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:03:21.7057445+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:03:21.7057445+00:00",
+          "metrics": {
+            "sampleCount": 6,
+            "successCount": 6,
+            "medianMs": 564.3393,
+            "p90Ms": 5061.7993,
+            "jitterMs": 1728.3996892939379
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:06:10.2460996+00:00",
+          "metrics": {
+            "sampleCount": 3,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 696062.940960886,
+            "minimumBytesPerSecond": 417188.238309617,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 0,
+                "Seconds": 5.0043084,
+                "Valid": false,
+                "TerminationReason": "request-failed",
+                "TransferSeconds": null,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 4175342,
+                "Seconds": 10.0082927,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0082927,
+                "ServiceId": "ovh-singapore",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 8.6042508,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 8.6042508,
+                "ServiceId": "ovh-singapore",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:20.2341303+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.6666666666666666
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "b2436d942cffc75e9809b025c97b7cf3effc811451c5fb73840bc21f97692fb8",
+      "name": "\uD83C\uDDFA\uD83C\uDDF8\u7F8E\u56FD 232ms 745KB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "US",
+      "medianLatencyMs": 231.9993,
+      "medianBytesPerSecond": 744713.5175226966,
+      "finalRecheckAt": "2026-10-23T20:26:21.9864235+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:21:30.7012261+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.8571428571428571
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:21:30.7012261+00:00",
+          "metrics": {
+            "sampleCount": 7,
+            "successCount": 6,
+            "medianMs": 231.9993,
+            "p90Ms": 5004.2969,
+            "jitterMs": 2041.486764376489
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:22:23.3900688+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 744713.5175226966,
+            "minimumBytesPerSecond": 708040.5807659321,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 7818809,
+                "Seconds": 10.0063278,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0063278,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 7085332,
+                "Seconds": 10.0069575,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0069575,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:21.9864235+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 1
+          },
+          "reasonCode": null
+        }
+      ]
+    },
+    {
+      "id": "b44c2a86739a99087650b2c6ba90bafce847aa20b06589392affbce12df31a84",
+      "name": "\uD83C\uDDF7\uD83C\uDDF4\u7F57\u9A6C\u5C3C\u4E9A 2358ms 769KB/s \u53EF\u7528",
+      "uriAvailable": true,
+      "country": "RO",
+      "medianLatencyMs": 2358.00915,
+      "medianBytesPerSecond": 768947.5552126381,
+      "finalRecheckAt": "2026-10-23T20:26:24.9660744+00:00",
+      "isAllRoundExcellent": false,
+      "probes": [
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:22:34.7372856+00:00",
+          "metrics": {
+            "fastFailCandidate": false,
+            "targetsRequired": 2,
+            "targetsPassed": 2,
+            "attemptSuccessRate": 0.75
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "web",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:22:34.7372856+00:00",
+          "metrics": {
+            "sampleCount": 8,
+            "successCount": 6,
+            "medianMs": 2358.00915,
+            "p90Ms": 5426.6872,
+            "jitterMs": 2412.494078902561
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "download",
+          "status": 0,
+          "scope": 3,
+          "checkedAt": "2026-10-23T20:23:43.3540496+00:00",
+          "metrics": {
+            "sampleCount": 2,
+            "validSampleCount": 2,
+            "passingSampleCount": 2,
+            "medianBytesPerSecond": 768947.5552126381,
+            "minimumBytesPerSecond": 697548.1568378569,
+            "speedIsLowerBound": false,
+            "samples": [
+              {
+                "Bytes": 6979521,
+                "Seconds": 10.0057909,
+                "Valid": true,
+                "TerminationReason": "window",
+                "TransferSeconds": 10.0057909,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              },
+              {
+                "Bytes": 8388608,
+                "Seconds": 9.982315,
+                "Valid": true,
+                "TerminationReason": "complete",
+                "TransferSeconds": 9.982315,
+                "ServiceId": "cloudflare",
+                "IsLowerBound": false
+              }
+            ]
+          },
+          "reasonCode": null
+        },
+        {
+          "probeId": "basic",
+          "status": 0,
+          "scope": 0,
+          "checkedAt": "2026-10-23T20:26:24.9660744+00:00",
           "metrics": {
             "fastFailCandidate": false,
             "targetsRequired": 2,

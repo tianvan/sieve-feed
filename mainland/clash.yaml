@@ -2,182 +2,17 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  name: "\U0001F1ED\U0001F1F0香港 164ms 1.5MB/s 稳定"
-  type: vless
-  server: 154.83.86.85
-  port: 9443
-- uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-  servername: www.amazon.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  skip-cert-verify: true
+- cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
   udp: true
-  name: "\U0001F1ED\U0001F1F0香港 165ms 1.5MB/s 稳定"
-  type: vless
-  server: 154.83.86.85
-  port: 9443
-- uuid: 8c88c56d-5efb-4218-8753-0c2365dfe96a
-  servername: www.siemens.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: aEAdhhksLgyI_GWf7l_ES5hMZhigMAIWBn9emSXdaHc
-    short-id: 56f276ac52
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1E9\U0001F1EA德国 215ms 1.5MB/s 稳定"
-  type: vless
-  server: de1.oh-node.com
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1EB\U0001F1F7法国 182ms 1MB/s 稳定"
-  type: http
-  server: 87.98.174.157
-  port: 6103
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1F3\U0001F1F1荷兰 175ms 821KB/s 稳定"
-  type: http
-  server: 185.238.168.20
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 227ms 1.3MB/s 稳定"
-  type: http
-  server: 193.176.84.20
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F3\U0001F1F1荷兰 220ms 1.4MB/s 稳定"
-  type: http
-  server: 185.238.170.10
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F3\U0001F1F1荷兰 201ms 946KB/s 稳定"
-  type: http
-  server: 185.93.106.214
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 304ms 1.5MB/s 稳定"
-  type: http
-  server: 185.163.110.194
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1EE\U0001F1F3印度 521ms 1.3MB/s 可用"
-  type: http
-  server: 120.232.204.58
-  port: 52200
-- uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-  servername: www.amazon.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1F8\U0001F1EC新加坡 243ms 1.3MB/s 可用"
-  type: vless
-  server: 176.97.64.118
-  port: 9443
-- password: "null"
-  skip-cert-verify: true
-  servername: 193.176.84.35
-  tls: true
-  username: "null"
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 222ms 666KB/s 稳定"
-  type: http
-  server: 193.176.84.35
-  port: 9002
-- uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-  servername: www.amazon.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1ED\U0001F1F0香港 162ms 300KB/s 稳定"
-  type: vless
-  server: 141.11.149.174
-  port: 9443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1EE\U0001F1E9印尼 383ms 679KB/s 可用"
-  type: http
-  server: 178.248.73.58
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1EB\U0001F1F7法国 269ms 408KB/s 稳定"
-  type: http
-  server: 83.172.143.53
-  port: 4443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1E9\U0001F1EA德国 294ms 419KB/s 可用"
-  type: http
-  server: 77.221.136.60
-  port: 8443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F3\U0001F1F1荷兰 363ms 790KB/s 可用"
-  type: http
-  server: 185.238.168.20
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 220ms 1.1MB/s 可用"
-  type: http
-  server: 193.176.84.34
-  port: 9002
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 582ms 1.2MB/s 可用"
-  type: http
-  server: 193.176.84.23
-  port: 9002
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1F3\U0001F1F1荷兰 143ms 774KB/s 可用"
-  type: http
-  server: 103.97.88.154
-  port: 443
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 212ms 476KB/s 可用"
-  type: http
-  server: 193.176.84.21
-  port: 9002
+  name: "\U0001F1F8\U0001F1EC新加坡 95ms 1.6MB/s 稳定"
+  type: ss
+  server: 13.215.227.70
+  port: 2377
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -189,144 +24,352 @@ proxies:
   skip-cert-verify: true
   tls: true
   uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  name: 出口未知 134ms 397KB/s 可用
+  name: "\U0001F1ED\U0001F1F0香港 81ms 1.4MB/s 稳定"
   type: vless
   server: 165.154.63.139
   port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1EE\U0001F1F3印度 154ms 1.5MB/s 稳定"
+  type: http
+  server: 120.232.204.58
+  port: 52200
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F7\U0001F1F4罗马尼亚 179ms 1.5MB/s 稳定"
+  type: http
+  server: 193.176.84.34
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F3\U0001F1F1荷兰 215ms 1.5MB/s 稳定"
+  type: http
+  server: 185.238.168.20
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F3\U0001F1F1荷兰 194ms 1.3MB/s 稳定"
+  type: http
+  server: 185.238.170.10
+  port: 443
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  username: "null"
+  name: "\U0001F1F3\U0001F1F1荷兰 157ms 781KB/s 稳定"
+  type: http
+  server: 103.97.88.154
+  port: 443
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: ION3Z4kFdyat1B8CZWy17mlMLBYC3F6xFOAF7eenwjw
+  servername: www.amazon.com
+  tls: true
+  uuid: 9b22b98a-3161-4330-9bc9-ca02990da9ca
+  name: "\U0001F1EF\U0001F1F5日本 67ms 578KB/s 稳定"
+  type: vless
+  server: 216.23.83.152
+  port: 40471
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F3\U0001F1F1荷兰 213ms 1.1MB/s 稳定"
+  type: http
+  server: 185.93.106.214
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1F7\U0001F1F4罗马尼亚 243ms 1.1MB/s 稳定"
+  type: http
+  server: 193.176.84.20
+  port: 9002
+- skip-cert-verify: false
+  tls: true
+  servername: fan.571589.xyz
+  name: "\U0001F1EF\U0001F1F5日本 65ms 400KB/s 稳定"
+  type: http
+  server: fan.571589.xyz
+  port: 443
 - tls: true
   skip-cert-verify: true
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 244ms 411KB/s 可用"
+  name: "\U0001F1FA\U0001F1F8美国 172ms 695KB/s 稳定"
   type: http
-  server: 193.176.84.23
+  server: 138.199.35.197
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F7\U0001F1FA俄罗斯 175ms 1.4MB/s 可用"
+  type: http
+  server: 87.242.85.187
+  port: 8443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1EB\U0001F1F7法国 240ms 876KB/s 稳定"
+  type: http
+  server: 87.98.174.157
+  port: 6103
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1F3\U0001F1F1荷兰 211ms 700KB/s 稳定"
+  type: http
+  server: 185.238.168.20
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1EB\U0001F1F7法国 220ms 761KB/s 稳定"
+  type: http
+  server: 83.172.143.53
+  port: 4443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1EA\U0001F1F8西班牙 236ms 1MB/s 可用"
+  type: http
+  server: 80.24.34.107
+  port: 8090
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 185ms 1.2MB/s 可用"
+  type: http
+  server: 138.199.35.203
+  port: 9002
+- skip-cert-verify: true
+  servername: www.bing.com
+  tls: true
+  name: "\U0001F1F7\U0001F1F4罗马尼亚 218ms 1.3MB/s 可用"
+  type: http
+  server: 193.176.84.37
+  port: 9002
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  username: "null"
+  name: "\U0001F1F7\U0001F1F4罗马尼亚 219ms 935KB/s 可用"
+  type: http
+  server: 193.176.84.21
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1EE\U0001F1E9印尼 333ms 738KB/s 可用"
+  type: http
+  server: 178.248.73.58
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F8\U0001F1EC新加坡 166ms 1.3MB/s 可用"
+  type: http
+  server: 154.26.139.24
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 174ms 638KB/s 稳定"
+  type: http
+  server: 138.199.35.216
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1E9\U0001F1EA德国 299ms 507KB/s 稳定"
+  type: http
+  server: 77.221.136.60
+  port: 8443
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F7\U0001F1F4罗马尼亚 279ms 851KB/s 可用"
+  type: http
+  server: 193.176.84.17
+  port: 9002
+- tls: true
+  skip-cert-verify: true
+  name: "\U0001F1FA\U0001F1F8美国 188ms 997KB/s 可用"
+  type: http
+  server: 44.229.69.166
+  port: 8443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F7\U0001F1F4罗马尼亚 564ms 696KB/s 可用"
+  type: http
+  server: 193.176.84.31
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 232ms 745KB/s 可用"
+  type: http
+  server: 138.199.35.207
+  port: 9002
+- skip-cert-verify: true
+  servername: www.bing.com
+  tls: true
+  name: "\U0001F1F7\U0001F1F4罗马尼亚 2358ms 769KB/s 可用"
+  type: http
+  server: 193.176.84.36
   port: 9002
 proxy-groups:
 - name: 综合推荐
   type: select
   proxies:
-  - "\U0001F1ED\U0001F1F0香港 164ms 1.5MB/s 稳定"
-  - "\U0001F1ED\U0001F1F0香港 165ms 1.5MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 215ms 1.5MB/s 稳定"
-  - "\U0001F1EB\U0001F1F7法国 182ms 1MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 175ms 821KB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 227ms 1.3MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 220ms 1.4MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 201ms 946KB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 304ms 1.5MB/s 稳定"
-  - "\U0001F1EE\U0001F1F3印度 521ms 1.3MB/s 可用"
-  - "\U0001F1F8\U0001F1EC新加坡 243ms 1.3MB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 222ms 666KB/s 稳定"
-  - "\U0001F1ED\U0001F1F0香港 162ms 300KB/s 稳定"
-  - "\U0001F1EE\U0001F1E9印尼 383ms 679KB/s 可用"
-  - "\U0001F1EB\U0001F1F7法国 269ms 408KB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 294ms 419KB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 363ms 790KB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 220ms 1.1MB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 582ms 1.2MB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 143ms 774KB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 212ms 476KB/s 可用"
-  - 出口未知 134ms 397KB/s 可用
-  - "\U0001F1F7\U0001F1F4罗马尼亚 244ms 411KB/s 可用"
+  - "\U0001F1F8\U0001F1EC新加坡 95ms 1.6MB/s 稳定"
+  - "\U0001F1ED\U0001F1F0香港 81ms 1.4MB/s 稳定"
+  - "\U0001F1EE\U0001F1F3印度 154ms 1.5MB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 179ms 1.5MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 215ms 1.5MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 194ms 1.3MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 157ms 781KB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 67ms 578KB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 213ms 1.1MB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 243ms 1.1MB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 65ms 400KB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 172ms 695KB/s 稳定"
+  - "\U0001F1F7\U0001F1FA俄罗斯 175ms 1.4MB/s 可用"
+  - "\U0001F1EB\U0001F1F7法国 240ms 876KB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 211ms 700KB/s 稳定"
+  - "\U0001F1EB\U0001F1F7法国 220ms 761KB/s 稳定"
+  - "\U0001F1EA\U0001F1F8西班牙 236ms 1MB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 185ms 1.2MB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 218ms 1.3MB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 219ms 935KB/s 可用"
+  - "\U0001F1EE\U0001F1E9印尼 333ms 738KB/s 可用"
+  - "\U0001F1F8\U0001F1EC新加坡 166ms 1.3MB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 174ms 638KB/s 稳定"
+  - "\U0001F1E9\U0001F1EA德国 299ms 507KB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 279ms 851KB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 188ms 997KB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 564ms 696KB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 232ms 745KB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 2358ms 769KB/s 可用"
 - name: 网页
   type: select
   proxies:
-  - "\U0001F1ED\U0001F1F0香港 164ms 1.5MB/s 稳定"
-  - "\U0001F1ED\U0001F1F0香港 165ms 1.5MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 175ms 821KB/s 稳定"
-  - "\U0001F1EB\U0001F1F7法国 182ms 1MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 215ms 1.5MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 201ms 946KB/s 稳定"
-  - "\U0001F1ED\U0001F1F0香港 162ms 300KB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 227ms 1.3MB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 222ms 666KB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 220ms 1.4MB/s 稳定"
-  - "\U0001F1EB\U0001F1F7法国 269ms 408KB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 304ms 1.5MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 294ms 419KB/s 可用"
-  - "\U0001F1EE\U0001F1E9印尼 383ms 679KB/s 可用"
-  - "\U0001F1EE\U0001F1F3印度 521ms 1.3MB/s 可用"
-  - "\U0001F1F8\U0001F1EC新加坡 243ms 1.3MB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 363ms 790KB/s 可用"
-  - 出口未知 134ms 397KB/s 可用
-  - "\U0001F1F3\U0001F1F1荷兰 143ms 774KB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 212ms 476KB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 220ms 1.1MB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 244ms 411KB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 582ms 1.2MB/s 可用"
+  - "\U0001F1EF\U0001F1F5日本 67ms 578KB/s 稳定"
+  - "\U0001F1F8\U0001F1EC新加坡 95ms 1.6MB/s 稳定"
+  - "\U0001F1ED\U0001F1F0香港 81ms 1.4MB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 65ms 400KB/s 稳定"
+  - "\U0001F1EE\U0001F1F3印度 154ms 1.5MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 157ms 781KB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 179ms 1.5MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 172ms 695KB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 194ms 1.3MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 215ms 1.5MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 211ms 700KB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 213ms 1.1MB/s 稳定"
+  - "\U0001F1EB\U0001F1F7法国 220ms 761KB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 243ms 1.1MB/s 稳定"
+  - "\U0001F1EB\U0001F1F7法国 240ms 876KB/s 稳定"
+  - "\U0001F1E9\U0001F1EA德国 299ms 507KB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 174ms 638KB/s 稳定"
+  - "\U0001F1EE\U0001F1E9印尼 333ms 738KB/s 可用"
+  - "\U0001F1EA\U0001F1F8西班牙 236ms 1MB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 219ms 935KB/s 可用"
+  - "\U0001F1F7\U0001F1FA俄罗斯 175ms 1.4MB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 564ms 696KB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 185ms 1.2MB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 279ms 851KB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 218ms 1.3MB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 232ms 745KB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 188ms 997KB/s 可用"
+  - "\U0001F1F8\U0001F1EC新加坡 166ms 1.3MB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 2358ms 769KB/s 可用"
 - name: 下载
   type: select
   proxies:
-  - "\U0001F1ED\U0001F1F0香港 164ms 1.5MB/s 稳定"
-  - "\U0001F1ED\U0001F1F0香港 165ms 1.5MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 215ms 1.5MB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 304ms 1.5MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 220ms 1.4MB/s 稳定"
-  - "\U0001F1F8\U0001F1EC新加坡 243ms 1.3MB/s 可用"
-  - "\U0001F1EE\U0001F1F3印度 521ms 1.3MB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 227ms 1.3MB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 582ms 1.2MB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 220ms 1.1MB/s 可用"
-  - "\U0001F1EB\U0001F1F7法国 182ms 1MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 201ms 946KB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 175ms 821KB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 363ms 790KB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 143ms 774KB/s 可用"
-  - "\U0001F1EE\U0001F1E9印尼 383ms 679KB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 222ms 666KB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 212ms 476KB/s 可用"
-  - "\U0001F1E9\U0001F1EA德国 294ms 419KB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 244ms 411KB/s 可用"
-  - "\U0001F1EB\U0001F1F7法国 269ms 408KB/s 稳定"
-  - 出口未知 134ms 397KB/s 可用
-  - "\U0001F1ED\U0001F1F0香港 162ms 300KB/s 稳定"
-- name: 地域-HK
-  type: select
-  proxies:
-  - "\U0001F1ED\U0001F1F0香港 164ms 1.5MB/s 稳定"
-  - "\U0001F1ED\U0001F1F0香港 165ms 1.5MB/s 稳定"
-  - "\U0001F1ED\U0001F1F0香港 162ms 300KB/s 稳定"
-- name: 地域-DE
-  type: select
-  proxies:
-  - "\U0001F1E9\U0001F1EA德国 215ms 1.5MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 294ms 419KB/s 可用"
-- name: 地域-FR
-  type: select
-  proxies:
-  - "\U0001F1EB\U0001F1F7法国 182ms 1MB/s 稳定"
-  - "\U0001F1EB\U0001F1F7法国 269ms 408KB/s 稳定"
-- name: 地域-NL
-  type: select
-  proxies:
-  - "\U0001F1F3\U0001F1F1荷兰 175ms 821KB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 220ms 1.4MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 201ms 946KB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 363ms 790KB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 143ms 774KB/s 可用"
-- name: 地域-RO
-  type: select
-  proxies:
-  - "\U0001F1F7\U0001F1F4罗马尼亚 227ms 1.3MB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 304ms 1.5MB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 222ms 666KB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 220ms 1.1MB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 582ms 1.2MB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 212ms 476KB/s 可用"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 244ms 411KB/s 可用"
-- name: 地域-IN
-  type: select
-  proxies:
-  - "\U0001F1EE\U0001F1F3印度 521ms 1.3MB/s 可用"
+  - "\U0001F1F8\U0001F1EC新加坡 95ms 1.6MB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 179ms 1.5MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 215ms 1.5MB/s 稳定"
+  - "\U0001F1EE\U0001F1F3印度 154ms 1.5MB/s 稳定"
+  - "\U0001F1ED\U0001F1F0香港 81ms 1.4MB/s 稳定"
+  - "\U0001F1F7\U0001F1FA俄罗斯 175ms 1.4MB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 218ms 1.3MB/s 可用"
+  - "\U0001F1F8\U0001F1EC新加坡 166ms 1.3MB/s 可用"
+  - "\U0001F1F3\U0001F1F1荷兰 194ms 1.3MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 185ms 1.2MB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 243ms 1.1MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 213ms 1.1MB/s 稳定"
+  - "\U0001F1EA\U0001F1F8西班牙 236ms 1MB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 188ms 997KB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 219ms 935KB/s 可用"
+  - "\U0001F1EB\U0001F1F7法国 240ms 876KB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 279ms 851KB/s 可用"
+  - "\U0001F1F3\U0001F1F1荷兰 157ms 781KB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 2358ms 769KB/s 可用"
+  - "\U0001F1EB\U0001F1F7法国 220ms 761KB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 232ms 745KB/s 可用"
+  - "\U0001F1EE\U0001F1E9印尼 333ms 738KB/s 可用"
+  - "\U0001F1F3\U0001F1F1荷兰 211ms 700KB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 564ms 696KB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 172ms 695KB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 174ms 638KB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 67ms 578KB/s 稳定"
+  - "\U0001F1E9\U0001F1EA德国 299ms 507KB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 65ms 400KB/s 稳定"
 - name: 地域-SG
   type: select
   proxies:
-  - "\U0001F1F8\U0001F1EC新加坡 243ms 1.3MB/s 可用"
+  - "\U0001F1F8\U0001F1EC新加坡 95ms 1.6MB/s 稳定"
+  - "\U0001F1F8\U0001F1EC新加坡 166ms 1.3MB/s 可用"
+- name: 地域-HK
+  type: select
+  proxies:
+  - "\U0001F1ED\U0001F1F0香港 81ms 1.4MB/s 稳定"
+- name: 地域-IN
+  type: select
+  proxies:
+  - "\U0001F1EE\U0001F1F3印度 154ms 1.5MB/s 稳定"
+- name: 地域-RO
+  type: select
+  proxies:
+  - "\U0001F1F7\U0001F1F4罗马尼亚 179ms 1.5MB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 243ms 1.1MB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 218ms 1.3MB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 219ms 935KB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 279ms 851KB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 564ms 696KB/s 可用"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 2358ms 769KB/s 可用"
+- name: 地域-NL
+  type: select
+  proxies:
+  - "\U0001F1F3\U0001F1F1荷兰 215ms 1.5MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 194ms 1.3MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 157ms 781KB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 213ms 1.1MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 211ms 700KB/s 稳定"
+- name: 地域-JP
+  type: select
+  proxies:
+  - "\U0001F1EF\U0001F1F5日本 67ms 578KB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 65ms 400KB/s 稳定"
+- name: 地域-US
+  type: select
+  proxies:
+  - "\U0001F1FA\U0001F1F8美国 172ms 695KB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 185ms 1.2MB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 174ms 638KB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 188ms 997KB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 232ms 745KB/s 可用"
+- name: 地域-RU
+  type: select
+  proxies:
+  - "\U0001F1F7\U0001F1FA俄罗斯 175ms 1.4MB/s 可用"
+- name: 地域-FR
+  type: select
+  proxies:
+  - "\U0001F1EB\U0001F1F7法国 240ms 876KB/s 稳定"
+  - "\U0001F1EB\U0001F1F7法国 220ms 761KB/s 稳定"
+- name: 地域-ES
+  type: select
+  proxies:
+  - "\U0001F1EA\U0001F1F8西班牙 236ms 1MB/s 可用"
 - name: 地域-ID
   type: select
   proxies:
-  - "\U0001F1EE\U0001F1E9印尼 383ms 679KB/s 可用"
-- name: 地域-未知
+  - "\U0001F1EE\U0001F1E9印尼 333ms 738KB/s 可用"
+- name: 地域-DE
   type: select
   proxies:
-  - 出口未知 134ms 397KB/s 可用
+  - "\U0001F1E9\U0001F1EA德国 299ms 507KB/s 稳定"
 rules:
 - MATCH,综合推荐
