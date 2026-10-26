@@ -2,1197 +2,64 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- password: dba20dcb635e430fa4d3bfc303a149d2
-  servername: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 10ms ≥8.4MB/s 全能"
-  type: trojan
-  server: 216.106.186.32
-  port: 443
-- uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  servername: 84.17.41.2
-  name: "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能·2"
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-- uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-  network: tcp
-  name: "\U0001F1FA\U0001F1F8美国 13ms ≥8.4MB/s 全能"
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-- cipher: aes-128-gcm
-  password: shadowsocks
-  name: "\U0001F1E8\U0001F1E6加拿大 13ms ≥8.4MB/s 全能"
-  type: ss
-  server: 149.22.95.183
-  port: 443
-- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  network: tcp
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  encryption: none
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: "01"
-  name: "\U0001F1FA\U0001F1F8美国 18ms ≥8.4MB/s 全能"
-  type: vless
-  server: 15.204.97.214
-  port: 23576
-- password: f0eb8c92ce8946aaba856569cff1a16b
-  servername: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-  name: "\U0001F1FA\U0001F1F8美国 10ms ≥8.4MB/s 全能·2"
-  type: trojan
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  port: 443
-- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  network: tcp
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  encryption: none
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: "01"
-  name: "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能"
-  type: vless
-  server: 15.204.97.219
-  port: 23576
-- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  servername: fuck.rkn
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: "01"
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 19ms ≥8.4MB/s 全能"
-  type: vless
-  server: 15.204.97.198
-  port: 23576
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1FA\U0001F1F8美国 21ms ≥8.4MB/s 全能"
-  type: http
-  server: 44.229.69.166
-  port: 8443
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 21ms ≥8.4MB/s 全能·2"
-  type: http
-  server: 44.248.167.117
-  port: 8443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能"
-  type: http
-  server: 172.64.69.89
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 24ms ≥8.4MB/s 全能"
-  type: http
-  server: 35.84.133.236
-  port: 8443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 23ms ≥8.4MB/s 全能"
-  type: http
-  server: 44.248.167.117
-  port: 8443
-- uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  servername: aws.amazon.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: 21270a66
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 22ms ≥8.4MB/s 全能"
-  type: vless
-  server: tk1.high-speed-test-56424.me
-  port: 443
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·9"
-  type: http
-  server: mmgr.club
-  port: 443
-- skip-cert-verify: false
-  tls: true
-  servername: efr-marktplatz.club
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·9"
-  type: http
-  server: efr-marktplatz.club
-  port: 443
-- uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: rib9jxayoqjgn2kw.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: rib9jxayoqjgn2kw.v.3dns.vip
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·5"
-  type: vmess
-  server: 47.88.79.34
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  username: Ok5vbmU=
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·11"
-  type: http
-  server: webdrone.club
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能·2"
-  type: http
-  server: 138.199.35.219
-  port: 9002
-- skip-cert-verify: true
-  servername: carolinafreigh.fun
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能"
-  type: http
-  server: carolinafreigh.fun
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·16"
-  type: http
-  server: kimberlymilano.icu
-  port: 443
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·2"
-  type: http
-  server: 138.199.35.210
-  port: 9002
-- username: "null"
-  password: "null"
-  tls: true
-  skip-cert-verify: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·9"
-  type: http
-  server: 138.199.35.195
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能·3"
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·2"
-  type: http
-  server: voteshirleysew.club
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·8"
-  type: http
-  server: 138.199.35.207
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能"
-  type: http
-  server: 138.199.35.195
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·5"
-  type: http
-  server: 138.199.35.218
-  port: 9002
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·11"
-  type: http
-  server: 138.199.35.200
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·7"
-  type: http
-  server: 138.199.35.214
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·10"
-  type: http
-  server: 138.199.35.212
-  port: 9002
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·4"
-  type: http
-  server: jgwynphotoarts.pro
-  port: 443
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·12"
-  type: http
-  server: 138.199.35.196
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 38ms ≥8.4MB/s 全能·2"
+  name: "\U0001F1FA\U0001F1F8美国 4ms ≥8.4MB/s 全能"
   type: http
   server: 172.64.68.89
   port: 443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·2"
-  type: http
-  server: 138.199.35.206
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能"
-  type: http
-  server: mmgr.club
-  port: 443
-- password: "null"
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·13"
-  type: http
-  server: tzoa.fun
-  port: 443
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·6"
-  type: http
-  server: 138.199.35.198
-  port: 9002
-- tls: true
-  servername: 138.199.35.209
-  skip-cert-verify: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·5"
-  type: http
-  server: 138.199.35.209
-  port: 9002
-- password: None
-  skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·10"
-  type: http
-  server: jgwynphotoarts.pro
-  port: 443
-- password: sni="webdrone.club"
-  servername: webdrone.club
-  tls: true
-  username: None
-  name: "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·6"
-  type: http
-  server: webdrone.club
-  port: 443
-- password: "null"
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·5"
-  type: http
-  server: carolinafreigh.fun
-  port: 443
-- skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·17"
-  type: http
-  server: berniesbodybla.fun
-  port: 443
-- skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·18"
-  type: http
-  server: purposebydesig.club
-  port: 443
-- password: "null"
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·19"
-  type: http
-  server: kimberlymilano.icu
-  port: 443
-- skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·2"
-  type: http
-  server: crosscards.site
-  port: 443
-- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  network: tcp
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  encryption: none
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: "01"
-  name: "\U0001F1FA\U0001F1F8美国 17ms ≥6.6MB/s 全能"
-  type: vless
-  server: 15.204.97.195
-  port: 23576
-- servername: tzoa.fun
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·8"
-  type: http
-  server: tzoa.fun
-  port: 443
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·15"
-  type: http
-  server: 138.199.35.198
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·17"
-  type: http
-  server: 138.199.35.202
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·12"
-  type: http
-  server: 138.199.35.211
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 22ms ≥8.4MB/s 全能·2"
-  type: http
-  server: 44.248.167.117
-  port: 8443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·4"
-  type: http
-  server: 138.199.35.208
-  port: 9002
-- password: None
-  skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 30ms ≥8.4MB/s 全能·2"
-  type: http
-  server: carolinafreigh.fun
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·3"
-  type: http
-  server: 138.199.35.206
-  port: 9002
-- servername: crosscards.site
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·6"
-  type: http
-  server: crosscards.site
-  port: 443
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·9"
-  type: http
-  server: 138.199.35.196
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·8"
-  type: http
-  server: 138.199.35.207
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·3"
-  type: http
-  server: 138.199.35.209
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.2MB/s 全能"
-  type: http
-  server: 138.199.35.211
-  port: 9002
-- servername: efr-marktplatz.club
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·3"
-  type: http
-  server: efr-marktplatz.club
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥7.9MB/s 全能"
-  type: http
-  server: 138.199.35.210
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·4"
-  type: http
-  server: 138.199.35.217
-  port: 9002
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·5"
-  type: http
-  server: 138.199.35.219
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能"
-  type: http
-  server: 138.199.35.212
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 39ms ≥8.4MB/s 全能"
-  type: http
-  server: 138.199.35.206
-  port: 9002
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥7.4MB/s 全能"
-  type: http
-  server: 138.199.35.214
-  port: 9002
-- tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·9"
-  type: http
-  server: voteshirleysew.club
-  port: 443
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·16"
-  type: http
-  server: 138.199.35.213
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·11"
-  type: http
-  server: 138.199.35.207
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能"
-  type: http
-  server: 138.199.35.211
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥6.7MB/s 全能"
-  type: http
-  server: 138.199.35.220
-  port: 9002
-- skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·7"
-  type: http
-  server: webdrone.club
-  port: 443
-- skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 30ms ≥8.4MB/s 全能"
-  type: http
-  server: tzoa.fun
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·6"
-  type: http
-  server: 138.199.35.195
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能"
-  type: http
-  server: jewelscollecti.icu
-  port: 443
-- tls: true
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·2"
-  type: http
-  server: tzoa.fun
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·2"
-  type: http
-  server: 138.199.35.216
-  port: 9002
-- servername: berniesbodybla.fun
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·13"
-  type: http
-  server: berniesbodybla.fun
-  port: 443
-- skip-cert-verify: true
-  servername: purecambogiasl.live
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·5"
-  type: http
-  server: purecambogiasl.live
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·9"
-  type: http
-  server: 138.199.35.213
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·8"
-  type: http
-  server: 138.199.35.215
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·14"
-  type: http
-  server: 138.199.35.216
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能"
-  type: http
-  server: 138.199.35.204
-  port: 9002
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥7.5MB/s 全能"
-  type: http
-  server: 138.199.35.205
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 33ms 5.8MB/s 全能"
-  type: http
-  server: 138.199.35.209
-  port: 9002
-- tls: true
-  skip-cert-verify: false
-  name: "\U0001F1FA\U0001F1F8美国 44ms ≥8.4MB/s 全能"
-  type: http
-  server: voteshirleysew.club
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·4"
-  type: http
-  server: 138.199.35.196
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 38ms ≥8.4MB/s 全能"
-  type: http
-  server: 138.199.35.210
-  port: 9002
-- password: None
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·4"
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-- servername: webdrone.club
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·11"
-  type: http
-  server: webdrone.club
-  port: 443
-- skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·5"
-  type: http
-  server: kimberlymilano.icu
-  port: 443
-- skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·8"
-  type: http
-  server: carolinafreigh.fun
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·7"
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥6.4MB/s 全能"
-  type: http
-  server: 138.199.35.219
-  port: 9002
-- password: "null"
-  skip-cert-verify: true
-  servername: 138.199.35.201
-  tls: true
-  udp: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥7.3MB/s 全能"
-  type: http
-  server: 138.199.35.201
-  port: 9002
-- password: None
-  skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·8"
-  type: http
-  server: purposebydesig.club
-  port: 443
-- skip-cert-verify: true
-  servername: fullmanfirm.icu
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·3"
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-- password: "null"
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·7"
-  type: http
-  server: efr-marktplatz.club
-  port: 443
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·7"
-  type: http
-  server: 138.199.35.199
-  port: 9002
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·10"
-  type: http
-  server: jewelscollecti.icu
-  port: 443
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·3"
-  type: http
-  server: 138.199.35.217
-  port: 9002
-- password: "null"
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·12"
-  type: http
-  server: mmgr.club
-  port: 443
-- skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·12"
-  type: http
-  server: jgwynphotoarts.pro
-  port: 443
-- password: None
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·13"
-  type: http
-  server: 138.199.35.209
-  port: 9002
-- servername: voteshirleysew.club
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·15"
-  type: http
-  server: voteshirleysew.club
-  port: 443
-- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  network: tcp
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  encryption: none
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: "01"
-  name: "\U0001F1FA\U0001F1F8美国 17ms 5MB/s 全能"
-  type: vless
-  server: 15.204.97.197
-  port: 23576
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·10"
-  type: http
-  server: 138.199.35.201
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·10"
-  type: http
-  server: purecambogiasl.live
-  port: 443
-- password: None
-  skip-cert-verify: false
-  tls: true
-  servername: webdrone.club
-  name: "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·2"
-  type: http
-  server: webdrone.club
-  port: 443
-- password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  sni: hy2.123266.xyz
-  name: "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能"
-  type: hysteria2
-  server: hy2.123266.xyz
-  port: 33333
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 33ms 6MB/s 全能"
-  type: http
-  server: 138.199.35.197
-  port: 9002
-- skip-cert-verify: true
-  servername: goedkoopgeluid.icu
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·14"
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-- password: "null"
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·3"
-  type: http
-  server: zebpay.site
-  port: 443
-- password: None
-  skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能"
-  type: http
-  server: zebpay.site
-  port: 443
-- password: None
-  skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 43ms ≥8.4MB/s 全能"
-  type: http
-  server: efr-marktplatz.club
-  port: 443
-- password: sni="goedkoopgeluid.icu"
-  skip-cert-verify: true
-  servername: goedkoopgeluid.icu
-  tls: true
-  username: None
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·7"
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms 6.8MB/s 全能"
-  type: http
-  server: 138.199.35.204
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥7.2MB/s 全能"
-  type: http
-  server: 138.199.35.214
-  port: 9002
-- skip-cert-verify: true
-  servername: goedkoopgeluid.icu
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·4"
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 37ms ≥7.6MB/s 全能"
-  type: http
-  server: 138.199.35.217
-  port: 9002
-- password: "null"
-  servername: crosscards.site
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能"
-  type: http
-  server: crosscards.site
-  port: 443
-- password: "null"
-  servername: fullmanfirm.icu
-  tls: true
-  udp: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·2"
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-- servername: zebpay.site
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 40ms ≥8.4MB/s 全能"
-  type: http
-  server: zebpay.site
-  port: 443
-- password: None
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·6"
-  type: http
-  server: purposebydesig.club
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥6.8MB/s 全能"
-  type: http
-  server: 138.199.35.215
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·13"
-  type: http
-  server: 138.199.35.205
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·4"
-  type: http
-  server: purecambogiasl.live
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥6.3MB/s 全能"
-  type: http
-  server: 138.199.35.203
-  port: 9002
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 37ms ≥7.2MB/s 全能"
-  type: http
-  server: 138.199.35.217
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·11"
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥7.1MB/s 全能"
-  type: http
-  server: 138.199.35.220
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms 5.5MB/s 全能"
-  type: http
-  server: 138.199.35.215
-  port: 9002
-- skip-cert-verify: true
-  servername: tzoa.fun
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·6"
-  type: http
-  server: tzoa.fun
-  port: 443
-- password: None
-  skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能·3"
-  type: http
-  server: tzoa.fun
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·3"
-  type: http
-  server: 138.199.35.200
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥7.3MB/s 全能"
-  type: http
-  server: 138.199.35.215
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 113ms ≥8.4MB/s 全能"
-  type: http
-  server: 138.199.35.198
-  port: 9002
-- password: None
-  skip-cert-verify: true
-  tls: true
-  servername: fullmanfirm.icu
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·5"
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-- skip-cert-verify: false
-  tls: true
-  servername: crosscards.site
-  name: "\U0001F1FA\U0001F1F8美国 41ms ≥8.4MB/s 全能"
-  type: http
-  server: crosscards.site
-  port: 443
-- password: "null"
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·4"
-  type: http
-  server: purecambogiasl.live
-  port: 443
-- uuid: 12f4c3f6-ecce-4586-b39d-987757ea9b3b
-  tls: true
-  reality-opts:
-    public-key: c7XtbOUOg19bgo2N-ufXbZHaGHuSB7jAdvmj1zchRn4
-    short-id: ecf5
-  servername: www.amd.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能·2"
-  type: vless
-  server: 173.249.210.179
-  port: 61000
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 40ms 5.2MB/s 全能"
-  type: http
-  server: 138.199.35.212
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 48ms ≥8.4MB/s 全能"
-  type: http
-  server: 138.199.35.198
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·11"
-  type: http
-  server: 138.199.35.204
-  port: 9002
-- password: None
-  skip-cert-verify: false
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·10"
-  type: http
-  server: kimberlymilano.icu
-  port: 443
 - cipher: aes-128-gcm
   password: shadowsocks
-  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.9MB/s 全能"
-  type: ss
-  server: 156.146.38.168
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 41ms ≥8.4MB/s 全能·2"
-  type: http
-  server: 138.199.35.198
-  port: 9002
-- cipher: aes-128-gcm
-  password: shadowsocks
-  name: "\U0001F1FA\U0001F1F8美国 74ms ≥8MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 12ms ≥8.4MB/s 全能"
   type: ss
   server: 37.19.198.243
   port: 443
-- cipher: aes-128-gcm
-  password: shadowsocks
-  name: "\U0001F1FA\U0001F1F8美国 53ms ≥6.6MB/s 全能"
-  type: ss
-  server: 173.244.56.9
-  port: 443
-- uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: rib9jxayoqjgn2kw.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-  name: "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·3"
-  type: vmess
-  server: rib9jxayoqjgn2kw.v.3dns.vip
-  port: 443
-- password: "null"
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 46ms ≥8.4MB/s 全能"
-  type: http
-  server: berniesbodybla.fun
-  port: 443
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 44ms ≥8.4MB/s 全能·2"
-  type: http
-  server: 64.98.50.100
-  port: 443
 - cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  name: "\U0001F1FA\U0001F1F8美国 81ms ≥7.8MB/s 全能"
-  type: ss
-  server: 193.151.163.18
-  port: 19999
-- uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: raw
-  tls: false
-  name: "\U0001F1E8\U0001F1E6加拿大 59ms ≥6.4MB/s 全能"
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-- uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  servername: 23.162.200.198
-  name: "\U0001F1E8\U0001F1E6加拿大 60ms ≥6.4MB/s 全能"
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 47ms ≥8.4MB/s 全能"
-  type: http
-  server: 64.98.50.100
-  port: 443
-- cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  name: "\U0001F1FA\U0001F1F8美国 77ms ≥7.4MB/s 全能"
-  type: ss
-  server: 193.151.160.9
-  port: 19999
-- cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  name: "\U0001F1FA\U0001F1F8美国 78ms ≥8.1MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能·3"
   type: ss
   server: 185.230.230.18
   port: 19999
-- uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  servername: 38.110.1.246
-  name: "\U0001F1FA\U0001F1F8美国 77ms ≥7.5MB/s 全能"
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 7ms ≥8.4MB/s 全能"
+  type: http
+  server: 172.64.69.89
+  port: 443
+- uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  network: ws
+  servername: newwk1.f1w.de5.net
+  tls: true
+  client-fingerprint: firefox
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 9ms ≥8.4MB/s 全能"
+  type: vless
+  server: 8.47.69.6
+  port: 2083
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  name: "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能"
+  type: ss
+  server: 45.86.51.18
+  port: 19999
 - skip-cert-verify: true
   tls: true
   udp: true
-  name: "\U0001F1FA\U0001F1F8美国 58ms ≥6.8MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 7ms ≥8.4MB/s 全能·2"
   type: http
-  server: 64.98.50.100
-  port: 443
-- password: nwilryafgkyvuxauc8pz
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 87ms ≥7.6MB/s 全能"
-  type: trojan
-  server: 69.164.240.85
-  port: 50875
+  server: 18.206.28.143
+  port: 8443
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  name: "\U0001F1FA\U0001F1F8美国 23ms ≥8.4MB/s 全能"
+  type: ss
+  server: 193.151.163.18
+  port: 19999
 - uuid: 00144519-7e0d-476b-8d28-435576af9262
   servername: www.cloudflare.com
   tls: true
@@ -1203,188 +70,694 @@ proxies:
     short-id: 0990d22f
   skip-cert-verify: true
   udp: true
-  name: "\U0001F1FA\U0001F1F8美国 79ms ≥7.8MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能·2"
   type: vless
   server: 167.17.69.171
+  port: 443
+- password: nwilryafgkyvuxauc8pz
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能"
+  type: trojan
+  server: 69.164.240.85
+  port: 50875
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 19ms ≥8.4MB/s 全能"
+  type: http
+  server: 18.206.28.143
+  port: 8443
+- uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 12ms ≥8.4MB/s 全能·2"
+  type: vless
+  server: 169.40.42.229
+  port: 443
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  name: "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能·2"
+  type: ss
+  server: 193.151.160.9
+  port: 19999
+- cipher: aes-128-gcm
+  password: shadowsocks
+  name: "\U0001F1FA\U0001F1F8美国 40ms ≥8.4MB/s 全能"
+  type: ss
+  server: 156.146.38.168
+  port: 443
+- uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  servername: 38.110.1.246
+  name: "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能"
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+- cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  name: "\U0001F1E8\U0001F1E6加拿大 31ms ≥8.4MB/s 全能"
+  type: ss
+  server: 137.184.174.93
+  port: 8080
+- uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: www.windowsmsidownloads.com
+  ws-opts:
+    path: /truth
+    headers:
+      Host: www.windowsmsidownloads.com
+  name: "\U0001F1E8\U0001F1E6加拿大 27ms ≥8.4MB/s 全能"
+  type: vmess
+  server: www.windowsmsidownloads.com
+  port: 443
+- uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  servername: 84.17.41.2
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.9MB/s 全能"
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 64ms ≥8.3MB/s 全能"
+  type: http
+  server: 64.98.50.100
+  port: 443
+- password: "null"
+  skip-cert-verify: true
+  servername: 138.199.35.201
+  tls: true
+  udp: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7.9MB/s 全能"
+  type: http
+  server: 138.199.35.201
+  port: 9002
+- password: dba20dcb635e430fa4d3bfc303a149d2
+  servername: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 102ms ≥7.8MB/s 全能"
+  type: trojan
+  server: 216.106.186.32
   port: 443
 - password: None
   skip-cert-verify: true
   tls: true
-  name: "\U0001F1FA\U0001F1F8美国 40ms 4.8MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·9"
+  type: http
+  server: 138.199.35.207
+  port: 9002
+- username: "null"
+  password: None
+  tls: true
+  skip-cert-verify: true
+  name: "\U0001F1FA\U0001F1F8美国 64ms ≥7.9MB/s 全能"
+  type: http
+  server: 138.199.35.211
+  port: 9002
+- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  network: tcp
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  encryption: none
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: "01"
+  name: "\U0001F1FA\U0001F1F8美国 76ms ≥7.8MB/s 全能"
+  type: vless
+  server: 15.204.97.198
+  port: 23576
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·3"
+  type: http
+  server: 138.199.35.212
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·5"
+  type: http
+  server: 138.199.35.198
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·2"
+  type: http
+  server: 138.199.35.204
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·4"
+  type: http
+  server: 138.199.35.214
+  port: 9002
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 64ms ≥7.9MB/s 全能·2"
+  type: http
+  server: 138.199.35.199
+  port: 9002
+- password: f0eb8c92ce8946aaba856569cff1a16b
+  servername: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: true
+  name: "\U0001F1FA\U0001F1F8美国 78ms ≥8MB/s 全能"
+  type: trojan
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7.7MB/s 全能"
+  type: http
+  server: 138.199.35.215
+  port: 9002
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 63ms ≥7.9MB/s 全能·2"
+  type: http
+  server: 138.199.35.212
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 64ms ≥7.6MB/s 全能"
+  type: http
+  server: 138.199.35.206
+  port: 9002
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·4"
+  type: http
+  server: 138.199.35.214
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 64ms ≥7.7MB/s 全能"
+  type: http
+  server: 138.199.35.209
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能·3"
+  type: http
+  server: 138.199.35.197
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 64ms ≥7.7MB/s 全能·2"
+  type: http
+  server: 138.199.35.206
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·3"
+  type: http
+  server: 138.199.35.213
+  port: 9002
+- tls: true
+  servername: 138.199.35.209
+  skip-cert-verify: true
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7.7MB/s 全能·2"
+  type: http
+  server: 138.199.35.209
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.9MB/s 全能"
+  type: http
+  server: 138.199.35.213
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·6"
+  type: http
+  server: 138.199.35.211
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·2"
+  type: http
+  server: 138.199.35.218
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 63ms ≥7.7MB/s 全能"
+  type: http
+  server: 138.199.35.216
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·3"
+  type: http
+  server: 138.199.35.203
+  port: 9002
+- cipher: aes-128-gcm
+  password: shadowsocks
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·4"
+  type: ss
+  server: 173.244.56.9
+  port: 443
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能·2"
+  type: http
+  server: 138.199.35.210
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·2"
+  type: http
+  server: 138.199.35.212
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·4"
+  type: http
+  server: 138.199.35.200
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能·3"
+  type: http
+  server: 138.199.35.217
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 63ms ≥7.8MB/s 全能·2"
+  type: http
+  server: 138.199.35.204
+  port: 9002
+- password: "null"
+  skip-cert-verify: true
+  servername: 138.199.35.198
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 65ms ≥7.6MB/s 全能"
+  type: http
+  server: 138.199.35.198
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 66ms ≥8.2MB/s 全能"
+  type: http
+  server: 64.98.50.100
+  port: 443
+- password: None
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·8"
+  type: http
+  server: 138.199.35.215
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 63ms ≥7.5MB/s 全能"
+  type: http
+  server: 138.199.35.211
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能"
+  type: http
+  server: 138.199.35.210
+  port: 9002
+- cipher: aes-128-gcm
+  password: shadowsocks
+  name: "\U0001F1E8\U0001F1E6加拿大 73ms ≥7.3MB/s 全能"
+  type: ss
+  server: 149.22.95.183
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·5"
+  type: http
+  server: 138.199.35.215
+  port: 9002
+- username: "null"
+  password: "null"
+  tls: true
+  skip-cert-verify: true
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7.6MB/s 全能·2"
+  type: http
+  server: 138.199.35.195
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 65ms ≥7.7MB/s 全能"
+  type: http
+  server: 138.199.35.208
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能"
+  type: http
+  server: 138.199.35.206
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能"
+  type: http
+  server: 138.199.35.217
+  port: 9002
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·7"
+  type: http
+  server: 138.199.35.220
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能"
+  type: http
+  server: 138.199.35.214
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 63ms ≥7.9MB/s 全能"
+  type: http
+  server: 138.199.35.209
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能"
+  type: http
+  server: 138.199.35.216
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·6"
+  type: http
+  server: 138.199.35.201
+  port: 9002
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 63ms ≥7.8MB/s 全能"
+  type: http
+  server: 138.199.35.200
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7.6MB/s 全能"
+  type: http
+  server: 138.199.35.207
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能·2"
+  type: http
+  server: 138.199.35.215
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 63ms ≥7.6MB/s 全能·2"
+  type: http
+  server: 138.199.35.205
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 63ms ≥7.6MB/s 全能"
+  type: http
+  server: 138.199.35.219
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 64ms ≥7.5MB/s 全能·2"
+  type: http
+  server: 138.199.35.196
+  port: 9002
+- cipher: aes-128-cfb
+  password: shadowsocks
+  name: "\U0001F1F3\U0001F1F1荷兰 90ms ≥7.1MB/s 全能"
+  type: ss
+  server: 109.201.152.181
+  port: 443
+- uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 12ms ≥6.9MB/s 全能"
+  type: vless
+  server: 169.40.42.163
+  port: 443
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·4"
+  type: http
+  server: 138.199.35.198
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能"
+  type: http
+  server: 138.199.35.195
+  port: 9002
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 64ms ≥7.6MB/s 全能·2"
+  type: http
+  server: 138.199.35.205
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 64ms ≥7.5MB/s 全能"
+  type: http
+  server: 138.199.35.195
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7MB/s 全能"
+  type: http
+  server: 138.199.35.217
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能·2"
+  type: http
+  server: 138.199.35.204
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·2"
+  type: http
+  server: 138.199.35.210
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能·3"
+  type: http
+  server: 138.199.35.202
+  port: 9002
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 99ms ≥6.7MB/s 全能"
+  type: ss
+  server: 193.29.139.235
+  port: 8080
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥6.8MB/s 全能"
+  type: http
+  server: 138.199.35.211
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.3MB/s 全能"
+  type: http
+  server: 138.199.35.198
+  port: 9002
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 96ms ≥6.5MB/s 全能"
+  type: ss
+  server: 82.38.31.66
+  port: 8080
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 71ms ≥7.6MB/s 全能"
+  type: http
+  server: 138.199.35.219
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能"
+  type: http
+  server: 138.199.35.207
+  port: 9002
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 65ms ≥7.1MB/s 全能"
+  type: http
+  server: 138.199.35.196
+  port: 9002
+- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  network: tcp
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  encryption: none
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: "01"
+  name: "\U0001F1FA\U0001F1F8美国 77ms ≥7.5MB/s 全能"
+  type: vless
+  server: 15.204.97.219
+  port: 23576
+- uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  client-fingerprint: chrome
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  name: "\U0001F1FA\U0001F1F8美国 31ms 4.6MB/s 全能"
+  type: vmess
+  server: cf.090227.xyz
+  port: 443
+- password: None
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 65ms ≥7.4MB/s 全能"
+  type: http
+  server: 138.199.35.209
+  port: 9002
+- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  network: tcp
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  encryption: none
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: "01"
+  name: "\U0001F1FA\U0001F1F8美国 99ms ≥7.6MB/s 全能"
+  type: vless
+  server: 15.204.97.214
+  port: 23576
+- password: 529f1911-04d5-4427-94b9-c851fd459a27
+  sni: tcp-reset-club.net
+  tls: false
+  name: "\U0001F1F3\U0001F1F1荷兰 96ms ≥7.7MB/s 全能"
+  type: hysteria2
+  server: 109.235.49.234
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 72ms ≥6.2MB/s 全能"
+  type: http
+  server: 64.98.50.100
+  port: 443
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·3"
   type: http
   server: 138.199.35.197
   port: 9002
 - password: "null"
   skip-cert-verify: true
   tls: true
-  udp: true
   username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 57ms 6.9MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 66ms ≥7.5MB/s 全能"
   type: http
-  server: 138.199.35.202
+  server: 138.199.35.217
   port: 9002
-- cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  name: "\U0001F1E8\U0001F1E6加拿大 94ms ≥6.8MB/s 全能"
-  type: ss
-  server: 137.184.174.93
-  port: 8080
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 70ms ≥7.2MB/s 全能"
-  type: http
-  server: 18.206.28.143
-  port: 8443
-- cipher: aes-128-gcm
-  password: shadowsocks
-  name: "\U0001F1EF\U0001F1F5日本 101ms ≥6.2MB/s 全能"
-  type: ss
-  server: 149.22.87.204
-  port: 443
 - skip-cert-verify: true
   tls: true
   udp: true
-  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.1MB/s 全能"
-  type: http
-  server: 18.206.28.143
-  port: 8443
-- cipher: aes-128-cfb
-  password: shadowsocks
-  name: "\U0001F1F3\U0001F1F1荷兰 149ms ≥5.9MB/s 全能"
-  type: ss
-  server: 109.201.152.181
-  port: 443
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 158ms ≥5.9MB/s 全能"
-  type: ss
-  server: 82.38.31.174
-  port: 443
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.8MB/s 全能·2"
-  type: ss
-  server: 178.83.185.156
-  port: 8080
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 157ms ≥5.8MB/s 全能"
-  type: ss
-  server: 82.38.31.10
-  port: 8080
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·3"
-  type: ss
-  server: 82.38.31.159
-  port: 443
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·2"
-  type: ss
-  server: 193.29.139.235
-  port: 8080
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·4"
-  type: ss
-  server: 82.38.31.162
-  port: 443
-- uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 53ms 2MB/s 全能"
-  type: vmess
-  server: 104.17.136.198
-  port: 443
-- password: "null"
-  skip-cert-verify: true
-  servername: 138.199.35.198
-  tls: true
-  username: "null"
-  name: "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·18"
+  name: "\U0001F1FA\U0001F1F8美国 63ms ≥7.5MB/s 全能·2"
   type: http
   server: 138.199.35.198
   port: 9002
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·4"
-  type: ss
-  server: 82.38.31.7
-  port: 8080
-- password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  skip-cert-verify: true
-  servername: www.itunes.com
-  name: "\U0001F1F9\U0001F1FC台湾 132ms ≥6MB/s 全能"
-  type: trojan
-  server: tjtw.m2k699.com
-  port: 24999
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 173ms ≥5.7MB/s 全能"
-  type: ss
-  server: 193.29.139.204
-  port: 8080
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能"
-  type: ss
-  server: 82.38.31.174
-  port: 8080
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 176ms ≥5.8MB/s 全能"
-  type: ss
-  server: 193.29.139.151
-  port: 8080
-- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  servername: fuck.rkn
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: "01"
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1F3\U0001F1F1荷兰 173ms ≥5.9MB/s 全能"
-  type: vless
-  server: 51.158.206.8
-  port: 23576
-- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  servername: fuck.rkn
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: "01"
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1F3\U0001F1F1荷兰 155ms ≥6MB/s 全能"
-  type: vless
-  server: 51.158.206.97
-  port: 23576
-- cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  name: "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能"
-  type: ss
-  server: 82.38.31.178
-  port: 8080
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·2"
-  type: ss
-  server: 193.29.139.235
-  port: 443
+- uuid: 632cfa69-ae00-49d1-81e0-554979d1e9fa
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  name: "\U0001F1E9\U0001F1EA德国 96ms ≥5.8MB/s 全能"
+  type: vmess
+  server: 31.76.11.83
+  port: 22366
 - uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
   alterId: 0
   cipher: auto
@@ -1396,54 +769,168 @@ proxies:
     headers:
       Host: 129.146.77.248
   udp: true
-  name: "\U0001F1FA\U0001F1F8美国 112ms 3.3MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 68ms 5MB/s 全能"
   type: vmess
   server: 129.146.77.248
   port: 39495
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·3"
-  type: ss
-  server: 193.29.139.197
-  port: 8080
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·5"
-  type: ss
-  server: 82.38.31.34
-  port: 8080
-- cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  name: "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.8MB/s 全能"
-  type: ss
-  server: 82.38.31.201
-  port: 8080
-- cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 174ms ≥5.7MB/s 全能"
-  type: ss
-  server: 82.38.31.82
-  port: 8080
-- cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  name: "\U0001F1EE\U0001F1F9意大利 162ms ≥5.8MB/s 全能"
-  type: ss
-  server: 185.164.175.81
-  port: 19999
-- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  servername: fuck.rkn
+- password: None
+  skip-cert-verify: true
   tls: true
-  flow: xtls-rprx-vision
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 63ms ≥7.3MB/s 全能"
+  type: http
+  server: 138.199.35.198
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 63ms ≥7.4MB/s 全能"
+  type: http
+  server: 138.199.35.220
+  port: 9002
+- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  network: tcp
+  servername: fuck.rkn
   client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  encryption: none
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: "01"
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1F3\U0001F1F1荷兰 155ms ≥5.9MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 73ms 2.4MB/s 全能"
   type: vless
-  server: 51.158.206.96
+  server: 15.204.97.197
   port: 23576
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.6MB/s 全能"
+  type: http
+  server: jewelscollecti.icu
+  port: 443
+- cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  name: "\U0001F1E8\U0001F1E6加拿大 54ms ≥7.1MB/s 全能"
+  type: ss
+  server: 51.222.200.165
+  port: 5000
+- password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  sni: hy2.123266.xyz
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥6.7MB/s 全能"
+  type: hysteria2
+  server: hy2.123266.xyz
+  port: 33333
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·3"
+  type: http
+  server: 138.199.35.196
+  port: 9002
+- password: None
+  skip-cert-verify: true
+  tls: true
+  servername: fullmanfirm.icu
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·4"
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 60ms ≥6.9MB/s 全能"
+  type: http
+  server: 138.199.35.202
+  port: 9002
+- skip-cert-verify: true
+  servername: tzoa.fun
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 67ms ≥7.6MB/s 全能"
+  type: http
+  server: tzoa.fun
+  port: 443
+- password: sni="goedkoopgeluid.icu"
+  skip-cert-verify: true
+  servername: goedkoopgeluid.icu
+  tls: true
+  username: None
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·2"
+  type: http
+  server: goedkoopgeluid.icu
+  port: 443
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 74ms ≥7.5MB/s 全能"
+  type: http
+  server: jewelscollecti.icu
+  port: 443
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 102ms ≥6.7MB/s 全能"
+  type: ss
+  server: 193.29.139.204
+  port: 8080
+- uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  servername: ozon.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1EC\U0001F1E7英国 81ms ≥7.3MB/s 全能"
+  type: vless
+  server: 51.89.228.166
+  port: 8443
+- tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 67ms ≥7.5MB/s 全能·2"
+  type: http
+  server: voteshirleysew.club
+  port: 443
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.6MB/s 全能·2"
+  type: http
+  server: jgwynphotoarts.pro
+  port: 443
+- password: sni="webdrone.club"
+  servername: webdrone.club
+  tls: true
+  username: None
+  name: "\U0001F1FA\U0001F1F8美国 71ms ≥7.4MB/s 全能·2"
+  type: http
+  server: webdrone.club
+  port: 443
+- servername: efr-marktplatz.club
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能"
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+- password: None
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 71ms ≥7.4MB/s 全能"
+  type: http
+  server: purposebydesig.club
+  port: 443
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·6"
+  type: http
+  server: fullmanfirm.icu
+  port: 443
 - uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   servername: fuck.rkn
   tls: true
@@ -1454,74 +941,324 @@ proxies:
     short-id: "01"
   skip-cert-verify: true
   udp: true
-  name: "\U0001F1F3\U0001F1F1荷兰 151ms ≥5.8MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 104ms ≥6.6MB/s 全能"
+  type: vless
+  server: 15.204.97.198
+  port: 23576
+- password: None
+  skip-cert-verify: false
+  tls: true
+  servername: webdrone.club
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·3"
+  type: http
+  server: webdrone.club
+  port: 443
+- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  servername: fuck.rkn
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: "01"
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1F3\U0001F1F1荷兰 86ms ≥7.1MB/s 全能"
   type: vless
   server: 51.158.206.93
   port: 23576
+- skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·2"
+  type: http
+  server: kimberlymilano.icu
+  port: 443
+- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  servername: fuck.rkn
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: "01"
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1F3\U0001F1F1荷兰 87ms ≥7.1MB/s 全能"
+  type: vless
+  server: 51.158.206.97
+  port: 23576
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 99ms ≥6.8MB/s 全能"
+  type: ss
+  server: 82.38.31.174
+  port: 443
 - cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-  name: "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.6MB/s 全能"
+  name: "\U0001F1F3\U0001F1F1荷兰 101ms ≥6.7MB/s 全能"
   type: ss
-  server: 82.38.31.218
+  server: 82.38.31.201
+  port: 8080
+- password: None
+  skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·5"
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+- uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+  servername: aws.amazon.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: 21270a66
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 138ms ≥7.2MB/s 全能"
+  type: vless
+  server: tk1.high-speed-test-56424.me
+  port: 443
+- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  servername: fuck.rkn
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: "01"
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1F3\U0001F1F1荷兰 87ms ≥7.1MB/s 全能·2"
+  type: vless
+  server: 51.158.206.8
+  port: 23576
+- tls: true
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·3"
+  type: http
+  server: tzoa.fun
+  port: 443
+- skip-cert-verify: true
+  servername: goedkoopgeluid.icu
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·4"
+  type: http
+  server: goedkoopgeluid.icu
+  port: 443
+- skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能"
+  type: http
+  server: crosscards.site
+  port: 443
+- uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  servername: ozon.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1EC\U0001F1E7英国 81ms ≥6.9MB/s 全能"
+  type: vless
+  server: 51.89.231.124
+  port: 8443
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 104ms ≥6.7MB/s 全能"
+  type: ss
+  server: 82.38.31.162
+  port: 443
+- password: None
+  skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·4"
+  type: http
+  server: jgwynphotoarts.pro
+  port: 443
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.6MB/s 全能"
+  type: ss
+  server: 82.38.31.34
+  port: 8080
+- skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 67ms ≥7.4MB/s 全能·2"
+  type: http
+  server: jgwynphotoarts.pro
+  port: 443
+- tls: true
+  skip-cert-verify: false
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·2"
+  type: http
+  server: voteshirleysew.club
+  port: 443
+- servername: voteshirleysew.club
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·8"
+  type: http
+  server: voteshirleysew.club
+  port: 443
+- uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: rib9jxayoqjgn2kw.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: rib9jxayoqjgn2kw.v.3dns.vip
+  name: "\U0001F1FA\U0001F1F8美国 85ms ≥7.2MB/s 全能"
+  type: vmess
+  server: 47.88.79.34
+  port: 443
+- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  servername: fuck.rkn
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: "01"
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1F3\U0001F1F1荷兰 86ms ≥6.9MB/s 全能"
+  type: vless
+  server: 51.158.206.96
+  port: 23576
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 62ms ≥6.4MB/s 全能"
+  type: http
+  server: 138.199.35.219
+  port: 9002
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 110ms ≥6.7MB/s 全能"
+  type: ss
+  server: 82.38.31.155
   port: 8080
 - cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 108ms ≥6.9MB/s 全能"
+  type: ss
+  server: 193.29.139.197
+  port: 8080
+- password: None
+  skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·4"
+  type: http
+  server: kimberlymilano.icu
+  port: 443
+- cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-  name: "\U0001F1F3\U0001F1F1荷兰 171ms ≥5.7MB/s 全能"
+  name: "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.5MB/s 全能"
   type: ss
   server: 82.38.31.215
   port: 8080
 - cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-  name: "\U0001F1F3\U0001F1F1荷兰 163ms ≥5.7MB/s 全能"
+  name: "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.7MB/s 全能"
   type: ss
-  server: 82.38.31.66
+  server: 82.38.31.7
   port: 8080
-- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  servername: fuck.rkn
+- password: "null"
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: "01"
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1F3\U0001F1F1荷兰 147ms ≥5.8MB/s 全能"
-  type: vless
-  server: 51.158.206.29
-  port: 23576
-- uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: None
-  name: "\U0001F1EF\U0001F1F5日本 107ms 2.6MB/s 全能"
-  type: vmess
-  server: 168.138.43.75
-  port: 80
-- uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: 168.138.43.75
-  name: "\U0001F1EF\U0001F1F5日本 108ms 2.9MB/s 全能"
-  type: vmess
-  server: 168.138.43.75
-  port: 80
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·2"
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+- password: "null"
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 67ms ≥7.6MB/s 全能·2"
+  type: http
+  server: mmgr.club
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1EE\U0001F1EA爱尔兰 75ms ≥7.1MB/s 全能"
+  type: http
+  server: 34.249.214.108
+  port: 443
+- password: None
+  skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·6"
+  type: http
+  server: tzoa.fun
+  port: 443
 - cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  name: "\U0001F1F3\U0001F1F1荷兰 176ms ≥5.7MB/s 全能"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 109ms ≥6.8MB/s 全能"
   type: ss
-  server: 82.38.31.190
+  server: 82.38.31.174
   port: 8080
+- servername: webdrone.club
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.3MB/s 全能"
+  type: http
+  server: webdrone.club
+  port: 443
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能·3"
+  type: ss
+  server: 82.38.31.10
+  port: 8080
+- servername: tzoa.fun
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·7"
+  type: http
+  server: tzoa.fun
+  port: 443
+- password: "null"
+  servername: crosscards.site
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 71ms ≥7MB/s 全能"
+  type: http
+  server: crosscards.site
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·2"
+  type: http
+  server: purecambogiasl.live
+  port: 443
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.5MB/s 全能·2"
+  type: ss
+  server: 178.83.185.156
+  port: 8080
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能"
+  type: ss
+  server: 193.29.139.151
+  port: 8080
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 104ms ≥6.6MB/s 全能"
+  type: ss
+  server: 82.38.31.13
+  port: 8080
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.4MB/s 全能"
+  type: ss
+  server: 193.29.139.235
+  port: 443
 - uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   servername: fuck.rkn
   tls: true
@@ -1532,46 +1269,365 @@ proxies:
     short-id: "01"
   skip-cert-verify: true
   udp: true
-  name: "\U0001F1EB\U0001F1F7法国 161ms ≥5.8MB/s 全能"
+  name: "\U0001F1EB\U0001F1F7法国 96ms ≥6.9MB/s 全能"
   type: vless
   server: 62.210.91.2
   port: 23576
+- skip-cert-verify: false
+  tls: true
+  servername: crosscards.site
+  name: "\U0001F1FA\U0001F1F8美国 67ms ≥7.4MB/s 全能"
+  type: http
+  server: crosscards.site
+  port: 443
+- password: None
+  skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能"
+  type: http
+  server: zebpay.site
+  port: 443
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能·2"
+  type: ss
+  server: 82.38.31.159
+  port: 443
 - cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  name: "\U0001F1FA\U0001F1F8美国 83ms ≥8.1MB/s 全能"
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1EE\U0001F1F9意大利 105ms ≥6.6MB/s 全能"
   type: ss
-  server: 45.86.51.18
+  server: 202.50.253.99
+  port: 19999
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  name: "\U0001F1EE\U0001F1F9意大利 108ms ≥6.7MB/s 全能"
+  type: ss
+  server: 185.164.175.81
   port: 19999
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1EE\U0001F1EA爱尔兰 145ms ≥5.8MB/s 全能"
+  name: "\U0001F1EE\U0001F1EA爱尔兰 76ms ≥7MB/s 全能"
   type: http
   server: 18.200.158.139
   port: 443
 - password: d4ca9415f0eac7897472e1e5b86d2e96
   tls: false
-  name: "\U0001F1F3\U0001F1F1荷兰 158ms ≥6.3MB/s 全能"
+  name: "\U0001F1F3\U0001F1F1荷兰 84ms ≥7.6MB/s 全能"
   type: hysteria2
   server: promo.betust.net
   port: 443
+- skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 70ms ≥6.9MB/s 全能"
+  type: http
+  server: tzoa.fun
+  port: 443
+- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  servername: fuck.rkn
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: "01"
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1F3\U0001F1F1荷兰 91ms ≥6.7MB/s 全能"
+  type: vless
+  server: 51.158.206.29
+  port: 23576
+- cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.4MB/s 全能·2"
+  type: ss
+  server: 82.38.31.82
+  port: 8080
+- password: None
+  skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·6"
+  type: http
+  server: purposebydesig.club
+  port: 443
+- servername: zebpay.site
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 70ms ≥6.9MB/s 全能·2"
+  type: http
+  server: zebpay.site
+  port: 443
+- cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: "\U0001F1F3\U0001F1F1荷兰 120ms ≥6.4MB/s 全能"
+  type: ss
+  server: 82.38.31.178
+  port: 8080
+- skip-cert-verify: true
+  servername: goedkoopgeluid.icu
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7MB/s 全能"
+  type: http
+  server: goedkoopgeluid.icu
+  port: 443
+- password: "null"
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·3"
+  type: http
+  server: zebpay.site
+  port: 443
+- password: "null"
+  servername: fullmanfirm.icu
+  tls: true
+  udp: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能"
+  type: http
+  server: fullmanfirm.icu
+  port: 443
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1EE\U0001F1EA爱尔兰 131ms ≥5.8MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 86ms ≥7.4MB/s 全能"
   type: http
-  server: 34.249.214.108
+  server: mmgr.club
+  port: 443
+- skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能"
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+- servername: crosscards.site
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 67ms ≥6.9MB/s 全能·2"
+  type: http
+  server: crosscards.site
+  port: 443
+- password: "null"
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 72ms ≥7.4MB/s 全能"
+  type: http
+  server: berniesbodybla.fun
+  port: 443
+- password: None
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 70ms ≥7.3MB/s 全能"
+  type: http
+  server: goedkoopgeluid.icu
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·5"
+  type: http
+  server: goedkoopgeluid.icu
+  port: 443
+- skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·3"
+  type: http
+  server: berniesbodybla.fun
   port: 443
 - password: None
   skip-cert-verify: true
   tls: true
-  name: "\U0001F1F3\U0001F1F1荷兰 149ms ≥5.8MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能·3"
+  type: http
+  server: purecambogiasl.live
+  port: 443
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 67ms ≥7.5MB/s 全能"
+  type: http
+  server: goedkoopgeluid.icu
+  port: 443
+- password: "null"
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·5"
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+- uuid: 57c87188-1056-4bd5-92f8-c7ca1fd19147
+  servername: apple.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1F7\U0001F1FA俄罗斯 98ms ≥6.9MB/s 全能"
+  type: vless
+  server: 193.160.140.117
+  port: 8443
+- cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.8MB/s 全能"
+  type: ss
+  server: 193.29.139.198
+  port: 8080
+- servername: berniesbodybla.fun
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥6.8MB/s 全能"
+  type: http
+  server: berniesbodybla.fun
+  port: 443
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F3\U0001F1F1荷兰 86ms ≥6.8MB/s 全能"
   type: http
   server: 51.159.225.196
   port: 23856
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1F3\U0001F1F1荷兰 146ms ≥5.8MB/s 全能"
+  name: "\U0001F1FA\U0001F1F8美国 77ms ≥7.4MB/s 全能"
+  type: http
+  server: kimberlymilano.icu
+  port: 443
+- password: "null"
+  skip-cert-verify: true
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能"
+  type: http
+  server: voteshirleysew.club
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 86ms ≥6.8MB/s 全能"
+  type: http
+  server: 44.248.167.117
+  port: 8443
+- skip-cert-verify: false
+  tls: true
+  servername: efr-marktplatz.club
+  name: "\U0001F1FA\U0001F1F8美国 74ms ≥7.4MB/s 全能"
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+- password: None
+  skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 72ms ≥7.1MB/s 全能·2"
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F3\U0001F1F1荷兰 85ms ≥6.9MB/s 全能"
+  type: http
+  server: 51.159.225.196
+  port: 23856
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1F3\U0001F1F1荷兰 87ms ≥6.7MB/s 全能"
   type: http
   server: 51.158.243.91
+  port: 443
+- skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥6.3MB/s 全能"
+  type: http
+  server: webdrone.club
+  port: 443
+- skip-cert-verify: true
+  tls: true
+  username: Ok5vbmU=
+  name: "\U0001F1FA\U0001F1F8美国 73ms ≥7.4MB/s 全能"
+  type: http
+  server: webdrone.club
+  port: 443
+- uuid: af51de90-852d-4eb6-a0c3-9ecca170385e
+  network: ws
+  servername: wallweb-av6.pages.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: wallweb-av6.pages.dev
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 83ms 2.5MB/s 全能"
+  type: vless
+  server: www.speedtest.net
+  port: 443
+- cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1EE\U0001F1F9意大利 107ms ≥6.6MB/s 全能"
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+- skip-cert-verify: true
+  servername: fullmanfirm.icu
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 70ms ≥7MB/s 全能"
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+- password: "null"
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能·2"
+  type: http
+  server: tzoa.fun
+  port: 443
+- password: None
+  skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·7"
+  type: http
+  server: mmgr.club
+  port: 443
+- password: "null"
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 67ms ≥6.9MB/s 全能"
+  type: http
+  server: purecambogiasl.live
+  port: 443
+- password: "null"
+  tls: true
+  username: "null"
+  name: "\U0001F1FA\U0001F1F8美国 70ms ≥6.8MB/s 全能"
+  type: http
+  server: kimberlymilano.icu
+  port: 443
+- skip-cert-verify: true
+  servername: carolinafreigh.fun
+  tls: true
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 105ms ≥7MB/s 全能"
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+- skip-cert-verify: false
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 68ms ≥6.9MB/s 全能"
+  type: http
+  server: purposebydesig.club
+  port: 443
+- cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: "\U0001F1F3\U0001F1F1荷兰 165ms ≥6.5MB/s 全能"
+  type: ss
+  server: 82.38.31.190
+  port: 8080
+- skip-cert-verify: true
+  servername: purecambogiasl.live
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 74ms ≥7.3MB/s 全能"
+  type: http
+  server: purecambogiasl.live
   port: 443
 - uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
   tls: true
@@ -1582,40 +1638,79 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-  name: "\U0001F1EC\U0001F1E7英国 178ms ≥5.6MB/s 全能"
+  name: "\U0001F1EC\U0001F1E7英国 110ms ≥6.6MB/s 全能"
   type: vless
   server: 45.151.71.174
   port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F3\U0001F1F1荷兰 150ms ≥5.7MB/s 全能"
-  type: http
-  server: 51.159.225.196
-  port: 23856
 - password: None
   skip-cert-verify: true
   tls: true
-  name: "\U0001F1EB\U0001F1F7法国 153ms ≥5.7MB/s 全能"
+  name: "\U0001F1EB\U0001F1F7法国 94ms ≥6.6MB/s 全能"
   type: http
   server: 87.98.174.157
   port: 6103
-- uuid: 57c87188-1056-4bd5-92f8-c7ca1fd19147
-  servername: apple.com
+- skip-cert-verify: true
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  name: "\U0001F1FA\U0001F1F8美国 113ms ≥6.6MB/s 全能"
+  type: http
+  server: 44.248.167.117
+  port: 8443
+- password: None
   skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 130ms ≥6.8MB/s 全能"
+  type: http
+  server: 44.248.167.117
+  port: 8443
+- uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: rib9jxayoqjgn2kw.v.3dns.vip
+  name: "\U0001F1FA\U0001F1F8美国 72ms ≥7.1MB/s 全能"
+  type: vmess
+  server: rib9jxayoqjgn2kw.v.3dns.vip
+  port: 443
+- uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: rib9jxayoqjgn2kw.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+  name: "\U0001F1FA\U0001F1F8美国 72ms ≥6.5MB/s 全能"
+  type: vmess
+  server: rib9jxayoqjgn2kw.v.3dns.vip
+  port: 443
+- password: None
+  skip-cert-verify: true
+  tls: true
   udp: true
-  name: "\U0001F1F7\U0001F1FA俄罗斯 165ms 5.1MB/s 全能"
-  type: vless
-  server: 193.160.140.117
+  name: "\U0001F1F3\U0001F1F1荷兰 90ms ≥6.2MB/s 全能"
+  type: http
+  server: 84.17.47.149
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1E9\U0001F1EA德国 95ms ≥6.3MB/s 全能"
+  type: http
+  server: 158.173.154.1
+  port: 9002
+- skip-cert-verify: true
+  tls: true
+  name: "\U0001F1FA\U0001F1F8美国 86ms ≥6.1MB/s 全能"
+  type: http
+  server: 44.229.69.166
   port: 8443
 - skip-cert-verify: true
   tls: true
   udp: true
-  name: "\U0001F1E9\U0001F1EA德国 162ms ≥5.6MB/s 全能"
+  name: "\U0001F1E9\U0001F1EA德国 109ms ≥6.1MB/s 全能"
   type: http
   server: 213.109.163.119
   port: 443
@@ -1627,125 +1722,60 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /
-  name: "\U0001F1E9\U0001F1EA德国 161ms ≥5.7MB/s 全能"
+  name: "\U0001F1E9\U0001F1EA德国 109ms ≥6.1MB/s 全能·2"
   type: vless
   server: 91.107.188.129
   port: 2083
 - password: None
   skip-cert-verify: true
   tls: true
-  udp: true
-  name: "\U0001F1F3\U0001F1F1荷兰 165ms ≥5.7MB/s 全能"
+  name: "\U0001F1F7\U0001F1F4罗马尼亚 137ms ≥6.2MB/s 全能"
   type: http
-  server: 84.17.47.149
+  server: 193.176.84.16
   port: 9002
-- skip-cert-verify: true
+- password: "null"
+  skip-cert-verify: true
   tls: true
-  udp: true
-  name: "\U0001F1F3\U0001F1F1荷兰 168ms ≥5.6MB/s 全能"
+  username: "null"
+  name: "\U0001F1F7\U0001F1F4罗马尼亚 136ms ≥6.2MB/s 全能"
   type: http
-  server: 84.17.47.148
+  server: 193.176.84.34
   port: 9002
-- password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.29
+- password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  servername: 45.32.52.173
   skip-cert-verify: true
-  name: "\U0001F1ED\U0001F1F0香港 166ms 4.2MB/s 全能"
-  type: hysteria2
-  server: 202.146.222.29
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1E9\U0001F1EA德国 166ms ≥5.6MB/s 全能"
-  type: http
-  server: 116.202.172.99
-  port: 443
-- tls: true
-  skip-cert-verify: true
-  name: "\U0001F1FA\U0001F1F8美国 63ms 3.2MB/s 全能"
-  type: http
-  server: 129.212.181.253
-  port: 8443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F3\U0001F1F1荷兰 157ms 4.4MB/s 全能"
-  type: http
-  server: 185.238.170.10
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1E8\U0001F1E6加拿大 174ms 4.8MB/s 全能"
-  type: http
-  server: 142.44.210.129
-  port: 443
+  udp: true
+  name: "\U0001F1EF\U0001F1F5日本 163ms ≥5.7MB/s 全能"
+  type: trojan
+  server: 45.32.52.173
+  port: 8886
 - password: None
   skip-cert-verify: true
   tls: true
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 237ms 3.2MB/s 全能"
+  name: "\U0001F1F7\U0001F1F4罗马尼亚 141ms ≥6.1MB/s 全能"
   type: http
-  server: 193.176.84.18
-  port: 9002
-- uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: ""
-    headers:
-      Host: in-152.67.8.205-0184
-  name: "\U0001F1EE\U0001F1F3印度 351ms 2.2MB/s 全能"
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-- password: None
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 251ms 2.3MB/s 全能"
-  type: http
-  server: 193.176.84.26
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F5\U0001F1F1波兰 222ms 2.5MB/s 全能"
-  type: http
-  server: 31.186.220.204
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 211ms 2.1MB/s 全能"
-  type: http
-  server: 193.176.84.27
+  server: 193.176.84.24
   port: 9002
 - tls: true
-  name: "\U0001F1FA\U0001F1F8美国 28ms ≥4.4MB/s 稳定"
+  skip-cert-verify: true
+  name: "\U0001F1E9\U0001F1EA德国 132ms 3.5MB/s 全能"
   type: http
-  server: webdrone.club
+  server: 217.92.132.233
   port: 443
-- servername: jgwynphotoarts.pro
+- uuid: f3ac0d2c-4b86-4f53-8070-89f69daba8f5
   tls: true
-  name: "\U0001F1FA\U0001F1F8美国 29ms ≥5MB/s 稳定"
-  type: http
-  server: jgwynphotoarts.pro
-  port: 443
-- cipher: aes-128-gcm
-  password: shadowsocks
-  name: "\U0001F1FA\U0001F1F8美国 53ms 5.5MB/s 稳定"
-  type: ss
-  server: 173.244.56.6
-  port: 443
-- uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  ws-opts:
-    path: /cctv13.m3u8
-  name: "\U0001F1FA\U0001F1F8美国 52ms 1.8MB/s 稳定"
-  type: vmess
-  server: 129.146.77.248
-  port: 39495
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
+    short-id: 3869d49a9a79e06a
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+  name: "\U0001F1EA\U0001F1F8西班牙 145ms ≥5.9MB/s 全能"
+  type: vless
+  server: 213.152.165.205
+  port: 2095
 - uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   alterId: 0
   cipher: auto
@@ -1754,1294 +1784,1240 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: jp01.a0a.xyz
-  name: "\U0001F1EF\U0001F1F5日本 115ms 1.8MB/s 稳定"
+      Host: 168.138.43.75
+  name: "\U0001F1EF\U0001F1F5日本 168ms 3.3MB/s 全能"
   type: vmess
   server: 168.138.43.75
   port: 80
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 81ms ≥7.8MB/s 高速"
-  type: http
-  server: 66.64.100.66
-  port: 443
-- uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   tls: false
-  servername: 169.197.142.22
-  name: "\U0001F1FA\U0001F1F8美国 35ms 7.2MB/s 高速"
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: None
+  name: "\U0001F1EF\U0001F1F5日本 166ms 2.5MB/s 全能"
   type: vmess
-  server: 169.197.142.22
-  port: 18000
+  server: 168.138.43.75
+  port: 80
+- uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  network: tcp
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  encryption: none
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: "01"
+  name: "\U0001F1FA\U0001F1F8美国 77ms 3.6MB/s 稳定"
+  type: vless
+  server: 15.204.97.195
+  port: 23576
+- cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: "\U0001F1F3\U0001F1F1荷兰 101ms 2.6MB/s 稳定"
+  type: ss
+  server: 82.38.31.218
+  port: 8080
 - uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
-  network: tcp
+  network: raw
   tls: false
-  servername: 134.195.196.211
-  name: "\U0001F1E8\U0001F1E6加拿大 76ms ≥6.4MB/s 高速"
+  name: "\U0001F1E8\U0001F1E6加拿大 30ms ≥8.2MB/s 高速"
   type: vmess
   server: 134.195.196.211
   port: 18000
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  username: "null"
-  name: "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.5MB/s 稳定"
-  type: http
-  server: 84.17.47.146
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1E9\U0001F1EA德国 161ms ≥5.5MB/s 稳定"
-  type: http
-  server: 158.173.154.2
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1E9\U0001F1EA德国 164ms ≥5.6MB/s 稳定"
-  type: http
-  server: 158.173.154.3
-  port: 9002
-- cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  name: "\U0001F1FA\U0001F1F8美国 56ms ≥5.9MB/s 高速"
+- uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  servername: 23.162.200.198
+  name: "\U0001F1E8\U0001F1E6加拿大 26ms ≥6.9MB/s 高速"
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+- cipher: aes-128-gcm
+  password: shadowsocks
+  name: "\U0001F1EF\U0001F1F5日本 160ms ≥5.5MB/s 稳定"
   type: ss
-  server: 95.215.201.18
-  port: 19999
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1F3\U0001F1F1荷兰 164ms ≥5.4MB/s 稳定"
-  type: http
-  server: 84.17.47.124
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1FA\U0001F1F8美国 133ms 1.5MB/s 稳定"
-  type: http
-  server: 162.244.227.36
+  server: 149.22.87.204
   port: 443
+- cipher: aes-128-gcm
+  password: shadowsocks
+  name: "\U0001F1EF\U0001F1F5日本 161ms ≥5.5MB/s 稳定"
+  type: ss
+  server: 149.22.87.241
+  port: 443
+- cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.9MB/s 高速"
+  type: ss
+  server: 82.38.31.205
+  port: 8080
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1EB\U0001F1F7法国 152ms ≥5.5MB/s 稳定"
+  name: "\U0001F1FA\U0001F1F8美国 128ms 1.6MB/s 稳定"
   type: http
-  server: 141.94.16.4
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F1\U0001F1FBLV 201ms ≥5.4MB/s 稳定"
-  type: http
-  server: 185.219.159.16
-  port: 443
-- password: exaxgqkKkd0TAMrCxeonWg==
-  skip-cert-verify: false
-  servername: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  name: "\U0001F1F9\U0001F1FC台湾 138ms 430KB/s 稳定"
-  type: http
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  port: 1443
-- password: Trojan@82164024
+  server: 35.84.133.236
+  port: 8443
+- cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 817aa69.default.nintendo.com:112719
+  name: "\U0001F1F8\U0001F1EC新加坡 227ms ≥5.3MB/s 稳定"
+  type: ss
+  server: 13.215.227.70
+  port: 2377
+- password: 29086912-33e4-4e06-ba2b-60f1a195864f
   skip-cert-verify: true
-  servername: in.tronsg.com
-  name: "\U0001F1EE\U0001F1F3印度 261ms ≥5.2MB/s 稳定"
+  servername: www.itunes.com
+  name: "\U0001F1F9\U0001F1FC台湾 198ms ≥5.5MB/s 稳定"
   type: trojan
-  server: in.tronsg.com
+  server: tjtw.m2k699.com
+  port: 24999
+- cipher: chacha20-ietf-poly1305
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  name: "\U0001F1FF\U0001F1E6ZA 225ms ≥5.2MB/s 稳定"
+  type: ss
+  server: 102.133.165.160
+  port: 16233
+- password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1F8\U0001F1EC新加坡 225ms ≥5.3MB/s 稳定"
+  type: trojan
+  server: 139.180.146.200
+  port: 8886
+- uuid: c63487b1-2543-40b9-b39a-3f27a5a1f4cf
+  servername: www.apple.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
+    short-id: bb472a184677af64
+  skip-cert-verify: true
+  udp: true
+  name: "\U0001F1EF\U0001F1F5日本 339ms ≥4.9MB/s 稳定"
+  type: vless
+  server: 213.152.165.201
+  port: 2090
+- cipher: aes-256-cfb
+  password: qwerREWQ@@
+  name: "\U0001F1F0\U0001F1F7韩国 454ms 1.1MB/s 稳定"
+  type: ss
+  server: 211.178.105.134
+  port: 6123
+- cipher: aes-256-cfb
+  password: qwerREWQ@@
+  name: "\U0001F1F0\U0001F1F7韩国 221ms 1.7MB/s 稳定"
+  type: ss
+  server: p141.panda001.net
+  port: 4652
+- uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  udp: true
+  name: "\U0001F1FA\U0001F1F8美国 32ms 4.8MB/s 高速"
+  type: vmess
+  server: 104.17.136.198
   port: 443
+- uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+  network: tcp
+  name: "\U0001F1FA\U0001F1F8美国 157ms 2.7MB/s 高速"
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   network: tcp
   reality-opts:
-    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: 3869d49a9a79e06a
+    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
+    short-id: bb472a184677af64
+  tls: true
+  udp: true
+  uuid: 3644635c-f8c4-449c-a665-fce1897a7bf3
   servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  uuid: f3ac0d2c-4b86-4f53-8070-89f69daba8f5
-  name: "\U0001F1EA\U0001F1F8西班牙 226ms ≥5.4MB/s 稳定"
+  name: "\U0001F1EF\U0001F1F5日本 262ms 876KB/s 可用"
   type: vless
-  server: 213.152.165.204
-  port: 2095
-- cipher: chacha20-ietf-poly1305
-  password: aduB9HGxQHjA2SBMRjkHX6
-  name: "\U0001F1FF\U0001F1E6ZA 280ms 4.5MB/s 稳定"
-  type: ss
-  server: 102.37.156.224
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1EE\U0001F1F9意大利 193ms ≥5.4MB/s 稳定"
-  type: http
-  server: 95.229.15.89
-  port: 443
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  password: 0324fbc29561
-  skip-cert-verify: true
-  servername: px.ads.linkedin.com
-  name: "\U0001F1F9\U0001F1FC台湾 140ms ≥5.5MB/s 可用"
-  type: anytls
-  server: 684616s4.df6h451rh.xin
-  port: 443
-- uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: 152.67.8.205
-  network: ws
-  ws-opts:
-    path: /
-  name: "\U0001F1EE\U0001F1F3印度 231ms 1.9MB/s 稳定"
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-- uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  servername: in-152.67.8.205-0204
-  ws-opts:
-    path: ""
-  name: "\U0001F1EE\U0001F1F3印度 237ms 741KB/s 稳定"
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-- skip-cert-verify: true
-  servername: www.bing.com
-  tls: true
-  name: "\U0001F1F7\U0001F1F4罗马尼亚 210ms 2.2MB/s 稳定"
-  type: http
-  server: 193.176.84.20
-  port: 9002
-- uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: vmess.lbw666.dpdns.org
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-  name: "\U0001F1FA\U0001F1F8美国 55ms 266KB/s 稳定"
-  type: vmess
-  server: cf.877771.xyz
-  port: 443
-- cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  name: "\U0001F1F3\U0001F1F4挪威 1859ms 2.6MB/s 高速"
-  type: ss
-  server: 185.213.23.63
-  port: 990
-- uuid: aded66f1-de12-4c3c-af9e-a21d6e7d9c96
-  servername: www.foxsports.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 2a80364e93d9
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1F3\U0001F1F1荷兰 178ms 611KB/s 可用"
-  type: vless
-  server: staging.lastilhame.monster
-  port: 443
+  server: 66.90.115.122
+  port: 2090
 proxy-groups:
 - name: 综合推荐
   type: select
   proxies:
-  - "\U0001F1FA\U0001F1F8美国 10ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 13ms ≥8.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 13ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 18ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 10ms ≥8.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 4ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 7ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 9ms ≥8.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 19ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 21ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 21ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 24ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 7ms ≥8.4MB/s 全能·2"
   - "\U0001F1FA\U0001F1F8美国 23ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 22ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·16"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 38ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·17"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·18"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·19"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 17ms ≥6.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·15"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·17"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 22ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 30ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 39ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·16"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥6.7MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 30ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·14"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 33ms 5.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 44ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 38ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥6.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·15"
-  - "\U0001F1FA\U0001F1F8美国 17ms 5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 33ms 6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·14"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 43ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 36ms 6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥7.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 40ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥6.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥7.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms 5.5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 113ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 41ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 19ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥8.4MB/s 全能·2"
   - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 40ms 5.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 48ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·10"
+  - "\U0001F1FA\U0001F1F8美国 40ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 31ms ≥8.4MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 27ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥8.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 102ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·9"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 76ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 78ms ≥8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.7MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.7MB/s 全能·2"
   - "\U0001F1FA\U0001F1F8美国 62ms ≥7.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 41ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 74ms ≥8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 53ms ≥6.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 46ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 44ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 81ms ≥7.8MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 59ms ≥6.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 60ms ≥6.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 47ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 77ms ≥7.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 78ms ≥8.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 66ms ≥8.2MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·8"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 73ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·7"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.5MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 90ms ≥7.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能·3"
+  - "\U0001F1F3\U0001F1F1荷兰 99ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.3MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 96ms ≥6.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.1MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 77ms ≥7.5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 58ms ≥6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 87ms ≥7.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 79ms ≥7.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 40ms 4.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 57ms 6.9MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 94ms ≥6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.2MB/s 全能"
-  - "\U0001F1EF\U0001F1F5日本 101ms ≥6.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.1MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 149ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 158ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.8MB/s 全能·2"
-  - "\U0001F1F3\U0001F1F1荷兰 157ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·3"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·2"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 53ms 2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·18"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·4"
-  - "\U0001F1F9\U0001F1FC台湾 132ms ≥6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 173ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 176ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 173ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 155ms ≥6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 112ms 3.3MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·3"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·5"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 174ms ≥5.7MB/s 全能"
-  - "\U0001F1EE\U0001F1F9意大利 162ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 155ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 151ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 171ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 163ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 147ms ≥5.8MB/s 全能"
-  - "\U0001F1EF\U0001F1F5日本 107ms 2.6MB/s 全能"
-  - "\U0001F1EF\U0001F1F5日本 108ms 2.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 176ms ≥5.7MB/s 全能"
-  - "\U0001F1EB\U0001F1F7法国 161ms ≥5.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 83ms ≥8.1MB/s 全能"
-  - "\U0001F1EE\U0001F1EA爱尔兰 145ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 158ms ≥6.3MB/s 全能"
-  - "\U0001F1EE\U0001F1EA爱尔兰 131ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 149ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 146ms ≥5.8MB/s 全能"
-  - "\U0001F1EC\U0001F1E7英国 178ms ≥5.6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 150ms ≥5.7MB/s 全能"
-  - "\U0001F1EB\U0001F1F7法国 153ms ≥5.7MB/s 全能"
-  - "\U0001F1F7\U0001F1FA俄罗斯 165ms 5.1MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 162ms ≥5.6MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 161ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 165ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 168ms ≥5.6MB/s 全能"
-  - "\U0001F1ED\U0001F1F0香港 166ms 4.2MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 166ms ≥5.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 63ms 3.2MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 157ms 4.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 174ms 4.8MB/s 全能"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 237ms 3.2MB/s 全能"
-  - "\U0001F1EE\U0001F1F3印度 351ms 2.2MB/s 全能"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 251ms 2.3MB/s 全能"
-  - "\U0001F1F5\U0001F1F1波兰 222ms 2.5MB/s 全能"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 211ms 2.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥4.4MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 53ms 5.5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 52ms 1.8MB/s 稳定"
-  - "\U0001F1EF\U0001F1F5日本 115ms 1.8MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 81ms ≥7.8MB/s 高速"
-  - "\U0001F1FA\U0001F1F8美国 35ms 7.2MB/s 高速"
-  - "\U0001F1E8\U0001F1E6加拿大 76ms ≥6.4MB/s 高速"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.5MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 161ms ≥5.5MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 164ms ≥5.6MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 56ms ≥5.9MB/s 高速"
-  - "\U0001F1F3\U0001F1F1荷兰 164ms ≥5.4MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 133ms 1.5MB/s 稳定"
-  - "\U0001F1EB\U0001F1F7法国 152ms ≥5.5MB/s 稳定"
-  - "\U0001F1F1\U0001F1FBLV 201ms ≥5.4MB/s 稳定"
-  - "\U0001F1F9\U0001F1FC台湾 138ms 430KB/s 稳定"
-  - "\U0001F1EE\U0001F1F3印度 261ms ≥5.2MB/s 稳定"
-  - "\U0001F1EA\U0001F1F8西班牙 226ms ≥5.4MB/s 稳定"
-  - "\U0001F1FF\U0001F1E6ZA 280ms 4.5MB/s 稳定"
-  - "\U0001F1EE\U0001F1F9意大利 193ms ≥5.4MB/s 稳定"
-  - "\U0001F1F9\U0001F1FC台湾 140ms ≥5.5MB/s 可用"
-  - "\U0001F1EE\U0001F1F3印度 231ms 1.9MB/s 稳定"
-  - "\U0001F1EE\U0001F1F3印度 237ms 741KB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 210ms 2.2MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 55ms 266KB/s 稳定"
-  - "\U0001F1F3\U0001F1F4挪威 1859ms 2.6MB/s 高速"
-  - "\U0001F1F3\U0001F1F1荷兰 178ms 611KB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 31ms 4.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 99ms ≥7.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 96ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥6.2MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 66ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.5MB/s 全能·2"
+  - "\U0001F1E9\U0001F1EA德国 96ms ≥5.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms 5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 73ms 2.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.6MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 54ms ≥7.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 60ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 102ms ≥6.7MB/s 全能"
+  - "\U0001F1EC\U0001F1E7英国 81ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 104ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·3"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥7.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥7.1MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 99ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 101ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 138ms ≥7.2MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥7.1MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能"
+  - "\U0001F1EC\U0001F1E7英国 81ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 104ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·4"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·8"
+  - "\U0001F1FA\U0001F1F8美国 85ms ≥7.2MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥6.4MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 110ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 108ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·4"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.6MB/s 全能·2"
+  - "\U0001F1EE\U0001F1EA爱尔兰 75ms ≥7.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·6"
+  - "\U0001F1F3\U0001F1F1荷兰 109ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.3MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·7"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.5MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 104ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.4MB/s 全能"
+  - "\U0001F1EB\U0001F1F7法国 96ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能·2"
+  - "\U0001F1EE\U0001F1F9意大利 105ms ≥6.6MB/s 全能"
+  - "\U0001F1EE\U0001F1F9意大利 108ms ≥6.7MB/s 全能"
+  - "\U0001F1EE\U0001F1EA爱尔兰 76ms ≥7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 84ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 91ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.9MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 120ms ≥6.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥6.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·5"
+  - "\U0001F1F7\U0001F1FA俄罗斯 98ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 77ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.1MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 85ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 73ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 83ms 2.5MB/s 全能"
+  - "\U0001F1EE\U0001F1F9意大利 107ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·7"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 105ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 165ms ≥6.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.3MB/s 全能"
+  - "\U0001F1EC\U0001F1E7英国 110ms ≥6.6MB/s 全能"
+  - "\U0001F1EB\U0001F1F7法国 94ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 113ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 130ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥6.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 90ms ≥6.2MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 95ms ≥6.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥6.1MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 109ms ≥6.1MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 109ms ≥6.1MB/s 全能·2"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 137ms ≥6.2MB/s 全能"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 136ms ≥6.2MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 163ms ≥5.7MB/s 全能"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 141ms ≥6.1MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 132ms 3.5MB/s 全能"
+  - "\U0001F1EA\U0001F1F8西班牙 145ms ≥5.9MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 168ms 3.3MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 166ms 2.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 77ms 3.6MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 101ms 2.6MB/s 稳定"
+  - "\U0001F1E8\U0001F1E6加拿大 30ms ≥8.2MB/s 高速"
+  - "\U0001F1E8\U0001F1E6加拿大 26ms ≥6.9MB/s 高速"
+  - "\U0001F1EF\U0001F1F5日本 160ms ≥5.5MB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 161ms ≥5.5MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.9MB/s 高速"
+  - "\U0001F1FA\U0001F1F8美国 128ms 1.6MB/s 稳定"
+  - "\U0001F1F8\U0001F1EC新加坡 227ms ≥5.3MB/s 稳定"
+  - "\U0001F1F9\U0001F1FC台湾 198ms ≥5.5MB/s 稳定"
+  - "\U0001F1FF\U0001F1E6ZA 225ms ≥5.2MB/s 稳定"
+  - "\U0001F1F8\U0001F1EC新加坡 225ms ≥5.3MB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 339ms ≥4.9MB/s 稳定"
+  - "\U0001F1F0\U0001F1F7韩国 454ms 1.1MB/s 稳定"
+  - "\U0001F1F0\U0001F1F7韩国 221ms 1.7MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 32ms 4.8MB/s 高速"
+  - "\U0001F1FA\U0001F1F8美国 157ms 2.7MB/s 高速"
+  - "\U0001F1EF\U0001F1F5日本 262ms 876KB/s 可用"
 - name: 网页
   type: select
   proxies:
-  - "\U0001F1FA\U0001F1F8美国 10ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 13ms ≥8.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 13ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 17ms 5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 18ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 4ms ≥8.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 17ms ≥6.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 19ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 10ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 21ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 21ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 24ms ≥8.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 23ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 38ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 22ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 9ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 7ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 7ms ≥8.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 19ms ≥8.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥6.7MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 33ms 5.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥6.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 36ms 5.5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 33ms 6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 39ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·16"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·17"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 40ms 5.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·15"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 44ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·16"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 38ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 36ms 6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥6.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥4.4MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·14"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 30ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥7.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·17"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥7.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 43ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·19"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·18"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 30ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 40ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 40ms 4.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 113ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 22ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 41ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 53ms 5.5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 48ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 52ms 1.8MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·15"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 53ms ≥6.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·12"
-  - "\U0001F1E8\U0001F1E6加拿大 59ms ≥6.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 60ms ≥6.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·14"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 74ms ≥8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 53ms 2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 41ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 81ms ≥7.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 77ms ≥7.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 58ms ≥6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 46ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 44ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·11"
   - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 112ms 3.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 40ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 31ms 4.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 31ms ≥8.4MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 27ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥8.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·4"
+  - "\U0001F1E8\U0001F1E6加拿大 73ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms 5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 90ms ≥7.1MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 96ms ≥6.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 73ms 2.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥8.3MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 96ms ≥5.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥6.2MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 102ms ≥7.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 99ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·9"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 76ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.7MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.7MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 78ms ≥8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 77ms 3.6MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·8"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 101ms 2.6MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 104ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 102ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 60ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 66ms ≥8.2MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·7"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥6.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.9MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 54ms ≥7.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.4MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 101ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·2"
   - "\U0001F1FA\U0001F1F8美国 77ms ≥7.5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 47ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·4"
-  - "\U0001F1EF\U0001F1F5日本 101ms ≥6.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 57ms 6.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 87ms ≥7.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 78ms ≥8.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 79ms ≥7.8MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 94ms ≥6.8MB/s 全能"
-  - "\U0001F1EF\U0001F1F5日本 107ms 2.6MB/s 全能"
-  - "\U0001F1EF\U0001F1F5日本 115ms 1.8MB/s 稳定"
-  - "\U0001F1EF\U0001F1F5日本 108ms 2.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.1MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 149ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.8MB/s 全能·2"
-  - "\U0001F1F3\U0001F1F1荷兰 157ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 158ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 173ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 174ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 176ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·3"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·2"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·3"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·4"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·5"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·2"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·4"
-  - "\U0001F1F3\U0001F1F1荷兰 163ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 171ms ≥5.7MB/s 全能"
-  - "\U0001F1EE\U0001F1F9意大利 162ms ≥5.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·3"
-  - "\U0001F1F3\U0001F1F1荷兰 176ms ≥5.7MB/s 全能"
-  - "\U0001F1F9\U0001F1FC台湾 132ms ≥6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 173ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 147ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 155ms ≥6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 151ms ≥5.8MB/s 全能"
-  - "\U0001F1F7\U0001F1FA俄罗斯 165ms 5.1MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 155ms ≥5.9MB/s 全能"
-  - "\U0001F1EB\U0001F1F7法国 161ms ≥5.8MB/s 全能"
-  - "\U0001F1EE\U0001F1EA爱尔兰 131ms ≥5.8MB/s 全能"
-  - "\U0001F1EC\U0001F1E7英国 178ms ≥5.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 133ms 1.5MB/s 稳定"
-  - "\U0001F1ED\U0001F1F0香港 166ms 4.2MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 146ms ≥5.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 63ms 3.2MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 149ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 150ms ≥5.7MB/s 全能"
-  - "\U0001F1EE\U0001F1EA爱尔兰 145ms ≥5.8MB/s 全能"
-  - "\U0001F1F9\U0001F1FC台湾 138ms 430KB/s 稳定"
-  - "\U0001F1EB\U0001F1F7法国 153ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 157ms 4.4MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.5MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 162ms ≥5.6MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 161ms ≥5.5MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 164ms ≥5.6MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 165ms ≥5.7MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 161ms ≥5.7MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 166ms ≥5.6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 168ms ≥5.6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 164ms ≥5.4MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 158ms ≥6.3MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 174ms 4.8MB/s 全能"
-  - "\U0001F1EE\U0001F1F3印度 231ms 1.9MB/s 稳定"
-  - "\U0001F1EE\U0001F1F3印度 237ms 741KB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 55ms 266KB/s 稳定"
-  - "\U0001F1F1\U0001F1FBLV 201ms ≥5.4MB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 237ms 3.2MB/s 全能"
-  - "\U0001F1EB\U0001F1F7法国 152ms ≥5.5MB/s 稳定"
-  - "\U0001F1EE\U0001F1F3印度 351ms 2.2MB/s 全能"
-  - "\U0001F1FF\U0001F1E6ZA 280ms 4.5MB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 210ms 2.2MB/s 稳定"
-  - "\U0001F1EE\U0001F1F3印度 261ms ≥5.2MB/s 稳定"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 251ms 2.3MB/s 全能"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 211ms 2.1MB/s 全能"
-  - "\U0001F1F5\U0001F1F1波兰 222ms 2.5MB/s 全能"
-  - "\U0001F1EA\U0001F1F8西班牙 226ms ≥5.4MB/s 稳定"
-  - "\U0001F1EE\U0001F1F9意大利 193ms ≥5.4MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·18"
-  - "\U0001F1FA\U0001F1F8美国 83ms ≥8.1MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 178ms 611KB/s 可用"
-  - "\U0001F1F9\U0001F1FC台湾 140ms ≥5.5MB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 56ms ≥5.9MB/s 高速"
-  - "\U0001F1F3\U0001F1F4挪威 1859ms 2.6MB/s 高速"
-  - "\U0001F1FA\U0001F1F8美国 81ms ≥7.8MB/s 高速"
-  - "\U0001F1FA\U0001F1F8美国 35ms 7.2MB/s 高速"
-  - "\U0001F1E8\U0001F1E6加拿大 76ms ≥6.4MB/s 高速"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.5MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 104ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 66ms ≥7.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.4MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 99ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能·3"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.5MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 110ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 104ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能·2"
+  - "\U0001F1EC\U0001F1E7英国 81ms ≥7.3MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.4MB/s 全能·2"
+  - "\U0001F1EC\U0001F1E7英国 81ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 109ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 108ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·3"
+  - "\U0001F1EE\U0001F1F9意大利 105ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 120ms ≥6.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.6MB/s 全能"
+  - "\U0001F1EE\U0001F1F9意大利 108ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥7.1MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥7.1MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥7.1MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 99ms ≥7.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 91ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 138ms ≥7.2MB/s 全能"
+  - "\U0001F1EB\U0001F1F7法国 96ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 83ms 2.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 96ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 85ms ≥7.2MB/s 全能"
+  - "\U0001F1EE\U0001F1EA爱尔兰 75ms ≥7.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.3MB/s 全能"
+  - "\U0001F1EE\U0001F1EA爱尔兰 76ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥6.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥6.8MB/s 全能"
+  - "\U0001F1EE\U0001F1F9意大利 107ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·6"
+  - "\U0001F1F7\U0001F1FA俄罗斯 98ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·4"
+  - "\U0001F1F3\U0001F1F1荷兰 85ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·8"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.3MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 165ms ≥6.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·7"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.1MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·5"
+  - "\U0001F1EC\U0001F1E7英国 110ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 113ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥6.9MB/s 全能"
+  - "\U0001F1EB\U0001F1F7法国 94ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 128ms 1.6MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 90ms ≥6.2MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥6.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 160ms ≥5.5MB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 161ms ≥5.5MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 77ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 105ms ≥7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 84ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥6.1MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 95ms ≥6.3MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 109ms ≥6.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 130ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.4MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 109ms ≥6.1MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 73ms ≥7.4MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 132ms 3.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·7"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 137ms ≥6.2MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 163ms ≥5.7MB/s 全能"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 136ms ≥6.2MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 166ms 2.5MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 168ms 3.3MB/s 全能"
+  - "\U0001F1F8\U0001F1EC新加坡 227ms ≥5.3MB/s 稳定"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 141ms ≥6.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.3MB/s 全能"
+  - "\U0001F1F0\U0001F1F7韩国 454ms 1.1MB/s 稳定"
+  - "\U0001F1EA\U0001F1F8西班牙 145ms ≥5.9MB/s 全能"
+  - "\U0001F1F9\U0001F1FC台湾 198ms ≥5.5MB/s 稳定"
+  - "\U0001F1FF\U0001F1E6ZA 225ms ≥5.2MB/s 稳定"
+  - "\U0001F1F8\U0001F1EC新加坡 225ms ≥5.3MB/s 稳定"
+  - "\U0001F1F0\U0001F1F7韩国 221ms 1.7MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.1MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 339ms ≥4.9MB/s 稳定"
+  - "\U0001F1E8\U0001F1E6加拿大 30ms ≥8.2MB/s 高速"
+  - "\U0001F1E8\U0001F1E6加拿大 26ms ≥6.9MB/s 高速"
+  - "\U0001F1EF\U0001F1F5日本 262ms 876KB/s 可用"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.9MB/s 高速"
+  - "\U0001F1FA\U0001F1F8美国 157ms 2.7MB/s 高速"
+  - "\U0001F1FA\U0001F1F8美国 32ms 4.8MB/s 高速"
 - name: 下载
   type: select
   proxies:
-  - "\U0001F1FA\U0001F1F8美国 10ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 10ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 4ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 7ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 7ms ≥8.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 9ms ≥8.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 13ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 13ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥8.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能·3"
   - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 18ms ≥8.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 19ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 21ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 21ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 22ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 22ms ≥8.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 23ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 24ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·16"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·18"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·14"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·19"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·17"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·15"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 30ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 30ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·4"
+  - "\U0001F1E8\U0001F1E6加拿大 27ms ≥8.4MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 31ms ≥8.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·15"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·17"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·16"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·14"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·18"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 38ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 38ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 39ms ≥8.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 40ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 41ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 41ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 43ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 44ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 44ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 46ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 47ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 48ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 113ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 78ms ≥8.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 83ms ≥8.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 74ms ≥8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥8.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 66ms ≥8.2MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 30ms ≥8.2MB/s 高速"
+  - "\U0001F1FA\U0001F1F8美国 78ms ≥8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.9MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 62ms ≥7.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 79ms ≥7.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 81ms ≥7.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 81ms ≥7.8MB/s 高速"
-  - "\U0001F1FA\U0001F1F8美国 87ms ≥7.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥7.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·7"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·9"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·8"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 76ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 102ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.7MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 96ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.7MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 99ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.6MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 84ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·8"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·7"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·4"
   - "\U0001F1FA\U0001F1F8美国 77ms ≥7.5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 66ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 73ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 77ms ≥7.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥7.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms 7.2MB/s 高速"
-  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 57ms 6.9MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 94ms ≥6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 58ms ≥6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms 6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥6.7MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 17ms ≥6.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 53ms ≥6.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥6.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 59ms ≥6.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 60ms ≥6.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 76ms ≥6.4MB/s 高速"
-  - "\U0001F1F3\U0001F1F1荷兰 158ms ≥6.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥6.3MB/s 全能"
-  - "\U0001F1EF\U0001F1F5日本 101ms ≥6.2MB/s 全能"
-  - "\U0001F1F9\U0001F1FC台湾 132ms ≥6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 33ms 6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 155ms ≥6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 173ms ≥5.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 56ms ≥5.9MB/s 高速"
-  - "\U0001F1F3\U0001F1F1荷兰 155ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 149ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 158ms ≥5.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 33ms 5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·4"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.8MB/s 全能·2"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·3"
-  - "\U0001F1F3\U0001F1F1荷兰 151ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·4"
-  - "\U0001F1F3\U0001F1F1荷兰 157ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·2"
-  - "\U0001F1EE\U0001F1EA爱尔兰 145ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能"
-  - "\U0001F1EE\U0001F1F9意大利 162ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·2"
-  - "\U0001F1F3\U0001F1F1荷兰 149ms ≥5.8MB/s 全能"
-  - "\U0001F1EB\U0001F1F7法国 161ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·5"
-  - "\U0001F1F3\U0001F1F1荷兰 147ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 146ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 176ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·3"
-  - "\U0001F1EE\U0001F1EA爱尔兰 131ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 173ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 171ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 176ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 163ms ≥5.7MB/s 全能"
-  - "\U0001F1EB\U0001F1F7法国 153ms ≥5.7MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 161ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 150ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 174ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 165ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 168ms ≥5.6MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 162ms ≥5.6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.6MB/s 全能"
-  - "\U0001F1EC\U0001F1E7英国 178ms ≥5.6MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 166ms ≥5.6MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 164ms ≥5.6MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 161ms ≥5.5MB/s 稳定"
-  - "\U0001F1EB\U0001F1F7法国 152ms ≥5.5MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.5MB/s 稳定"
-  - "\U0001F1F9\U0001F1FC台湾 140ms ≥5.5MB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 53ms 5.5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 36ms 5.5MB/s 全能"
-  - "\U0001F1F1\U0001F1FBLV 201ms ≥5.4MB/s 稳定"
-  - "\U0001F1EE\U0001F1F9意大利 193ms ≥5.4MB/s 稳定"
-  - "\U0001F1EA\U0001F1F8西班牙 226ms ≥5.4MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 164ms ≥5.4MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 40ms 5.2MB/s 全能"
-  - "\U0001F1EE\U0001F1F3印度 261ms ≥5.2MB/s 稳定"
-  - "\U0001F1F7\U0001F1FA俄罗斯 165ms 5.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 17ms 5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 40ms 4.8MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 174ms 4.8MB/s 全能"
-  - "\U0001F1FF\U0001F1E6ZA 280ms 4.5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥4.4MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 157ms 4.4MB/s 全能"
-  - "\U0001F1ED\U0001F1F0香港 166ms 4.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 112ms 3.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 63ms 3.2MB/s 全能"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 237ms 3.2MB/s 全能"
-  - "\U0001F1EF\U0001F1F5日本 108ms 2.9MB/s 全能"
-  - "\U0001F1EF\U0001F1F5日本 107ms 2.6MB/s 全能"
-  - "\U0001F1F3\U0001F1F4挪威 1859ms 2.6MB/s 高速"
-  - "\U0001F1F5\U0001F1F1波兰 222ms 2.5MB/s 全能"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 251ms 2.3MB/s 全能"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 210ms 2.2MB/s 稳定"
-  - "\U0001F1EE\U0001F1F3印度 351ms 2.2MB/s 全能"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 211ms 2.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 53ms 2MB/s 全能"
-  - "\U0001F1EE\U0001F1F3印度 231ms 1.9MB/s 稳定"
-  - "\U0001F1EF\U0001F1F5日本 115ms 1.8MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 52ms 1.8MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 133ms 1.5MB/s 稳定"
-  - "\U0001F1EE\U0001F1F3印度 237ms 741KB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 178ms 611KB/s 可用"
-  - "\U0001F1F9\U0001F1FC台湾 138ms 430KB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 55ms 266KB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·7"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.4MB/s 全能·2"
+  - "\U0001F1E8\U0001F1E6加拿大 73ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能"
+  - "\U0001F1EC\U0001F1E7英国 81ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 138ms ≥7.2MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 85ms ≥7.2MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥7.1MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥7.1MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 54ms ≥7.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.1MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.1MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥7.1MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 90ms ≥7.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.1MB/s 全能"
+  - "\U0001F1EE\U0001F1EA爱尔兰 75ms ≥7.1MB/s 全能"
+  - "\U0001F1EE\U0001F1EA爱尔兰 76ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 105ms ≥7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥6.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥6.9MB/s 全能"
+  - "\U0001F1F7\U0001F1FA俄罗斯 98ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.9MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 26ms ≥6.9MB/s 高速"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 85ms ≥6.9MB/s 全能"
+  - "\U0001F1EC\U0001F1E7英国 81ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.9MB/s 高速"
+  - "\U0001F1EB\U0001F1F7法国 96ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 60ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 108ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 130ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 99ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 109ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 99ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 102ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 110ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 104ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 91ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 101ms ≥6.7MB/s 全能"
+  - "\U0001F1EE\U0001F1F9意大利 108ms ≥6.7MB/s 全能"
+  - "\U0001F1EB\U0001F1F7法国 94ms ≥6.6MB/s 全能"
+  - "\U0001F1EE\U0001F1F9意大利 105ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.6MB/s 全能"
+  - "\U0001F1EC\U0001F1E7英国 110ms ≥6.6MB/s 全能"
+  - "\U0001F1EE\U0001F1F9意大利 107ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 113ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 104ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 104ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能·3"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.5MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 165ms ≥6.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥6.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 96ms ≥6.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 120ms ≥6.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥6.4MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.4MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.4MB/s 全能·2"
+  - "\U0001F1E9\U0001F1EA德国 95ms ≥6.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.3MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 90ms ≥6.2MB/s 全能"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 137ms ≥6.2MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥6.2MB/s 全能"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 136ms ≥6.2MB/s 全能"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 141ms ≥6.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥6.1MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 109ms ≥6.1MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 109ms ≥6.1MB/s 全能·2"
+  - "\U0001F1EA\U0001F1F8西班牙 145ms ≥5.9MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 96ms ≥5.8MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 163ms ≥5.7MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 161ms ≥5.5MB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 160ms ≥5.5MB/s 稳定"
+  - "\U0001F1F9\U0001F1FC台湾 198ms ≥5.5MB/s 稳定"
+  - "\U0001F1F8\U0001F1EC新加坡 227ms ≥5.3MB/s 稳定"
+  - "\U0001F1F8\U0001F1EC新加坡 225ms ≥5.3MB/s 稳定"
+  - "\U0001F1FF\U0001F1E6ZA 225ms ≥5.2MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 68ms 5MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 339ms ≥4.9MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 32ms 4.8MB/s 高速"
+  - "\U0001F1FA\U0001F1F8美国 31ms 4.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 77ms 3.6MB/s 稳定"
+  - "\U0001F1E9\U0001F1EA德国 132ms 3.5MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 168ms 3.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 157ms 2.7MB/s 高速"
+  - "\U0001F1F3\U0001F1F1荷兰 101ms 2.6MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 83ms 2.5MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 166ms 2.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 73ms 2.4MB/s 全能"
+  - "\U0001F1F0\U0001F1F7韩国 221ms 1.7MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 128ms 1.6MB/s 稳定"
+  - "\U0001F1F0\U0001F1F7韩国 454ms 1.1MB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 262ms 876KB/s 可用"
 - name: 地域-US
   type: select
   proxies:
-  - "\U0001F1FA\U0001F1F8美国 10ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 13ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 18ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 10ms ≥8.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 4ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 7ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 9ms ≥8.4MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 19ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 21ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 21ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 24ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 7ms ≥8.4MB/s 全能·2"
   - "\U0001F1FA\U0001F1F8美国 23ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 22ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·16"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 38ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·17"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·18"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·19"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 17ms ≥6.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·15"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·17"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 22ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 30ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 39ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·16"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥6.7MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 30ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·9"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·14"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 33ms 5.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 44ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 38ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥6.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·8"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·12"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·15"
-  - "\U0001F1FA\U0001F1F8美国 17ms 5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 27ms ≥8.4MB/s 全能·10"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 33ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 33ms 6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·14"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 43ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·7"
-  - "\U0001F1FA\U0001F1F8美国 36ms 6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥7.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 40ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·13"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·4"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥6.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 37ms ≥7.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥7.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms 5.5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·6"
-  - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 34ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥7.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 113ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·5"
-  - "\U0001F1FA\U0001F1F8美国 41ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥8.4MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 15ms ≥8.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 11ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 19ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥8.4MB/s 全能·2"
   - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 40ms 5.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 48ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·11"
-  - "\U0001F1FA\U0001F1F8美国 36ms ≥8.4MB/s 全能·10"
+  - "\U0001F1FA\U0001F1F8美国 40ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 32ms ≥8.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥8.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 102ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·9"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 76ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 78ms ≥8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.7MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.7MB/s 全能·2"
   - "\U0001F1FA\U0001F1F8美国 62ms ≥7.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 41ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 74ms ≥8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 53ms ≥6.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 31ms ≥8.4MB/s 全能·3"
-  - "\U0001F1FA\U0001F1F8美国 46ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 44ms ≥8.4MB/s 全能·2"
-  - "\U0001F1FA\U0001F1F8美国 81ms ≥7.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 47ms ≥8.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 77ms ≥7.4MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 78ms ≥8.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.8MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 66ms ≥8.2MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·8"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·7"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.8MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 12ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 64ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 61ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.1MB/s 全能"
   - "\U0001F1FA\U0001F1F8美国 77ms ≥7.5MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 58ms ≥6.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 87ms ≥7.6MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 79ms ≥7.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 40ms 4.8MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 57ms 6.9MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 53ms 2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 35ms ≥8.4MB/s 全能·18"
-  - "\U0001F1FA\U0001F1F8美国 112ms 3.3MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 83ms ≥8.1MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 63ms 3.2MB/s 全能"
-  - "\U0001F1FA\U0001F1F8美国 28ms ≥4.4MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 29ms ≥5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 53ms 5.5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 52ms 1.8MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 81ms ≥7.8MB/s 高速"
-  - "\U0001F1FA\U0001F1F8美国 35ms 7.2MB/s 高速"
-  - "\U0001F1FA\U0001F1F8美国 56ms ≥5.9MB/s 高速"
-  - "\U0001F1FA\U0001F1F8美国 133ms 1.5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 55ms 266KB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 31ms 4.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 65ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 99ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥6.2MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 66ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms 5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 63ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 73ms 2.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 60ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 104ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 138ms ≥7.2MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·8"
+  - "\U0001F1FA\U0001F1F8美国 85ms ≥7.2MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 62ms ≥6.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·4"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.6MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·7"
+  - "\U0001F1FA\U0001F1F8美国 71ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·6"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥6.9MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7.5MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能·3"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥7.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能·5"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 77ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 69ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.1MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 73ms ≥7.4MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 83ms 2.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.3MB/s 全能·2"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥7.4MB/s 全能·7"
+  - "\U0001F1FA\U0001F1F8美国 67ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 70ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 105ms ≥7MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 68ms ≥6.9MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 74ms ≥7.3MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 113ms ≥6.6MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 130ms ≥6.8MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥7.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 72ms ≥6.5MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 86ms ≥6.1MB/s 全能"
+  - "\U0001F1FA\U0001F1F8美国 77ms 3.6MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 128ms 1.6MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 32ms 4.8MB/s 高速"
+  - "\U0001F1FA\U0001F1F8美国 157ms 2.7MB/s 高速"
 - name: 地域-CA
   type: select
   proxies:
-  - "\U0001F1E8\U0001F1E6加拿大 13ms ≥8.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 59ms ≥6.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 60ms ≥6.4MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 94ms ≥6.8MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 174ms 4.8MB/s 全能"
-  - "\U0001F1E8\U0001F1E6加拿大 76ms ≥6.4MB/s 高速"
-- name: 地域-JP
-  type: select
-  proxies:
-  - "\U0001F1EF\U0001F1F5日本 101ms ≥6.2MB/s 全能"
-  - "\U0001F1EF\U0001F1F5日本 107ms 2.6MB/s 全能"
-  - "\U0001F1EF\U0001F1F5日本 108ms 2.9MB/s 全能"
-  - "\U0001F1EF\U0001F1F5日本 115ms 1.8MB/s 稳定"
+  - "\U0001F1E8\U0001F1E6加拿大 31ms ≥8.4MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 27ms ≥8.4MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 73ms ≥7.3MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 54ms ≥7.1MB/s 全能"
+  - "\U0001F1E8\U0001F1E6加拿大 30ms ≥8.2MB/s 高速"
+  - "\U0001F1E8\U0001F1E6加拿大 26ms ≥6.9MB/s 高速"
 - name: 地域-NL
   type: select
   proxies:
-  - "\U0001F1F3\U0001F1F1荷兰 149ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 158ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.8MB/s 全能·2"
-  - "\U0001F1F3\U0001F1F1荷兰 157ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·3"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·2"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·4"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·4"
-  - "\U0001F1F3\U0001F1F1荷兰 173ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 176ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 173ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 155ms ≥6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·2"
-  - "\U0001F1F3\U0001F1F1荷兰 162ms ≥5.8MB/s 全能·3"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.8MB/s 全能·5"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 174ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 155ms ≥5.9MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 151ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 159ms ≥5.6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 171ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 163ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 147ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 176ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 158ms ≥6.3MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 149ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 146ms ≥5.8MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 150ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 165ms ≥5.7MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 168ms ≥5.6MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 157ms 4.4MB/s 全能"
-  - "\U0001F1F3\U0001F1F1荷兰 161ms ≥5.5MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 164ms ≥5.4MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 178ms 611KB/s 可用"
-- name: 地域-TW
-  type: select
-  proxies:
-  - "\U0001F1F9\U0001F1FC台湾 132ms ≥6MB/s 全能"
-  - "\U0001F1F9\U0001F1FC台湾 138ms 430KB/s 稳定"
-  - "\U0001F1F9\U0001F1FC台湾 140ms ≥5.5MB/s 可用"
-- name: 地域-IT
-  type: select
-  proxies:
-  - "\U0001F1EE\U0001F1F9意大利 162ms ≥5.8MB/s 全能"
-  - "\U0001F1EE\U0001F1F9意大利 193ms ≥5.4MB/s 稳定"
-- name: 地域-FR
-  type: select
-  proxies:
-  - "\U0001F1EB\U0001F1F7法国 161ms ≥5.8MB/s 全能"
-  - "\U0001F1EB\U0001F1F7法国 153ms ≥5.7MB/s 全能"
-  - "\U0001F1EB\U0001F1F7法国 152ms ≥5.5MB/s 稳定"
-- name: 地域-IE
-  type: select
-  proxies:
-  - "\U0001F1EE\U0001F1EA爱尔兰 145ms ≥5.8MB/s 全能"
-  - "\U0001F1EE\U0001F1EA爱尔兰 131ms ≥5.8MB/s 全能"
-- name: 地域-GB
-  type: select
-  proxies:
-  - "\U0001F1EC\U0001F1E7英国 178ms ≥5.6MB/s 全能"
-- name: 地域-RU
-  type: select
-  proxies:
-  - "\U0001F1F7\U0001F1FA俄罗斯 165ms 5.1MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 90ms ≥7.1MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 99ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 96ms ≥6.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 96ms ≥7.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 102ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥7.1MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥7.1MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 99ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 101ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥7.1MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 104ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 110ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 108ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 109ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能·3"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.5MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 104ms ≥6.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.4MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 106ms ≥6.6MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 84ms ≥7.6MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 91ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 105ms ≥6.4MB/s 全能·2"
+  - "\U0001F1F3\U0001F1F1荷兰 120ms ≥6.4MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 86ms ≥6.8MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 85ms ≥6.9MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 87ms ≥6.7MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 165ms ≥6.5MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 90ms ≥6.2MB/s 全能"
+  - "\U0001F1F3\U0001F1F1荷兰 101ms 2.6MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 103ms ≥6.9MB/s 高速"
 - name: 地域-DE
   type: select
   proxies:
-  - "\U0001F1E9\U0001F1EA德国 162ms ≥5.6MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 161ms ≥5.7MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 166ms ≥5.6MB/s 全能"
-  - "\U0001F1E9\U0001F1EA德国 161ms ≥5.5MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 164ms ≥5.6MB/s 稳定"
-- name: 地域-HK
+  - "\U0001F1E9\U0001F1EA德国 96ms ≥5.8MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 95ms ≥6.3MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 109ms ≥6.1MB/s 全能"
+  - "\U0001F1E9\U0001F1EA德国 109ms ≥6.1MB/s 全能·2"
+  - "\U0001F1E9\U0001F1EA德国 132ms 3.5MB/s 全能"
+- name: 地域-GB
   type: select
   proxies:
-  - "\U0001F1ED\U0001F1F0香港 166ms 4.2MB/s 全能"
+  - "\U0001F1EC\U0001F1E7英国 81ms ≥7.3MB/s 全能"
+  - "\U0001F1EC\U0001F1E7英国 81ms ≥6.9MB/s 全能"
+  - "\U0001F1EC\U0001F1E7英国 110ms ≥6.6MB/s 全能"
+- name: 地域-IE
+  type: select
+  proxies:
+  - "\U0001F1EE\U0001F1EA爱尔兰 75ms ≥7.1MB/s 全能"
+  - "\U0001F1EE\U0001F1EA爱尔兰 76ms ≥7MB/s 全能"
+- name: 地域-FR
+  type: select
+  proxies:
+  - "\U0001F1EB\U0001F1F7法国 96ms ≥6.9MB/s 全能"
+  - "\U0001F1EB\U0001F1F7法国 94ms ≥6.6MB/s 全能"
+- name: 地域-IT
+  type: select
+  proxies:
+  - "\U0001F1EE\U0001F1F9意大利 105ms ≥6.6MB/s 全能"
+  - "\U0001F1EE\U0001F1F9意大利 108ms ≥6.7MB/s 全能"
+  - "\U0001F1EE\U0001F1F9意大利 107ms ≥6.6MB/s 全能"
+- name: 地域-RU
+  type: select
+  proxies:
+  - "\U0001F1F7\U0001F1FA俄罗斯 98ms ≥6.9MB/s 全能"
 - name: 地域-RO
   type: select
   proxies:
-  - "\U0001F1F7\U0001F1F4罗马尼亚 237ms 3.2MB/s 全能"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 251ms 2.3MB/s 全能"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 211ms 2.1MB/s 全能"
-  - "\U0001F1F7\U0001F1F4罗马尼亚 210ms 2.2MB/s 稳定"
-- name: 地域-IN
+  - "\U0001F1F7\U0001F1F4罗马尼亚 137ms ≥6.2MB/s 全能"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 136ms ≥6.2MB/s 全能"
+  - "\U0001F1F7\U0001F1F4罗马尼亚 141ms ≥6.1MB/s 全能"
+- name: 地域-JP
   type: select
   proxies:
-  - "\U0001F1EE\U0001F1F3印度 351ms 2.2MB/s 全能"
-  - "\U0001F1EE\U0001F1F3印度 261ms ≥5.2MB/s 稳定"
-  - "\U0001F1EE\U0001F1F3印度 231ms 1.9MB/s 稳定"
-  - "\U0001F1EE\U0001F1F3印度 237ms 741KB/s 稳定"
-- name: 地域-PL
-  type: select
-  proxies:
-  - "\U0001F1F5\U0001F1F1波兰 222ms 2.5MB/s 全能"
-- name: 地域-LV
-  type: select
-  proxies:
-  - "\U0001F1F1\U0001F1FBLV 201ms ≥5.4MB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 163ms ≥5.7MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 168ms 3.3MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 166ms 2.5MB/s 全能"
+  - "\U0001F1EF\U0001F1F5日本 160ms ≥5.5MB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 161ms ≥5.5MB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 339ms ≥4.9MB/s 稳定"
+  - "\U0001F1EF\U0001F1F5日本 262ms 876KB/s 可用"
 - name: 地域-ES
   type: select
   proxies:
-  - "\U0001F1EA\U0001F1F8西班牙 226ms ≥5.4MB/s 稳定"
+  - "\U0001F1EA\U0001F1F8西班牙 145ms ≥5.9MB/s 全能"
+- name: 地域-SG
+  type: select
+  proxies:
+  - "\U0001F1F8\U0001F1EC新加坡 227ms ≥5.3MB/s 稳定"
+  - "\U0001F1F8\U0001F1EC新加坡 225ms ≥5.3MB/s 稳定"
+- name: 地域-TW
+  type: select
+  proxies:
+  - "\U0001F1F9\U0001F1FC台湾 198ms ≥5.5MB/s 稳定"
 - name: 地域-ZA
   type: select
   proxies:
-  - "\U0001F1FF\U0001F1E6ZA 280ms 4.5MB/s 稳定"
-- name: 地域-NO
+  - "\U0001F1FF\U0001F1E6ZA 225ms ≥5.2MB/s 稳定"
+- name: 地域-KR
   type: select
   proxies:
-  - "\U0001F1F3\U0001F1F4挪威 1859ms 2.6MB/s 高速"
+  - "\U0001F1F0\U0001F1F7韩国 454ms 1.1MB/s 稳定"
+  - "\U0001F1F0\U0001F1F7韩国 221ms 1.7MB/s 稳定"
 rules:
 - MATCH,综合推荐
