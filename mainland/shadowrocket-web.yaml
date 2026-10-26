@@ -1,9 +1,18 @@
 proxies:
-  - {"alterId":0,"cipher":"auto","http-opts":{"method":"GET","path":["/"]},"network":"http","tls":false,"uuid":"3722ad16-f3e1-4406-b04a-929b529d8e0d","name":"\U0001F1F0\U0001F1F7\u97E9\u56FD 89ms 319KB/s \u7A33\u5B9A","type":"vmess","server":"43.155.199.22","port":80}
-  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1E9\U0001F1EA\u5FB7\u56FD 198ms 1.4MB/s \u7A33\u5B9A","type":"http","server":"158.173.154.4","port":9002}
-  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1FA\U0001F1F8\u7F8E\u56FD 575ms 1.1MB/s \u7A33\u5B9A","type":"http","server":"154.81.36.92","port":8443}
-  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1E9\U0001F1EA\u5FB7\u56FD 278ms 451KB/s \u7A33\u5B9A","type":"http","server":"77.221.136.60","port":8443}
-  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1F3\U0001F1F1\u8377\u5170 245ms 639KB/s \u53EF\u7528","type":"http","server":"84.17.47.124","port":9002}
-  - {"password":"None","skip-cert-verify":true,"tls":true,"udp":true,"name":"\U0001F1F3\U0001F1F1\u8377\u5170 224ms 1.1MB/s \u53EF\u7528","type":"http","server":"84.17.47.148","port":9002}
-  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 1778ms 328KB/s \u53EF\u7528","type":"http","server":"154.26.139.24","port":443}
-  - {"uuid":"30572b57-f5ab-4eb8-82d4-a24d399b99f6","tls":true,"network":"tcp","servername":"ai.eosshop.net","client-fingerprint":"chrome","flow":"xtls-rprx-vision","encryption":"none","reality-opts":{"public-key":"Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU","short-id":""},"skip-cert-verify":true,"name":"\U0001F1EB\U0001F1EE\u82AC\u5170 3111ms 1.2MB/s \u53EF\u7528","type":"vless","server":"31.76.89.226","port":443}
+  - {"uuid":"fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87","servername":"abuse.ozon.ru","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"firefox","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"skip-cert-verify":true,"udp":true,"name":"\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 208ms 1.2MB/s \u7A33\u5B9A","type":"vless","server":"193.160.141.27","port":443}
+  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1FA\U0001F1F8\u7F8E\u56FD 189ms 1.5MB/s \u7A33\u5B9A","type":"http","server":"154.81.36.92","port":8443}
+  - {"alterId":0,"cipher":"auto","http-opts":{"method":"GET","path":["/"]},"network":"http","tls":false,"uuid":"3722ad16-f3e1-4406-b04a-929b529d8e0d","name":"\U0001F1F0\U0001F1F7\u97E9\u56FD 213ms 1.3MB/s \u7A33\u5B9A","type":"vmess","server":"43.155.199.22","port":80}
+  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1E9\U0001F1EA\u5FB7\u56FD 273ms 472KB/s \u7A33\u5B9A","type":"http","server":"77.221.136.60","port":8443}
+  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1F3\U0001F1F1\u8377\u5170 281ms 1.1MB/s \u7A33\u5B9A","type":"http","server":"84.17.47.124","port":9002}
+  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1E9\U0001F1EA\u5FB7\u56FD 253ms 1.1MB/s \u7A33\u5B9A","type":"http","server":"158.173.154.4","port":9002}
+  - {"password":"None","skip-cert-verify":true,"tls":true,"name":"\U0001F1F3\U0001F1F1\u8377\u5170 381ms 1.5MB/s \u7A33\u5B9A","type":"http","server":"185.93.106.214","port":443}
+  - {"client-fingerprint":"firefox","network":"ws","servername":"usa2.pad-sservice.lat","tls":true,"udp":true,"uuid":"2b0e5676-fb62-4bf0-9607-6e7818421e8e","ws-opts":{"headers":{"Host":"usa2.pad-service.com"},"path":"/usa2-1"},"name":"\U0001F1FA\U0001F1F8\u7F8E\u56FD 304ms 865KB/s \u53EF\u7528","type":"vless","server":"152.53.170.163","port":8443}
+  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 282ms 353KB/s \u53EF\u7528","type":"http","server":"154.26.139.24","port":443}
+  - {"tls":true,"skip-cert-verify":true,"name":"\U0001F1EE\U0001F1E9\u5370\u5C3C 338ms 415KB/s \u53EF\u7528","type":"http","server":"178.248.73.58","port":443}
+  - {"alpn":["http/1.1"],"client-fingerprint":"firefox","network":"ws","servername":"usa2.pad-sservice.lat","tls":true,"udp":true,"uuid":"2b0e5676-fb62-4bf0-9607-6e7818421e8e","ws-opts":{"headers":{"Host":"usa2.pad-service.com"},"path":"/usa2-1"},"name":"\U0001F1FA\U0001F1F8\u7F8E\u56FD 242ms 884KB/s \u53EF\u7528","type":"vless","server":"usa2.pad-sservice.lat","port":8443}
+  - {"password":"null","skip-cert-verify":true,"tls":true,"udp":true,"username":"null","name":"\U0001F1F3\U0001F1F1\u8377\u5170 472ms 1.1MB/s \u53EF\u7528","type":"http","server":"103.97.88.154","port":443}
+  - {"skip-cert-verify":true,"tls":true,"udp":true,"name":"\U0001F1ED\U0001F1F0\u9999\u6E2F 61ms 1.7MB/s \u53EF\u7528","type":"http","server":"119.28.24.235","port":3128}
+  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1FA\U0001F1F8\u7F8E\u56FD 199ms 822KB/s \u53EF\u7528","type":"http","server":"44.248.167.117","port":8443}
+  - {"skip-cert-verify":true,"tls":true,"udp":true,"name":"\U0001F1F3\U0001F1F1\u8377\u5170 245ms 1MB/s \u53EF\u7528","type":"http","server":"84.17.47.125","port":9002}
+  - {"skip-cert-verify":true,"tls":true,"name":"\U0001F1E9\U0001F1EA\u5FB7\u56FD 180ms 1.3MB/s \u53EF\u7528","type":"http","server":"79.127.156.177","port":9443}
+  - {"skip-cert-verify":true,"tls":true,"udp":true,"name":"\U0001F1FA\U0001F1F8\u7F8E\u56FD 604ms 1.2MB/s \u53EF\u7528","type":"http","server":"64.98.50.100","port":443}
