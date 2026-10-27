@@ -4,246 +4,93 @@ mode: rule
 proxies:
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1FA\U0001F1F8美国 189ms 1.5MB/s 稳定"
+  name: "\U0001F1FA\U0001F1F8美国 254ms 1.4MB/s 稳定"
   type: http
   server: 154.81.36.92
   port: 8443
-- uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-  servername: abuse.ozon.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  skip-cert-verify: true
-  udp: true
-  name: "\U0001F1F7\U0001F1FA俄罗斯 208ms 1.2MB/s 稳定"
-  type: vless
-  server: 193.160.141.27
-  port: 443
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  network: http
-  tls: false
-  uuid: 3722ad16-f3e1-4406-b04a-929b529d8e0d
-  name: "\U0001F1F0\U0001F1F7韩国 213ms 1.3MB/s 稳定"
-  type: vmess
-  server: 43.155.199.22
-  port: 80
-- password: None
-  skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F3\U0001F1F1荷兰 381ms 1.5MB/s 稳定"
-  type: http
-  server: 185.93.106.214
-  port: 443
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1E9\U0001F1EA德国 253ms 1.1MB/s 稳定"
+  name: "\U0001F1FA\U0001F1F8美国 195ms 533KB/s 稳定"
   type: http
-  server: 158.173.154.4
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1F3\U0001F1F1荷兰 281ms 1.1MB/s 稳定"
-  type: http
-  server: 84.17.47.124
-  port: 9002
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1ED\U0001F1F0香港 61ms 1.7MB/s 可用"
-  type: http
-  server: 119.28.24.235
-  port: 3128
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1E9\U0001F1EA德国 273ms 472KB/s 稳定"
-  type: http
-  server: 77.221.136.60
-  port: 8443
-- client-fingerprint: firefox
-  network: ws
-  servername: usa2.pad-sservice.lat
-  tls: true
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: usa2.pad-service.com
-    path: /usa2-1
-  name: "\U0001F1FA\U0001F1F8美国 304ms 865KB/s 可用"
-  type: vless
-  server: 152.53.170.163
-  port: 8443
-- password: "null"
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  username: "null"
-  name: "\U0001F1F3\U0001F1F1荷兰 472ms 1.1MB/s 可用"
-  type: http
-  server: 103.97.88.154
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  name: "\U0001F1E9\U0001F1EA德国 180ms 1.3MB/s 可用"
-  type: http
-  server: 79.127.156.177
-  port: 9443
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  network: ws
-  servername: usa2.pad-sservice.lat
-  tls: true
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: usa2.pad-service.com
-    path: /usa2-1
-  name: "\U0001F1FA\U0001F1F8美国 242ms 884KB/s 可用"
-  type: vless
-  server: usa2.pad-sservice.lat
+  server: 44.248.167.117
   port: 8443
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1F8\U0001F1EC新加坡 282ms 353KB/s 可用"
+  name: "\U0001F1F8\U0001F1EC新加坡 494ms 1.4MB/s 稳定"
   type: http
   server: 154.26.139.24
   port: 443
-- tls: true
-  skip-cert-verify: true
-  name: "\U0001F1EE\U0001F1E9印尼 338ms 415KB/s 可用"
-  type: http
-  server: 178.248.73.58
-  port: 443
 - skip-cert-verify: true
   tls: true
-  udp: true
-  name: "\U0001F1FA\U0001F1F8美国 604ms 1.2MB/s 可用"
+  name: "\U0001F1E9\U0001F1EA德国 197ms 822KB/s 稳定"
   type: http
-  server: 64.98.50.100
-  port: 443
-- skip-cert-verify: true
-  tls: true
-  udp: true
-  name: "\U0001F1F3\U0001F1F1荷兰 245ms 1MB/s 可用"
-  type: http
-  server: 84.17.47.125
+  server: 158.173.154.4
   port: 9002
+- uuid: 37ca5f34-2531-4fda-a781-20f3845fea88
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: payeeclickerhalogen.berylcord.net
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: QPfM5knVgOkIykx2AC8S1MvkO_x-T9xMRYJdkF9aEng
+    short-id: fda83f2787e6016d
+  name: "\U0001F1F3\U0001F1F1荷兰 809ms 1.1MB/s 可用"
+  type: vless
+  server: 188.120.234.199
+  port: 443
 - skip-cert-verify: true
   tls: true
-  name: "\U0001F1FA\U0001F1F8美国 199ms 822KB/s 可用"
+  name: "\U0001F1E9\U0001F1EA德国 329ms 376KB/s 可用"
   type: http
-  server: 44.248.167.117
+  server: 77.221.136.60
   port: 8443
 proxy-groups:
 - name: 综合推荐
   type: select
   proxies:
-  - "\U0001F1FA\U0001F1F8美国 189ms 1.5MB/s 稳定"
-  - "\U0001F1F7\U0001F1FA俄罗斯 208ms 1.2MB/s 稳定"
-  - "\U0001F1F0\U0001F1F7韩国 213ms 1.3MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 381ms 1.5MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 253ms 1.1MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 281ms 1.1MB/s 稳定"
-  - "\U0001F1ED\U0001F1F0香港 61ms 1.7MB/s 可用"
-  - "\U0001F1E9\U0001F1EA德国 273ms 472KB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 304ms 865KB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 472ms 1.1MB/s 可用"
-  - "\U0001F1E9\U0001F1EA德国 180ms 1.3MB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 242ms 884KB/s 可用"
-  - "\U0001F1F8\U0001F1EC新加坡 282ms 353KB/s 可用"
-  - "\U0001F1EE\U0001F1E9印尼 338ms 415KB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 604ms 1.2MB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 245ms 1MB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 199ms 822KB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 254ms 1.4MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 195ms 533KB/s 稳定"
+  - "\U0001F1F8\U0001F1EC新加坡 494ms 1.4MB/s 稳定"
+  - "\U0001F1E9\U0001F1EA德国 197ms 822KB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 809ms 1.1MB/s 可用"
+  - "\U0001F1E9\U0001F1EA德国 329ms 376KB/s 可用"
 - name: 网页
   type: select
   proxies:
-  - "\U0001F1F7\U0001F1FA俄罗斯 208ms 1.2MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 189ms 1.5MB/s 稳定"
-  - "\U0001F1F0\U0001F1F7韩国 213ms 1.3MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 273ms 472KB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 281ms 1.1MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 253ms 1.1MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 381ms 1.5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 304ms 865KB/s 可用"
-  - "\U0001F1F8\U0001F1EC新加坡 282ms 353KB/s 可用"
-  - "\U0001F1EE\U0001F1E9印尼 338ms 415KB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 242ms 884KB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 472ms 1.1MB/s 可用"
-  - "\U0001F1ED\U0001F1F0香港 61ms 1.7MB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 199ms 822KB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 245ms 1MB/s 可用"
-  - "\U0001F1E9\U0001F1EA德国 180ms 1.3MB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 604ms 1.2MB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 195ms 533KB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 254ms 1.4MB/s 稳定"
+  - "\U0001F1E9\U0001F1EA德国 197ms 822KB/s 稳定"
+  - "\U0001F1F8\U0001F1EC新加坡 494ms 1.4MB/s 稳定"
+  - "\U0001F1E9\U0001F1EA德国 329ms 376KB/s 可用"
+  - "\U0001F1F3\U0001F1F1荷兰 809ms 1.1MB/s 可用"
 - name: 下载
   type: select
   proxies:
-  - "\U0001F1ED\U0001F1F0香港 61ms 1.7MB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 189ms 1.5MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 381ms 1.5MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 180ms 1.3MB/s 可用"
-  - "\U0001F1F0\U0001F1F7韩国 213ms 1.3MB/s 稳定"
-  - "\U0001F1F7\U0001F1FA俄罗斯 208ms 1.2MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 604ms 1.2MB/s 可用"
-  - "\U0001F1E9\U0001F1EA德国 253ms 1.1MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 472ms 1.1MB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 281ms 1.1MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 245ms 1MB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 242ms 884KB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 304ms 865KB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 199ms 822KB/s 可用"
-  - "\U0001F1E9\U0001F1EA德国 273ms 472KB/s 稳定"
-  - "\U0001F1EE\U0001F1E9印尼 338ms 415KB/s 可用"
-  - "\U0001F1F8\U0001F1EC新加坡 282ms 353KB/s 可用"
+  - "\U0001F1F8\U0001F1EC新加坡 494ms 1.4MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 254ms 1.4MB/s 稳定"
+  - "\U0001F1F3\U0001F1F1荷兰 809ms 1.1MB/s 可用"
+  - "\U0001F1E9\U0001F1EA德国 197ms 822KB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 195ms 533KB/s 稳定"
+  - "\U0001F1E9\U0001F1EA德国 329ms 376KB/s 可用"
 - name: 地域-US
   type: select
   proxies:
-  - "\U0001F1FA\U0001F1F8美国 189ms 1.5MB/s 稳定"
-  - "\U0001F1FA\U0001F1F8美国 304ms 865KB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 242ms 884KB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 604ms 1.2MB/s 可用"
-  - "\U0001F1FA\U0001F1F8美国 199ms 822KB/s 可用"
-- name: 地域-RU
-  type: select
-  proxies:
-  - "\U0001F1F7\U0001F1FA俄罗斯 208ms 1.2MB/s 稳定"
-- name: 地域-KR
-  type: select
-  proxies:
-  - "\U0001F1F0\U0001F1F7韩国 213ms 1.3MB/s 稳定"
-- name: 地域-NL
-  type: select
-  proxies:
-  - "\U0001F1F3\U0001F1F1荷兰 381ms 1.5MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 281ms 1.1MB/s 稳定"
-  - "\U0001F1F3\U0001F1F1荷兰 472ms 1.1MB/s 可用"
-  - "\U0001F1F3\U0001F1F1荷兰 245ms 1MB/s 可用"
-- name: 地域-DE
-  type: select
-  proxies:
-  - "\U0001F1E9\U0001F1EA德国 253ms 1.1MB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 273ms 472KB/s 稳定"
-  - "\U0001F1E9\U0001F1EA德国 180ms 1.3MB/s 可用"
-- name: 地域-HK
-  type: select
-  proxies:
-  - "\U0001F1ED\U0001F1F0香港 61ms 1.7MB/s 可用"
+  - "\U0001F1FA\U0001F1F8美国 254ms 1.4MB/s 稳定"
+  - "\U0001F1FA\U0001F1F8美国 195ms 533KB/s 稳定"
 - name: 地域-SG
   type: select
   proxies:
-  - "\U0001F1F8\U0001F1EC新加坡 282ms 353KB/s 可用"
-- name: 地域-ID
+  - "\U0001F1F8\U0001F1EC新加坡 494ms 1.4MB/s 稳定"
+- name: 地域-DE
   type: select
   proxies:
-  - "\U0001F1EE\U0001F1E9印尼 338ms 415KB/s 可用"
+  - "\U0001F1E9\U0001F1EA德国 197ms 822KB/s 稳定"
+  - "\U0001F1E9\U0001F1EA德国 329ms 376KB/s 可用"
+- name: 地域-NL
+  type: select
+  proxies:
+  - "\U0001F1F3\U0001F1F1荷兰 809ms 1.1MB/s 可用"
 rules:
 - MATCH,综合推荐
